@@ -1,0 +1,17 @@
+Private Manufacturing Data Analysis,,,,,,,
+Field,Example Value,Sensitivity Label,Risk if Exposed,Protection Action,Protection Version,Utility Relevance,Notes
+Quality Log ID,QL-2026-014,Restricted,Internal traceability,Placeholder Mask,[LOG_ID],Medium,Usually not needed for analytics
+Supplier ID,Supplier-X12,Confidential,Reveals supplier relationships,Hash Pseudonymize,[SUPPLIER_8F3A],High,Supports recurring defect analysis
+Batch ID,B-2026-0418,Restricted,Production traceability,Hash Pseudonymize,[BATCH_19C2],High,Useful for defect clustering
+Machine ID,CNC-Line-04,Restricted,Reveals equipment identity,Hash Pseudonymize,[MACHINE_A77D],High,Supports machine-level trend analysis
+Defect Type,Surface Scratch,Internal,Low business risk,Keep,Surface Scratch,High,Core defect-analysis field
+Defect Severity,Critical (Safety Hold),Restricted,Exposes catastrophic safety or compliance failures that legally halt vehicle delivery.,Placeholder Mask,[DEFECT_SEVERITY],High,Vital for prioritizing risk
+Defect Rate,7.80%,Restricted,May reveal process performance,Generalize,5�10%,High,Preserve trend information
+Process Parameter,Feed Rate 12.4 mm/s,Restricted,Reveals manufacturing know-how,Generalize,Feed Rate 10�15 mm/s,High,Maintain analytical usefulness
+Maintenance Note,Bearing wear observed on spindle assembly,Restricted,Reveals equipment details,Generalize,Mechanical wear observed,High,Useful for equipment-related RCA
+Root-Cause Note,Tool wear exceeded threshold after 300 cycles,Restricted,Reveals process knowledge,Generalize,Tool wear exceeded threshold after high cycle count,High,Preserve causality
+Corrective Action,Replace tool after 300 cycles,Internal,Moderate process disclosure,Generalize,Replace tool at recommended maintenance interval,High,Preserve action category
+Shift ID,Shift-B-Night,Internal,"Low risk, but reveals internal scheduling and staffing frameworks.",Keep,Shift-B-Night,High,Essential for correlation tracking and operational bottlenecks 
+Operator Name,Joseph Cree,Confidential,Violates employee privacy regulations,Placeholder Mask,[OPERATOR_NAME],Medium,Completely redacts the identity on shared dashboards
+Customer/Order Information,Ultium Battery Order ORD-99111,Confidential,Customer exposure,Block,[BLOCKED],Low,Usually not required for RCA
+Image Metadata,"Camera SN 884411, IMG-44521",Restricted,Reveals asset identifiers,Generalize,Industrial camera image,Medium,Usually sufficient for analytics
