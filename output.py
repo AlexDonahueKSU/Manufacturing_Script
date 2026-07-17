@@ -21,7 +21,7 @@ def output_pseudonym_records(records):
         writer.writerow(["Raw Value", "Field Type", "Protected Value"])
         
         for record in records:
-            writer.writerow([record[2], record[1], record[5]])
+            writer.writerow([record[0], record[1], record[2]])
 
 def output_blocked_records(records):
     with open("blocked_fields_log.csv", "w", newline="", encoding="utf-8") as f:

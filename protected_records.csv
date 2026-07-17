@@ -1,451 +1,451 @@
 Record ID,Field,Raw Value,Sensitivity Label,Protection Action,Protected Record
 1,Quality Log ID,QL-2026-014,Restricted,Placeholder Mask,[QUALITY_LOG_ID]
-2,Supplier ID,Supplier-X12,Confidential,Hash Pseudonymize,[SUPPLIER_K1V4]
-3,Batch ID,B-2026-0418,Restricted,Hash Pseudonymize,[BATCH_DIT2]
-4,Machine ID,CNC-Line-04,Restricted,Hash Pseudonymize,[MACHINE_Y998]
-5,Defect Type,Surface Scratch,Internal,Keep,Defect Type
-6,Defect Severity,Critical (Safety Hold),Restricted,Placeholder Mask,[DEFECT_SEVERITY]
-7,Defect Rate,7.80%,Restricted,Generalize,Placeholder generalized value
-8,Process Parameter,Feed Rate 12.4 mm/s,Restricted,Generalize,Placeholder generalized value
-9,Maintenance Note,Bearing wear observed on spindle assembly,Restricted,Generalize,Placeholder generalized value
-10,Root-Cause Note,Tool wear exceeded threshold after 300 cycles,Restricted,Generalize,Placeholder generalized value
-11,Corrective Action,Replace tool after 300 cycles,Internal,Generalize,Placeholder generalized value
-12,Shift ID,Shift-B-Night,Internal,Keep,Shift ID
-13,Operator Name,Joseph Cree,Confidential,Placeholder Mask,[OPERATOR_NAME]
-14,Customer/Order Information,Ultium Battery Order ORD-99111,Confidential,Block,[BLOCKED]
-15,Image Metadata,"Camera SN 884411, IMG-44521",Restricted,Generalize,Placeholder generalized value
-16,Quality Log ID,QL-2026-002,Restricted,Placeholder Mask,[QUALITY_LOG_ID]
-17,Supplier ID,Supplier-A05,Confidential,Hash Pseudonymize,[SUPPLIER_H8HP]
-18,Batch ID,B-2026-1409,Restricted,Hash Pseudonymize,[BATCH_SIZO]
-19,Machine ID,Paint-Booth-01,Restricted,Hash Pseudonymize,[MACHINE_695B]
-20,Defect Type,Delamination,Internal,Keep,Defect Type
-21,Defect Severity,Major,Restricted,Placeholder Mask,[DEFECT_SEVERITY]
-22,Defect Rate,5.70%,Restricted,Generalize,Placeholder generalized value
-23,Process Parameter,Feed Rate 8.7 mm/s,Restricted,Generalize,Placeholder generalized value
-24,Maintenance Note,Electrical contact corrosion in control panel,Restricted,Generalize,Placeholder generalized value
-25,Root-Cause Note,Fixture clamp pressure fell below spec after 500 cycles,Restricted,Generalize,Placeholder generalized value
-26,Corrective Action,Test material batch viscosity after 200 cycles,Internal,Generalize,Placeholder generalized value
+1,Supplier ID,Supplier-X12,Confidential,Hash Pseudonymize,[SUPPLIER_K1V4]
+1,Batch ID,B-2026-0418,Restricted,Hash Pseudonymize,[BATCH_DIT2]
+1,Machine ID,CNC-Line-04,Restricted,Hash Pseudonymize,[MACHINE_Y998]
+1,Defect Type,Surface Scratch,Internal,Keep,Defect Type
+1,Defect Severity,Critical (Safety Hold),Restricted,Placeholder Mask,[DEFECT_SEVERITY]
+1,Defect Rate,7.80%,Restricted,Generalize,Placeholder generalized value
+1,Process Parameter,Feed Rate 12.4 mm/s,Restricted,Generalize,Placeholder generalized value
+1,Maintenance Note,Bearing wear observed on spindle assembly,Restricted,Generalize,Placeholder generalized value
+1,Root-Cause Note,Tool wear exceeded threshold after 300 cycles,Restricted,Generalize,Placeholder generalized value
+1,Corrective Action,Replace tool after 300 cycles,Internal,Generalize,Placeholder generalized value
+1,Shift ID,Shift-B-Night,Internal,Keep,Shift ID
+1,Operator Name,Joseph Cree,Confidential,Placeholder Mask,[OPERATOR_NAME]
+1,Customer/Order Information,Ultium Battery Order ORD-99111,Confidential,Block,[BLOCKED]
+1,Image Metadata,"Camera SN 884411, IMG-44521",Restricted,Generalize,Placeholder generalized value
+2,Quality Log ID,QL-2026-002,Restricted,Placeholder Mask,[QUALITY_LOG_ID]
+2,Supplier ID,Supplier-A05,Confidential,Hash Pseudonymize,[SUPPLIER_H8HP]
+2,Batch ID,B-2026-1409,Restricted,Hash Pseudonymize,[BATCH_SIZO]
+2,Machine ID,Paint-Booth-01,Restricted,Hash Pseudonymize,[MACHINE_695B]
+2,Defect Type,Delamination,Internal,Keep,Defect Type
+2,Defect Severity,Major,Restricted,Placeholder Mask,[DEFECT_SEVERITY]
+2,Defect Rate,5.70%,Restricted,Generalize,Placeholder generalized value
+2,Process Parameter,Feed Rate 8.7 mm/s,Restricted,Generalize,Placeholder generalized value
+2,Maintenance Note,Electrical contact corrosion in control panel,Restricted,Generalize,Placeholder generalized value
+2,Root-Cause Note,Fixture clamp pressure fell below spec after 500 cycles,Restricted,Generalize,Placeholder generalized value
+2,Corrective Action,Test material batch viscosity after 200 cycles,Internal,Generalize,Placeholder generalized value
+2,Shift ID,Shift-A-Day,Internal,Keep,Shift ID
+2,Operator Name,Joseph Okafor,Confidential,Placeholder Mask,[OPERATOR_NAME]
+2,Customer/Order Information,Chassis Frame Order ORD-65552,Confidential,Block,[BLOCKED]
+2,Image Metadata,"Camera SN 343962, IMG-76237",Restricted,Generalize,Placeholder generalized value
+3,Quality Log ID,QL-2026-003,Restricted,Placeholder Mask,[QUALITY_LOG_ID]
+3,Supplier ID,Supplier-E21,Confidential,Hash Pseudonymize,[SUPPLIER_QC9B]
+3,Batch ID,B-2026-2674,Restricted,Hash Pseudonymize,[BATCH_U36V]
+3,Machine ID,CNC-Line-04,Restricted,Hash Pseudonymize,[MACHINE_Y998]
+3,Defect Type,Dimensional Out-of-Tolerance,Internal,Keep,Defect Type
+3,Defect Severity,Major,Restricted,Placeholder Mask,[DEFECT_SEVERITY]
+3,Defect Rate,8.50%,Restricted,Generalize,Placeholder generalized value
+3,Process Parameter,Paint Booth Temp 24.5 �C,Restricted,Generalize,Placeholder generalized value
+3,Maintenance Note,Alignment shift detected on transfer rail,Restricted,Generalize,Placeholder generalized value
+3,Root-Cause Note,Die temperature exceeded spec after 250 cycles,Restricted,Generalize,Placeholder generalized value
+3,Corrective Action,Replace tool after 300 cycles,Internal,Generalize,Placeholder generalized value
+3,Shift ID,Shift-C-Swing,Internal,Keep,Shift ID
+3,Operator Name,Owen Winslow,Confidential,Placeholder Mask,[OPERATOR_NAME]
+3,Customer/Order Information,EV Motor Housing Order ORD-88123,Confidential,Block,[BLOCKED]
+3,Image Metadata,"Camera SN 496922, IMG-20328",Restricted,Generalize,Placeholder generalized value
+4,Quality Log ID,QL-2026-004,Restricted,Placeholder Mask,[QUALITY_LOG_ID]
+4,Supplier ID,Supplier-A05,Confidential,Hash Pseudonymize,[SUPPLIER_H8HP]
+4,Batch ID,B-2026-4814,Restricted,Hash Pseudonymize,[BATCH_WTEB]
+4,Machine ID,CNC-Line-05,Restricted,Hash Pseudonymize,[MACHINE_PKD9]
+4,Defect Type,Voltage Anomaly,Internal,Keep,Defect Type
+4,Defect Severity,Major,Restricted,Placeholder Mask,[DEFECT_SEVERITY]
+4,Defect Rate,6.80%,Restricted,Generalize,Placeholder generalized value
+4,Process Parameter,Paint Booth Temp 24.5 �C,Restricted,Generalize,Placeholder generalized value
+4,Maintenance Note,Belt tension loss on conveyor drive,Restricted,Generalize,Placeholder generalized value
+4,Root-Cause Note,Sensor threshold miscalibrated after 350 cycles,Restricted,Generalize,Placeholder generalized value
+4,Corrective Action,Recalibrate sensor after 350 cycles,Internal,Generalize,Placeholder generalized value
+4,Shift ID,Shift-A-Day,Internal,Keep,Shift ID
+4,Operator Name,Diane Whitfield,Confidential,Placeholder Mask,[OPERATOR_NAME]
+4,Customer/Order Information,Bumper Assembly Order ORD-76421,Confidential,Block,[BLOCKED]
+4,Image Metadata,"Camera SN 816751, IMG-94939",Restricted,Generalize,Placeholder generalized value
+5,Quality Log ID,QL-2026-005,Restricted,Placeholder Mask,[QUALITY_LOG_ID]
+5,Supplier ID,Supplier-E21,Confidential,Hash Pseudonymize,[SUPPLIER_QC9B]
+5,Batch ID,B-2026-1916,Restricted,Hash Pseudonymize,[BATCH_1N55]
+5,Machine ID,CNC-Line-04,Restricted,Hash Pseudonymize,[MACHINE_Y998]
+5,Defect Type,Paint Overspray,Internal,Keep,Defect Type
+5,Defect Severity,Cosmetic Only,Restricted,Placeholder Mask,[DEFECT_SEVERITY]
+5,Defect Rate,17.90%,Restricted,Generalize,Placeholder generalized value
+5,Process Parameter,Clamp Force 1120 kN,Restricted,Generalize,Placeholder generalized value
+5,Maintenance Note,Hydraulic pressure drop in clamp cylinder,Restricted,Generalize,Placeholder generalized value
+5,Root-Cause Note,Fixture clamp pressure fell below spec after 500 cycles,Restricted,Generalize,Placeholder generalized value
+5,Corrective Action,Recalibrate robot after 600 cycles,Internal,Generalize,Placeholder generalized value
+5,Shift ID,Shift-C-Swing,Internal,Keep,Shift ID
+5,Operator Name,Alan Castillo,Confidential,Placeholder Mask,[OPERATOR_NAME]
+5,Customer/Order Information,Drivetrain Component Order ORD-43307,Confidential,Block,[BLOCKED]
+5,Image Metadata,"Camera SN 322955, IMG-95909",Restricted,Generalize,Placeholder generalized value
+6,Quality Log ID,QL-2026-006,Restricted,Placeholder Mask,[QUALITY_LOG_ID]
+6,Supplier ID,Supplier-C33,Confidential,Hash Pseudonymize,[SUPPLIER_1NBN]
+6,Batch ID,B-2026-9830,Restricted,Hash Pseudonymize,[BATCH_EEEA]
+6,Machine ID,CNC-Line-03,Restricted,Hash Pseudonymize,[MACHINE_5XMZ]
+6,Defect Type,Missing Fastener,Internal,Keep,Defect Type
+6,Defect Severity,Minor,Restricted,Placeholder Mask,[DEFECT_SEVERITY]
+6,Defect Rate,10.00%,Restricted,Generalize,Placeholder generalized value
+6,Process Parameter,Die Temperature 210 �C,Restricted,Generalize,Placeholder generalized value
+6,Maintenance Note,Weld tip degradation after extended use,Restricted,Generalize,Placeholder generalized value
+6,Root-Cause Note,Sensor threshold miscalibrated after 350 cycles,Restricted,Generalize,Placeholder generalized value
+6,Corrective Action,Recalibrate robot after 600 cycles,Internal,Generalize,Placeholder generalized value
+6,Shift ID,Shift-A-Day,Internal,Keep,Shift ID
+6,Operator Name,Felix Novak,Confidential,Placeholder Mask,[OPERATOR_NAME]
+6,Customer/Order Information,EV Motor Housing Order ORD-88123,Confidential,Block,[BLOCKED]
+6,Image Metadata,"Camera SN 892495, IMG-16175",Restricted,Generalize,Placeholder generalized value
+7,Quality Log ID,QL-2026-007,Restricted,Placeholder Mask,[QUALITY_LOG_ID]
+7,Supplier ID,Supplier-H16,Confidential,Hash Pseudonymize,[SUPPLIER_VRDC]
+7,Batch ID,B-2026-5371,Restricted,Hash Pseudonymize,[BATCH_DNN1]
+7,Machine ID,CNC-Line-02,Restricted,Hash Pseudonymize,[MACHINE_OYW4]
+7,Defect Type,Surface Corrosion,Internal,Keep,Defect Type
+7,Defect Severity,Minor,Restricted,Placeholder Mask,[DEFECT_SEVERITY]
+7,Defect Rate,3.30%,Restricted,Generalize,Placeholder generalized value
+7,Process Parameter,Clamp Force 1120 kN,Restricted,Generalize,Placeholder generalized value
+7,Maintenance Note,Belt tension loss on conveyor drive,Restricted,Generalize,Placeholder generalized value
+7,Root-Cause Note,Spindle speed drifted above tolerance after 450 cycles,Restricted,Generalize,Placeholder generalized value
+7,Corrective Action,Replace tool after 300 cycles,Internal,Generalize,Placeholder generalized value
+7,Shift ID,Shift-C-Swing,Internal,Keep,Shift ID
+7,Operator Name,Alan Torres,Confidential,Placeholder Mask,[OPERATOR_NAME]
+7,Customer/Order Information,Battery Tray Order ORD-54219,Confidential,Block,[BLOCKED]
+7,Image Metadata,"Camera SN 624902, IMG-33416",Restricted,Generalize,Placeholder generalized value
+8,Quality Log ID,QL-2026-008,Restricted,Placeholder Mask,[QUALITY_LOG_ID]
+8,Supplier ID,Supplier-X12,Confidential,Hash Pseudonymize,[SUPPLIER_K1V4]
+8,Batch ID,B-2026-2832,Restricted,Hash Pseudonymize,[BATCH_EZIB]
+8,Machine ID,CNC-Line-08,Restricted,Hash Pseudonymize,[MACHINE_VLUQ]
+8,Defect Type,Thread Stripping,Internal,Keep,Defect Type
+8,Defect Severity,Major,Restricted,Placeholder Mask,[DEFECT_SEVERITY]
+8,Defect Rate,21.70%,Restricted,Generalize,Placeholder generalized value
+8,Process Parameter,Injection Pressure 82 bar,Restricted,Generalize,Placeholder generalized value
+8,Maintenance Note,Spindle vibration exceeded normal range,Restricted,Generalize,Placeholder generalized value
+8,Root-Cause Note,Tool wear exceeded threshold after 300 cycles,Restricted,Generalize,Placeholder generalized value
+8,Corrective Action,Recalibrate robot after 600 cycles,Internal,Generalize,Placeholder generalized value
+8,Shift ID,Shift-C-Swing,Internal,Keep,Shift ID
+8,Operator Name,David Okafor,Confidential,Placeholder Mask,[OPERATOR_NAME]
+8,Customer/Order Information,Bumper Assembly Order ORD-76421,Confidential,Block,[BLOCKED]
+8,Image Metadata,"Camera SN 609597, IMG-19071",Restricted,Generalize,Placeholder generalized value
+9,Quality Log ID,QL-2026-009,Restricted,Placeholder Mask,[QUALITY_LOG_ID]
+9,Supplier ID,Supplier-H16,Confidential,Hash Pseudonymize,[SUPPLIER_VRDC]
+9,Batch ID,B-2026-4295,Restricted,Hash Pseudonymize,[BATCH_ANE3]
+9,Machine ID,CNC-Line-04,Restricted,Hash Pseudonymize,[MACHINE_Y998]
+9,Defect Type,Delamination,Internal,Keep,Defect Type
+9,Defect Severity,Major,Restricted,Placeholder Mask,[DEFECT_SEVERITY]
+9,Defect Rate,21.90%,Restricted,Generalize,Placeholder generalized value
+9,Process Parameter,Paint Booth Temp 24.5 �C,Restricted,Generalize,Placeholder generalized value
+9,Maintenance Note,Lubrication system underperforming on gearbox,Restricted,Generalize,Placeholder generalized value
+9,Root-Cause Note,Spindle speed drifted above tolerance after 450 cycles,Restricted,Generalize,Placeholder generalized value
+9,Corrective Action,Replace fixture clamp seal after 500 cycles,Internal,Generalize,Placeholder generalized value
+9,Shift ID,Shift-A-Day,Internal,Keep,Shift ID
+9,Operator Name,Sandra Okafor,Confidential,Placeholder Mask,[OPERATOR_NAME]
+9,Customer/Order Information,Drivetrain Component Order ORD-43307,Confidential,Block,[BLOCKED]
+9,Image Metadata,"Camera SN 122056, IMG-87110",Restricted,Generalize,Placeholder generalized value
+10,Quality Log ID,QL-2026-010,Restricted,Placeholder Mask,[QUALITY_LOG_ID]
+10,Supplier ID,Supplier-C33,Confidential,Hash Pseudonymize,[SUPPLIER_1NBN]
+10,Batch ID,B-2026-2104,Restricted,Hash Pseudonymize,[BATCH_ORQT]
+10,Machine ID,CNC-Line-01,Restricted,Hash Pseudonymize,[MACHINE_1878]
+10,Defect Type,Thread Stripping,Internal,Keep,Defect Type
+10,Defect Severity,Critical (Safety Hold),Restricted,Placeholder Mask,[DEFECT_SEVERITY]
+10,Defect Rate,7.90%,Restricted,Generalize,Placeholder generalized value
+10,Process Parameter,Torque 18.2 Nm,Restricted,Generalize,Placeholder generalized value
+10,Maintenance Note,Spindle vibration exceeded normal range,Restricted,Generalize,Placeholder generalized value
+10,Root-Cause Note,Die temperature exceeded spec after 250 cycles,Restricted,Generalize,Placeholder generalized value
+10,Corrective Action,Reduce spindle speed after 450 cycles,Internal,Generalize,Placeholder generalized value
+10,Shift ID,Shift-A-Day,Internal,Keep,Shift ID
+10,Operator Name,Renee Petrov,Confidential,Placeholder Mask,[OPERATOR_NAME]
+10,Customer/Order Information,Bumper Assembly Order ORD-76421,Confidential,Block,[BLOCKED]
+10,Image Metadata,"Camera SN 698782, IMG-85525",Restricted,Generalize,Placeholder generalized value
+11,Quality Log ID,QL-2026-011,Restricted,Placeholder Mask,[QUALITY_LOG_ID]
+11,Supplier ID,Supplier-X12,Confidential,Hash Pseudonymize,[SUPPLIER_K1V4]
+11,Batch ID,B-2026-2612,Restricted,Hash Pseudonymize,[BATCH_HJ6H]
+11,Machine ID,Assembly-Line-06,Restricted,Hash Pseudonymize,[MACHINE_15VA]
+11,Defect Type,Surface Scratch,Internal,Keep,Defect Type
+11,Defect Severity,Minor,Restricted,Placeholder Mask,[DEFECT_SEVERITY]
+11,Defect Rate,8.10%,Restricted,Generalize,Placeholder generalized value
+11,Process Parameter,Feed Rate 8.7 mm/s,Restricted,Generalize,Placeholder generalized value
+11,Maintenance Note,Spindle vibration exceeded normal range,Restricted,Generalize,Placeholder generalized value
+11,Root-Cause Note,Robot calibration offset accumulated after 600 cycles,Restricted,Generalize,Placeholder generalized value
+11,Corrective Action,Recalibrate robot after 600 cycles,Internal,Generalize,Placeholder generalized value
+11,Shift ID,Shift-C-Swing,Internal,Keep,Shift ID
+11,Operator Name,Owen Petrov,Confidential,Placeholder Mask,[OPERATOR_NAME]
+11,Customer/Order Information,Suspension Arm Order ORD-32918,Confidential,Block,[BLOCKED]
+11,Image Metadata,"Camera SN 292401, IMG-46509",Restricted,Generalize,Placeholder generalized value
+12,Quality Log ID,QL-2026-012,Restricted,Placeholder Mask,[QUALITY_LOG_ID]
+12,Supplier ID,Supplier-A05,Confidential,Hash Pseudonymize,[SUPPLIER_H8HP]
+12,Batch ID,B-2026-4872,Restricted,Hash Pseudonymize,[BATCH_BNRE]
+12,Machine ID,CNC-Line-01,Restricted,Hash Pseudonymize,[MACHINE_1878]
+12,Defect Type,Weld Porosity,Internal,Keep,Defect Type
+12,Defect Severity,Minor,Restricted,Placeholder Mask,[DEFECT_SEVERITY]
+12,Defect Rate,11.10%,Restricted,Generalize,Placeholder generalized value
+12,Process Parameter,Clamp Force 1120 kN,Restricted,Generalize,Placeholder generalized value
+12,Maintenance Note,Bearing wear observed on spindle assembly,Restricted,Generalize,Placeholder generalized value
+12,Root-Cause Note,Coolant concentration drifted outside spec after 400 cycles,Restricted,Generalize,Placeholder generalized value
+12,Corrective Action,Test material batch viscosity after 200 cycles,Internal,Generalize,Placeholder generalized value
+12,Shift ID,Shift-A-Day,Internal,Keep,Shift ID
+12,Operator Name,Brian Whitfield,Confidential,Placeholder Mask,[OPERATOR_NAME]
+12,Customer/Order Information,Exhaust Manifold Order ORD-43087,Confidential,Block,[BLOCKED]
+12,Image Metadata,"Camera SN 922157, IMG-69638",Restricted,Generalize,Placeholder generalized value
+13,Quality Log ID,QL-2026-013,Restricted,Placeholder Mask,[QUALITY_LOG_ID]
+13,Supplier ID,Supplier-G03,Confidential,Hash Pseudonymize,[SUPPLIER_NN27]
+13,Batch ID,B-2026-3536,Restricted,Hash Pseudonymize,[BATCH_3V7O]
+13,Machine ID,Paint-Booth-01,Restricted,Hash Pseudonymize,[MACHINE_695B]
+13,Defect Type,Paint Overspray,Internal,Keep,Defect Type
+13,Defect Severity,Major,Restricted,Placeholder Mask,[DEFECT_SEVERITY]
+13,Defect Rate,21.30%,Restricted,Generalize,Placeholder generalized value
+13,Process Parameter,Die Temperature 210 �C,Restricted,Generalize,Placeholder generalized value
+13,Maintenance Note,Electrical contact corrosion in control panel,Restricted,Generalize,Placeholder generalized value
+13,Root-Cause Note,Tool wear exceeded threshold after 300 cycles,Restricted,Generalize,Placeholder generalized value
+13,Corrective Action,Recalibrate sensor after 350 cycles,Internal,Generalize,Placeholder generalized value
+13,Shift ID,Shift-A-Day,Internal,Keep,Shift ID
+13,Operator Name,Maria Park,Confidential,Placeholder Mask,[OPERATOR_NAME]
+13,Customer/Order Information,Brake Rotor Order ORD-21764,Confidential,Block,[BLOCKED]
+13,Image Metadata,"Camera SN 627276, IMG-79615",Restricted,Generalize,Placeholder generalized value
+14,Quality Log ID,QL-2026-014,Restricted,Placeholder Mask,[QUALITY_LOG_ID]
+14,Supplier ID,Supplier-A05,Confidential,Hash Pseudonymize,[SUPPLIER_H8HP]
+14,Batch ID,B-2026-4853,Restricted,Hash Pseudonymize,[BATCH_PWZL]
+14,Machine ID,Weld-Robot-03,Restricted,Hash Pseudonymize,[MACHINE_49JT]
+14,Defect Type,Warping,Internal,Keep,Defect Type
+14,Defect Severity,Major,Restricted,Placeholder Mask,[DEFECT_SEVERITY]
+14,Defect Rate,19.70%,Restricted,Generalize,Placeholder generalized value
+14,Process Parameter,Weld Current 145 A,Restricted,Generalize,Placeholder generalized value
+14,Maintenance Note,Alignment shift detected on transfer rail,Restricted,Generalize,Placeholder generalized value
+14,Root-Cause Note,Tool wear exceeded threshold after 300 cycles,Restricted,Generalize,Placeholder generalized value
+14,Corrective Action,Replace fixture clamp seal after 500 cycles,Internal,Generalize,Placeholder generalized value
+14,Shift ID,Shift-B-Night,Internal,Keep,Shift ID
+14,Operator Name,Diane Park,Confidential,Placeholder Mask,[OPERATOR_NAME]
+14,Customer/Order Information,Seat Frame Order ORD-98204,Confidential,Block,[BLOCKED]
+14,Image Metadata,"Camera SN 648177, IMG-51467",Restricted,Generalize,Placeholder generalized value
+15,Quality Log ID,QL-2026-015,Restricted,Placeholder Mask,[QUALITY_LOG_ID]
+15,Supplier ID,Supplier-A05,Confidential,Hash Pseudonymize,[SUPPLIER_H8HP]
+15,Batch ID,B-2026-1152,Restricted,Hash Pseudonymize,[BATCH_6NDG]
+15,Machine ID,Stamping-Press-03,Restricted,Hash Pseudonymize,[MACHINE_3SQH]
+15,Defect Type,Contamination,Internal,Keep,Defect Type
+15,Defect Severity,Minor,Restricted,Placeholder Mask,[DEFECT_SEVERITY]
+15,Defect Rate,12.80%,Restricted,Generalize,Placeholder generalized value
+15,Process Parameter,Feed Rate 8.7 mm/s,Restricted,Generalize,Placeholder generalized value
+15,Maintenance Note,Coolant leak detected at pump seal,Restricted,Generalize,Placeholder generalized value
+15,Root-Cause Note,Robot calibration offset accumulated after 600 cycles,Restricted,Generalize,Placeholder generalized value
+15,Corrective Action,Reduce die temperature after 250 cycles,Internal,Generalize,Placeholder generalized value
+15,Shift ID,Shift-A-Day,Internal,Keep,Shift ID
+15,Operator Name,Rosa Larsen,Confidential,Placeholder Mask,[OPERATOR_NAME]
+15,Customer/Order Information,Exhaust Manifold Order ORD-43087,Confidential,Block,[BLOCKED]
+15,Image Metadata,"Camera SN 172132, IMG-42018",Restricted,Generalize,Placeholder generalized value
+16,Quality Log ID,QL-2026-016,Restricted,Placeholder Mask,[QUALITY_LOG_ID]
+16,Supplier ID,Supplier-H16,Confidential,Hash Pseudonymize,[SUPPLIER_VRDC]
+16,Batch ID,B-2026-5905,Restricted,Hash Pseudonymize,[BATCH_79SJ]
+16,Machine ID,Injection-Molder-02,Restricted,Hash Pseudonymize,[MACHINE_HB5V]
+16,Defect Type,Thread Stripping,Internal,Keep,Defect Type
+16,Defect Severity,Minor,Restricted,Placeholder Mask,[DEFECT_SEVERITY]
+16,Defect Rate,20.70%,Restricted,Generalize,Placeholder generalized value
+16,Process Parameter,Spindle Speed 3200 rpm,Restricted,Generalize,Placeholder generalized value
+16,Maintenance Note,Hydraulic pressure drop in clamp cylinder,Restricted,Generalize,Placeholder generalized value
+16,Root-Cause Note,Fixture clamp pressure fell below spec after 500 cycles,Restricted,Generalize,Placeholder generalized value
+16,Corrective Action,Replace fixture clamp seal after 500 cycles,Internal,Generalize,Placeholder generalized value
+16,Shift ID,Shift-C-Swing,Internal,Keep,Shift ID
+16,Operator Name,Renee Petrov,Confidential,Placeholder Mask,[OPERATOR_NAME]
+16,Customer/Order Information,Battery Tray Order ORD-54219,Confidential,Block,[BLOCKED]
+16,Image Metadata,"Camera SN 395442, IMG-89276",Restricted,Generalize,Placeholder generalized value
+17,Quality Log ID,QL-2026-017,Restricted,Placeholder Mask,[QUALITY_LOG_ID]
+17,Supplier ID,Supplier-F44,Confidential,Hash Pseudonymize,[SUPPLIER_6YFC]
+17,Batch ID,B-2026-5533,Restricted,Hash Pseudonymize,[BATCH_SGCY]
+17,Machine ID,Paint-Booth-01,Restricted,Hash Pseudonymize,[MACHINE_695B]
+17,Defect Type,Surface Scratch,Internal,Keep,Defect Type
+17,Defect Severity,Critical (Safety Hold),Restricted,Placeholder Mask,[DEFECT_SEVERITY]
+17,Defect Rate,17.20%,Restricted,Generalize,Placeholder generalized value
+17,Process Parameter,Injection Pressure 82 bar,Restricted,Generalize,Placeholder generalized value
+17,Maintenance Note,Belt tension loss on conveyor drive,Restricted,Generalize,Placeholder generalized value
+17,Root-Cause Note,Spindle speed drifted above tolerance after 450 cycles,Restricted,Generalize,Placeholder generalized value
+17,Corrective Action,Test material batch viscosity after 200 cycles,Internal,Generalize,Placeholder generalized value
+17,Shift ID,Shift-C-Swing,Internal,Keep,Shift ID
+17,Operator Name,Joseph Reyes,Confidential,Placeholder Mask,[OPERATOR_NAME]
+17,Customer/Order Information,EV Motor Housing Order ORD-88123,Confidential,Block,[BLOCKED]
+17,Image Metadata,"Camera SN 824586, IMG-29536",Restricted,Generalize,Placeholder generalized value
+18,Quality Log ID,QL-2026-018,Restricted,Placeholder Mask,[QUALITY_LOG_ID]
+18,Supplier ID,Supplier-X12,Confidential,Hash Pseudonymize,[SUPPLIER_K1V4]
+18,Batch ID,B-2026-6862,Restricted,Hash Pseudonymize,[BATCH_4QWD]
+18,Machine ID,Injection-Molder-02,Restricted,Hash Pseudonymize,[MACHINE_HB5V]
+18,Defect Type,Paint Overspray,Internal,Keep,Defect Type
+18,Defect Severity,Minor,Restricted,Placeholder Mask,[DEFECT_SEVERITY]
+18,Defect Rate,15.00%,Restricted,Generalize,Placeholder generalized value
+18,Process Parameter,Paint Booth Temp 24.5 �C,Restricted,Generalize,Placeholder generalized value
+18,Maintenance Note,Electrical contact corrosion in control panel,Restricted,Generalize,Placeholder generalized value
+18,Root-Cause Note,Material batch viscosity varied after 200 cycles,Restricted,Generalize,Placeholder generalized value
+18,Corrective Action,Adjust coolant concentration after 400 cycles,Internal,Generalize,Placeholder generalized value
+18,Shift ID,Shift-A-Day,Internal,Keep,Shift ID
+18,Operator Name,Wendy Kim,Confidential,Placeholder Mask,[OPERATOR_NAME]
+18,Customer/Order Information,Wiring Harness Order ORD-65310,Confidential,Block,[BLOCKED]
+18,Image Metadata,"Camera SN 950155, IMG-33206",Restricted,Generalize,Placeholder generalized value
+19,Quality Log ID,QL-2026-019,Restricted,Placeholder Mask,[QUALITY_LOG_ID]
+19,Supplier ID,Supplier-C33,Confidential,Hash Pseudonymize,[SUPPLIER_1NBN]
+19,Batch ID,B-2026-5371,Restricted,Hash Pseudonymize,[BATCH_DNN1]
+19,Machine ID,CNC-Line-07,Restricted,Hash Pseudonymize,[MACHINE_6ST1]
+19,Defect Type,Weld Porosity,Internal,Keep,Defect Type
+19,Defect Severity,Minor,Restricted,Placeholder Mask,[DEFECT_SEVERITY]
+19,Defect Rate,3.30%,Restricted,Generalize,Placeholder generalized value
+19,Process Parameter,Feed Rate 12.4 mm/s,Restricted,Generalize,Placeholder generalized value
+19,Maintenance Note,Lubrication system underperforming on gearbox,Restricted,Generalize,Placeholder generalized value
+19,Root-Cause Note,Robot calibration offset accumulated after 600 cycles,Restricted,Generalize,Placeholder generalized value
+19,Corrective Action,Recalibrate robot after 600 cycles,Internal,Generalize,Placeholder generalized value
+19,Shift ID,Shift-B-Night,Internal,Keep,Shift ID
+19,Operator Name,Emily Choi,Confidential,Placeholder Mask,[OPERATOR_NAME]
+19,Customer/Order Information,Fuel Rail Order ORD-54198,Confidential,Block,[BLOCKED]
+19,Image Metadata,"Camera SN 933980, IMG-39831",Restricted,Generalize,Placeholder generalized value
+20,Quality Log ID,QL-2026-020,Restricted,Placeholder Mask,[QUALITY_LOG_ID]
+20,Supplier ID,Supplier-D07,Confidential,Hash Pseudonymize,[SUPPLIER_50J4]
+20,Batch ID,B-2026-6753,Restricted,Hash Pseudonymize,[BATCH_5H68]
+20,Machine ID,CNC-Line-02,Restricted,Hash Pseudonymize,[MACHINE_OYW4]
+20,Defect Type,Discoloration,Internal,Keep,Defect Type
+20,Defect Severity,Minor,Restricted,Placeholder Mask,[DEFECT_SEVERITY]
+20,Defect Rate,15.30%,Restricted,Generalize,Placeholder generalized value
+20,Process Parameter,Torque 18.2 Nm,Restricted,Generalize,Placeholder generalized value
+20,Maintenance Note,Sensor calibration drift on inline gauge,Restricted,Generalize,Placeholder generalized value
+20,Root-Cause Note,Tool wear exceeded threshold after 300 cycles,Restricted,Generalize,Placeholder generalized value
+20,Corrective Action,Replace fixture clamp seal after 500 cycles,Internal,Generalize,Placeholder generalized value
+20,Shift ID,Shift-B-Night,Internal,Keep,Shift ID
+20,Operator Name,Priya Park,Confidential,Placeholder Mask,[OPERATOR_NAME]
+20,Customer/Order Information,Battery Tray Order ORD-54219,Confidential,Block,[BLOCKED]
+20,Image Metadata,"Camera SN 140115, IMG-24208",Restricted,Generalize,Placeholder generalized value
+21,Quality Log ID,QL-2026-021,Restricted,Placeholder Mask,[QUALITY_LOG_ID]
+21,Supplier ID,Supplier-F44,Confidential,Hash Pseudonymize,[SUPPLIER_6YFC]
+21,Batch ID,B-2026-1027,Restricted,Hash Pseudonymize,[BATCH_6GSW]
+21,Machine ID,CNC-Line-01,Restricted,Hash Pseudonymize,[MACHINE_1878]
+21,Defect Type,Misalignment,Internal,Keep,Defect Type
+21,Defect Severity,Cosmetic Only,Restricted,Placeholder Mask,[DEFECT_SEVERITY]
+21,Defect Rate,12.30%,Restricted,Generalize,Placeholder generalized value
+21,Process Parameter,Weld Current 145 A,Restricted,Generalize,Placeholder generalized value
+21,Maintenance Note,Sensor calibration drift on inline gauge,Restricted,Generalize,Placeholder generalized value
+21,Root-Cause Note,Material batch viscosity varied after 200 cycles,Restricted,Generalize,Placeholder generalized value
+21,Corrective Action,Replace fixture clamp seal after 500 cycles,Internal,Generalize,Placeholder generalized value
+21,Shift ID,Shift-C-Swing,Internal,Keep,Shift ID
+21,Operator Name,Rosa Duarte,Confidential,Placeholder Mask,[OPERATOR_NAME]
+21,Customer/Order Information,Seat Frame Order ORD-98204,Confidential,Block,[BLOCKED]
+21,Image Metadata,"Camera SN 429164, IMG-96951",Restricted,Generalize,Placeholder generalized value
+22,Quality Log ID,QL-2026-022,Restricted,Placeholder Mask,[QUALITY_LOG_ID]
+22,Supplier ID,Supplier-E21,Confidential,Hash Pseudonymize,[SUPPLIER_QC9B]
+22,Batch ID,B-2026-7592,Restricted,Hash Pseudonymize,[BATCH_NIEU]
+22,Machine ID,CNC-Line-07,Restricted,Hash Pseudonymize,[MACHINE_6ST1]
+22,Defect Type,Delamination,Internal,Keep,Defect Type
+22,Defect Severity,Major,Restricted,Placeholder Mask,[DEFECT_SEVERITY]
+22,Defect Rate,3.70%,Restricted,Generalize,Placeholder generalized value
+22,Process Parameter,Clamp Force 1120 kN,Restricted,Generalize,Placeholder generalized value
+22,Maintenance Note,Weld tip degradation after extended use,Restricted,Generalize,Placeholder generalized value
+22,Root-Cause Note,Coolant concentration drifted outside spec after 400 cycles,Restricted,Generalize,Placeholder generalized value
+22,Corrective Action,Reduce die temperature after 250 cycles,Internal,Generalize,Placeholder generalized value
+22,Shift ID,Shift-B-Night,Internal,Keep,Shift ID
+22,Operator Name,Renee Yilmaz,Confidential,Placeholder Mask,[OPERATOR_NAME]
+22,Customer/Order Information,Ultium Battery Order ORD-99111,Confidential,Block,[BLOCKED]
+22,Image Metadata,"Camera SN 418635, IMG-47606",Restricted,Generalize,Placeholder generalized value
+23,Quality Log ID,QL-2026-023,Restricted,Placeholder Mask,[QUALITY_LOG_ID]
+23,Supplier ID,Supplier-G03,Confidential,Hash Pseudonymize,[SUPPLIER_NN27]
+23,Batch ID,B-2026-4501,Restricted,Hash Pseudonymize,[BATCH_5GWB]
+23,Machine ID,CNC-Line-08,Restricted,Hash Pseudonymize,[MACHINE_VLUQ]
+23,Defect Type,Misalignment,Internal,Keep,Defect Type
+23,Defect Severity,Minor,Restricted,Placeholder Mask,[DEFECT_SEVERITY]
+23,Defect Rate,19.90%,Restricted,Generalize,Placeholder generalized value
+23,Process Parameter,Spindle Speed 3200 rpm,Restricted,Generalize,Placeholder generalized value
+23,Maintenance Note,Coolant leak detected at pump seal,Restricted,Generalize,Placeholder generalized value
+23,Root-Cause Note,Die temperature exceeded spec after 250 cycles,Restricted,Generalize,Placeholder generalized value
+23,Corrective Action,Recalibrate sensor after 350 cycles,Internal,Generalize,Placeholder generalized value
+23,Shift ID,Shift-A-Day,Internal,Keep,Shift ID
+23,Operator Name,Derek Hudson,Confidential,Placeholder Mask,[OPERATOR_NAME]
+23,Customer/Order Information,Chassis Frame Order ORD-65552,Confidential,Block,[BLOCKED]
+23,Image Metadata,"Camera SN 805477, IMG-50687",Restricted,Generalize,Placeholder generalized value
+24,Quality Log ID,QL-2026-024,Restricted,Placeholder Mask,[QUALITY_LOG_ID]
+24,Supplier ID,Supplier-J28,Confidential,Hash Pseudonymize,[SUPPLIER_3NVL]
+24,Batch ID,B-2026-2193,Restricted,Hash Pseudonymize,[BATCH_PNFS]
+24,Machine ID,CNC-Line-08,Restricted,Hash Pseudonymize,[MACHINE_VLUQ]
+24,Defect Type,Contamination,Internal,Keep,Defect Type
+24,Defect Severity,Minor,Restricted,Placeholder Mask,[DEFECT_SEVERITY]
+24,Defect Rate,14.20%,Restricted,Generalize,Placeholder generalized value
+24,Process Parameter,Weld Current 145 A,Restricted,Generalize,Placeholder generalized value
+24,Maintenance Note,Weld tip degradation after extended use,Restricted,Generalize,Placeholder generalized value
+24,Root-Cause Note,Spindle speed drifted above tolerance after 450 cycles,Restricted,Generalize,Placeholder generalized value
+24,Corrective Action,Test material batch viscosity after 200 cycles,Internal,Generalize,Placeholder generalized value
+24,Shift ID,Shift-A-Day,Internal,Keep,Shift ID
+24,Operator Name,Kevin Ibarra,Confidential,Placeholder Mask,[OPERATOR_NAME]
+24,Customer/Order Information,Bumper Assembly Order ORD-76421,Confidential,Block,[BLOCKED]
+24,Image Metadata,"Camera SN 105814, IMG-23970",Restricted,Generalize,Placeholder generalized value
+25,Quality Log ID,QL-2026-025,Restricted,Placeholder Mask,[QUALITY_LOG_ID]
+25,Supplier ID,Supplier-G03,Confidential,Hash Pseudonymize,[SUPPLIER_NN27]
+25,Batch ID,B-2026-9702,Restricted,Hash Pseudonymize,[BATCH_SAVW]
+25,Machine ID,CNC-Line-03,Restricted,Hash Pseudonymize,[MACHINE_5XMZ]
+25,Defect Type,Misalignment,Internal,Keep,Defect Type
+25,Defect Severity,Minor,Restricted,Placeholder Mask,[DEFECT_SEVERITY]
+25,Defect Rate,21.00%,Restricted,Generalize,Placeholder generalized value
+25,Process Parameter,Cure Time 45 s,Restricted,Generalize,Placeholder generalized value
+25,Maintenance Note,Alignment shift detected on transfer rail,Restricted,Generalize,Placeholder generalized value
+25,Root-Cause Note,Material batch viscosity varied after 200 cycles,Restricted,Generalize,Placeholder generalized value
+25,Corrective Action,Reduce spindle speed after 450 cycles,Internal,Generalize,Placeholder generalized value
+25,Shift ID,Shift-A-Day,Internal,Keep,Shift ID
+25,Operator Name,Vivian Osei,Confidential,Placeholder Mask,[OPERATOR_NAME]
+25,Customer/Order Information,Brake Rotor Order ORD-21764,Confidential,Block,[BLOCKED]
+25,Image Metadata,"Camera SN 571932, IMG-43972",Restricted,Generalize,Placeholder generalized value
+26,Quality Log ID,QL-2026-026,Restricted,Placeholder Mask,[QUALITY_LOG_ID]
+26,Supplier ID,Supplier-C33,Confidential,Hash Pseudonymize,[SUPPLIER_1NBN]
+26,Batch ID,B-2026-5499,Restricted,Hash Pseudonymize,[BATCH_HMT5]
+26,Machine ID,CNC-Line-08,Restricted,Hash Pseudonymize,[MACHINE_VLUQ]
+26,Defect Type,Contamination,Internal,Keep,Defect Type
+26,Defect Severity,Critical (Safety Hold),Restricted,Placeholder Mask,[DEFECT_SEVERITY]
+26,Defect Rate,7.00%,Restricted,Generalize,Placeholder generalized value
+26,Process Parameter,Injection Pressure 82 bar,Restricted,Generalize,Placeholder generalized value
+26,Maintenance Note,Sensor calibration drift on inline gauge,Restricted,Generalize,Placeholder generalized value
+26,Root-Cause Note,Sensor threshold miscalibrated after 350 cycles,Restricted,Generalize,Placeholder generalized value
+26,Corrective Action,Replace fixture clamp seal after 500 cycles,Internal,Generalize,Placeholder generalized value
+26,Shift ID,Shift-A-Day,Internal,Keep,Shift ID
+26,Operator Name,Kevin Boyd,Confidential,Placeholder Mask,[OPERATOR_NAME]
+26,Customer/Order Information,Suspension Arm Order ORD-32918,Confidential,Block,[BLOCKED]
+26,Image Metadata,"Camera SN 827659, IMG-30028",Restricted,Generalize,Placeholder generalized value
+27,Quality Log ID,QL-2026-027,Restricted,Placeholder Mask,[QUALITY_LOG_ID]
+27,Supplier ID,Supplier-X12,Confidential,Hash Pseudonymize,[SUPPLIER_K1V4]
+27,Batch ID,B-2026-4388,Restricted,Hash Pseudonymize,[BATCH_91SS]
+27,Machine ID,CNC-Line-07,Restricted,Hash Pseudonymize,[MACHINE_6ST1]
+27,Defect Type,Voltage Anomaly,Internal,Keep,Defect Type
+27,Defect Severity,Minor,Restricted,Placeholder Mask,[DEFECT_SEVERITY]
+27,Defect Rate,20.00%,Restricted,Generalize,Placeholder generalized value
+27,Process Parameter,Die Temperature 210 �C,Restricted,Generalize,Placeholder generalized value
+27,Maintenance Note,Bearing wear observed on spindle assembly,Restricted,Generalize,Placeholder generalized value
+27,Root-Cause Note,Material batch viscosity varied after 200 cycles,Restricted,Generalize,Placeholder generalized value
+27,Corrective Action,Reduce spindle speed after 450 cycles,Internal,Generalize,Placeholder generalized value
 27,Shift ID,Shift-A-Day,Internal,Keep,Shift ID
-28,Operator Name,Joseph Okafor,Confidential,Placeholder Mask,[OPERATOR_NAME]
-29,Customer/Order Information,Chassis Frame Order ORD-65552,Confidential,Block,[BLOCKED]
-30,Image Metadata,"Camera SN 343962, IMG-76237",Restricted,Generalize,Placeholder generalized value
-31,Quality Log ID,QL-2026-003,Restricted,Placeholder Mask,[QUALITY_LOG_ID]
-32,Supplier ID,Supplier-E21,Confidential,Hash Pseudonymize,[SUPPLIER_QC9B]
-33,Batch ID,B-2026-2674,Restricted,Hash Pseudonymize,[BATCH_U36V]
-34,Machine ID,CNC-Line-04,Restricted,Hash Pseudonymize,[MACHINE_Y998]
-35,Defect Type,Dimensional Out-of-Tolerance,Internal,Keep,Defect Type
-36,Defect Severity,Major,Restricted,Placeholder Mask,[DEFECT_SEVERITY]
-37,Defect Rate,8.50%,Restricted,Generalize,Placeholder generalized value
-38,Process Parameter,Paint Booth Temp 24.5 �C,Restricted,Generalize,Placeholder generalized value
-39,Maintenance Note,Alignment shift detected on transfer rail,Restricted,Generalize,Placeholder generalized value
-40,Root-Cause Note,Die temperature exceeded spec after 250 cycles,Restricted,Generalize,Placeholder generalized value
-41,Corrective Action,Replace tool after 300 cycles,Internal,Generalize,Placeholder generalized value
-42,Shift ID,Shift-C-Swing,Internal,Keep,Shift ID
-43,Operator Name,Owen Winslow,Confidential,Placeholder Mask,[OPERATOR_NAME]
-44,Customer/Order Information,EV Motor Housing Order ORD-88123,Confidential,Block,[BLOCKED]
-45,Image Metadata,"Camera SN 496922, IMG-20328",Restricted,Generalize,Placeholder generalized value
-46,Quality Log ID,QL-2026-004,Restricted,Placeholder Mask,[QUALITY_LOG_ID]
-47,Supplier ID,Supplier-A05,Confidential,Hash Pseudonymize,[SUPPLIER_H8HP]
-48,Batch ID,B-2026-4814,Restricted,Hash Pseudonymize,[BATCH_WTEB]
-49,Machine ID,CNC-Line-05,Restricted,Hash Pseudonymize,[MACHINE_PKD9]
-50,Defect Type,Voltage Anomaly,Internal,Keep,Defect Type
-51,Defect Severity,Major,Restricted,Placeholder Mask,[DEFECT_SEVERITY]
-52,Defect Rate,6.80%,Restricted,Generalize,Placeholder generalized value
-53,Process Parameter,Paint Booth Temp 24.5 �C,Restricted,Generalize,Placeholder generalized value
-54,Maintenance Note,Belt tension loss on conveyor drive,Restricted,Generalize,Placeholder generalized value
-55,Root-Cause Note,Sensor threshold miscalibrated after 350 cycles,Restricted,Generalize,Placeholder generalized value
-56,Corrective Action,Recalibrate sensor after 350 cycles,Internal,Generalize,Placeholder generalized value
-57,Shift ID,Shift-A-Day,Internal,Keep,Shift ID
-58,Operator Name,Diane Whitfield,Confidential,Placeholder Mask,[OPERATOR_NAME]
-59,Customer/Order Information,Bumper Assembly Order ORD-76421,Confidential,Block,[BLOCKED]
-60,Image Metadata,"Camera SN 816751, IMG-94939",Restricted,Generalize,Placeholder generalized value
-61,Quality Log ID,QL-2026-005,Restricted,Placeholder Mask,[QUALITY_LOG_ID]
-62,Supplier ID,Supplier-E21,Confidential,Hash Pseudonymize,[SUPPLIER_QC9B]
-63,Batch ID,B-2026-1916,Restricted,Hash Pseudonymize,[BATCH_1N55]
-64,Machine ID,CNC-Line-04,Restricted,Hash Pseudonymize,[MACHINE_Y998]
-65,Defect Type,Paint Overspray,Internal,Keep,Defect Type
-66,Defect Severity,Cosmetic Only,Restricted,Placeholder Mask,[DEFECT_SEVERITY]
-67,Defect Rate,17.90%,Restricted,Generalize,Placeholder generalized value
-68,Process Parameter,Clamp Force 1120 kN,Restricted,Generalize,Placeholder generalized value
-69,Maintenance Note,Hydraulic pressure drop in clamp cylinder,Restricted,Generalize,Placeholder generalized value
-70,Root-Cause Note,Fixture clamp pressure fell below spec after 500 cycles,Restricted,Generalize,Placeholder generalized value
-71,Corrective Action,Recalibrate robot after 600 cycles,Internal,Generalize,Placeholder generalized value
-72,Shift ID,Shift-C-Swing,Internal,Keep,Shift ID
-73,Operator Name,Alan Castillo,Confidential,Placeholder Mask,[OPERATOR_NAME]
-74,Customer/Order Information,Drivetrain Component Order ORD-43307,Confidential,Block,[BLOCKED]
-75,Image Metadata,"Camera SN 322955, IMG-95909",Restricted,Generalize,Placeholder generalized value
-76,Quality Log ID,QL-2026-006,Restricted,Placeholder Mask,[QUALITY_LOG_ID]
-77,Supplier ID,Supplier-C33,Confidential,Hash Pseudonymize,[SUPPLIER_1NBN]
-78,Batch ID,B-2026-9830,Restricted,Hash Pseudonymize,[BATCH_EEEA]
-79,Machine ID,CNC-Line-03,Restricted,Hash Pseudonymize,[MACHINE_5XMZ]
-80,Defect Type,Missing Fastener,Internal,Keep,Defect Type
-81,Defect Severity,Minor,Restricted,Placeholder Mask,[DEFECT_SEVERITY]
-82,Defect Rate,10.00%,Restricted,Generalize,Placeholder generalized value
-83,Process Parameter,Die Temperature 210 �C,Restricted,Generalize,Placeholder generalized value
-84,Maintenance Note,Weld tip degradation after extended use,Restricted,Generalize,Placeholder generalized value
-85,Root-Cause Note,Sensor threshold miscalibrated after 350 cycles,Restricted,Generalize,Placeholder generalized value
-86,Corrective Action,Recalibrate robot after 600 cycles,Internal,Generalize,Placeholder generalized value
-87,Shift ID,Shift-A-Day,Internal,Keep,Shift ID
-88,Operator Name,Felix Novak,Confidential,Placeholder Mask,[OPERATOR_NAME]
-89,Customer/Order Information,EV Motor Housing Order ORD-88123,Confidential,Block,[BLOCKED]
-90,Image Metadata,"Camera SN 892495, IMG-16175",Restricted,Generalize,Placeholder generalized value
-91,Quality Log ID,QL-2026-007,Restricted,Placeholder Mask,[QUALITY_LOG_ID]
-92,Supplier ID,Supplier-H16,Confidential,Hash Pseudonymize,[SUPPLIER_VRDC]
-93,Batch ID,B-2026-5371,Restricted,Hash Pseudonymize,[BATCH_DNN1]
-94,Machine ID,CNC-Line-02,Restricted,Hash Pseudonymize,[MACHINE_OYW4]
-95,Defect Type,Surface Corrosion,Internal,Keep,Defect Type
-96,Defect Severity,Minor,Restricted,Placeholder Mask,[DEFECT_SEVERITY]
-97,Defect Rate,3.30%,Restricted,Generalize,Placeholder generalized value
-98,Process Parameter,Clamp Force 1120 kN,Restricted,Generalize,Placeholder generalized value
-99,Maintenance Note,Belt tension loss on conveyor drive,Restricted,Generalize,Placeholder generalized value
-100,Root-Cause Note,Spindle speed drifted above tolerance after 450 cycles,Restricted,Generalize,Placeholder generalized value
-101,Corrective Action,Replace tool after 300 cycles,Internal,Generalize,Placeholder generalized value
-102,Shift ID,Shift-C-Swing,Internal,Keep,Shift ID
-103,Operator Name,Alan Torres,Confidential,Placeholder Mask,[OPERATOR_NAME]
-104,Customer/Order Information,Battery Tray Order ORD-54219,Confidential,Block,[BLOCKED]
-105,Image Metadata,"Camera SN 624902, IMG-33416",Restricted,Generalize,Placeholder generalized value
-106,Quality Log ID,QL-2026-008,Restricted,Placeholder Mask,[QUALITY_LOG_ID]
-107,Supplier ID,Supplier-X12,Confidential,Hash Pseudonymize,[SUPPLIER_K1V4]
-108,Batch ID,B-2026-2832,Restricted,Hash Pseudonymize,[BATCH_EZIB]
-109,Machine ID,CNC-Line-08,Restricted,Hash Pseudonymize,[MACHINE_VLUQ]
-110,Defect Type,Thread Stripping,Internal,Keep,Defect Type
-111,Defect Severity,Major,Restricted,Placeholder Mask,[DEFECT_SEVERITY]
-112,Defect Rate,21.70%,Restricted,Generalize,Placeholder generalized value
-113,Process Parameter,Injection Pressure 82 bar,Restricted,Generalize,Placeholder generalized value
-114,Maintenance Note,Spindle vibration exceeded normal range,Restricted,Generalize,Placeholder generalized value
-115,Root-Cause Note,Tool wear exceeded threshold after 300 cycles,Restricted,Generalize,Placeholder generalized value
-116,Corrective Action,Recalibrate robot after 600 cycles,Internal,Generalize,Placeholder generalized value
-117,Shift ID,Shift-C-Swing,Internal,Keep,Shift ID
-118,Operator Name,David Okafor,Confidential,Placeholder Mask,[OPERATOR_NAME]
-119,Customer/Order Information,Bumper Assembly Order ORD-76421,Confidential,Block,[BLOCKED]
-120,Image Metadata,"Camera SN 609597, IMG-19071",Restricted,Generalize,Placeholder generalized value
-121,Quality Log ID,QL-2026-009,Restricted,Placeholder Mask,[QUALITY_LOG_ID]
-122,Supplier ID,Supplier-H16,Confidential,Hash Pseudonymize,[SUPPLIER_VRDC]
-123,Batch ID,B-2026-4295,Restricted,Hash Pseudonymize,[BATCH_ANE3]
-124,Machine ID,CNC-Line-04,Restricted,Hash Pseudonymize,[MACHINE_Y998]
-125,Defect Type,Delamination,Internal,Keep,Defect Type
-126,Defect Severity,Major,Restricted,Placeholder Mask,[DEFECT_SEVERITY]
-127,Defect Rate,21.90%,Restricted,Generalize,Placeholder generalized value
-128,Process Parameter,Paint Booth Temp 24.5 �C,Restricted,Generalize,Placeholder generalized value
-129,Maintenance Note,Lubrication system underperforming on gearbox,Restricted,Generalize,Placeholder generalized value
-130,Root-Cause Note,Spindle speed drifted above tolerance after 450 cycles,Restricted,Generalize,Placeholder generalized value
-131,Corrective Action,Replace fixture clamp seal after 500 cycles,Internal,Generalize,Placeholder generalized value
-132,Shift ID,Shift-A-Day,Internal,Keep,Shift ID
-133,Operator Name,Sandra Okafor,Confidential,Placeholder Mask,[OPERATOR_NAME]
-134,Customer/Order Information,Drivetrain Component Order ORD-43307,Confidential,Block,[BLOCKED]
-135,Image Metadata,"Camera SN 122056, IMG-87110",Restricted,Generalize,Placeholder generalized value
-136,Quality Log ID,QL-2026-010,Restricted,Placeholder Mask,[QUALITY_LOG_ID]
-137,Supplier ID,Supplier-C33,Confidential,Hash Pseudonymize,[SUPPLIER_1NBN]
-138,Batch ID,B-2026-2104,Restricted,Hash Pseudonymize,[BATCH_ORQT]
-139,Machine ID,CNC-Line-01,Restricted,Hash Pseudonymize,[MACHINE_1878]
-140,Defect Type,Thread Stripping,Internal,Keep,Defect Type
-141,Defect Severity,Critical (Safety Hold),Restricted,Placeholder Mask,[DEFECT_SEVERITY]
-142,Defect Rate,7.90%,Restricted,Generalize,Placeholder generalized value
-143,Process Parameter,Torque 18.2 Nm,Restricted,Generalize,Placeholder generalized value
-144,Maintenance Note,Spindle vibration exceeded normal range,Restricted,Generalize,Placeholder generalized value
-145,Root-Cause Note,Die temperature exceeded spec after 250 cycles,Restricted,Generalize,Placeholder generalized value
-146,Corrective Action,Reduce spindle speed after 450 cycles,Internal,Generalize,Placeholder generalized value
-147,Shift ID,Shift-A-Day,Internal,Keep,Shift ID
-148,Operator Name,Renee Petrov,Confidential,Placeholder Mask,[OPERATOR_NAME]
-149,Customer/Order Information,Bumper Assembly Order ORD-76421,Confidential,Block,[BLOCKED]
-150,Image Metadata,"Camera SN 698782, IMG-85525",Restricted,Generalize,Placeholder generalized value
-151,Quality Log ID,QL-2026-011,Restricted,Placeholder Mask,[QUALITY_LOG_ID]
-152,Supplier ID,Supplier-X12,Confidential,Hash Pseudonymize,[SUPPLIER_K1V4]
-153,Batch ID,B-2026-2612,Restricted,Hash Pseudonymize,[BATCH_HJ6H]
-154,Machine ID,Assembly-Line-06,Restricted,Hash Pseudonymize,[MACHINE_15VA]
-155,Defect Type,Surface Scratch,Internal,Keep,Defect Type
-156,Defect Severity,Minor,Restricted,Placeholder Mask,[DEFECT_SEVERITY]
-157,Defect Rate,8.10%,Restricted,Generalize,Placeholder generalized value
-158,Process Parameter,Feed Rate 8.7 mm/s,Restricted,Generalize,Placeholder generalized value
-159,Maintenance Note,Spindle vibration exceeded normal range,Restricted,Generalize,Placeholder generalized value
-160,Root-Cause Note,Robot calibration offset accumulated after 600 cycles,Restricted,Generalize,Placeholder generalized value
-161,Corrective Action,Recalibrate robot after 600 cycles,Internal,Generalize,Placeholder generalized value
-162,Shift ID,Shift-C-Swing,Internal,Keep,Shift ID
-163,Operator Name,Owen Petrov,Confidential,Placeholder Mask,[OPERATOR_NAME]
-164,Customer/Order Information,Suspension Arm Order ORD-32918,Confidential,Block,[BLOCKED]
-165,Image Metadata,"Camera SN 292401, IMG-46509",Restricted,Generalize,Placeholder generalized value
-166,Quality Log ID,QL-2026-012,Restricted,Placeholder Mask,[QUALITY_LOG_ID]
-167,Supplier ID,Supplier-A05,Confidential,Hash Pseudonymize,[SUPPLIER_H8HP]
-168,Batch ID,B-2026-4872,Restricted,Hash Pseudonymize,[BATCH_BNRE]
-169,Machine ID,CNC-Line-01,Restricted,Hash Pseudonymize,[MACHINE_1878]
-170,Defect Type,Weld Porosity,Internal,Keep,Defect Type
-171,Defect Severity,Minor,Restricted,Placeholder Mask,[DEFECT_SEVERITY]
-172,Defect Rate,11.10%,Restricted,Generalize,Placeholder generalized value
-173,Process Parameter,Clamp Force 1120 kN,Restricted,Generalize,Placeholder generalized value
-174,Maintenance Note,Bearing wear observed on spindle assembly,Restricted,Generalize,Placeholder generalized value
-175,Root-Cause Note,Coolant concentration drifted outside spec after 400 cycles,Restricted,Generalize,Placeholder generalized value
-176,Corrective Action,Test material batch viscosity after 200 cycles,Internal,Generalize,Placeholder generalized value
-177,Shift ID,Shift-A-Day,Internal,Keep,Shift ID
-178,Operator Name,Brian Whitfield,Confidential,Placeholder Mask,[OPERATOR_NAME]
-179,Customer/Order Information,Exhaust Manifold Order ORD-43087,Confidential,Block,[BLOCKED]
-180,Image Metadata,"Camera SN 922157, IMG-69638",Restricted,Generalize,Placeholder generalized value
-181,Quality Log ID,QL-2026-013,Restricted,Placeholder Mask,[QUALITY_LOG_ID]
-182,Supplier ID,Supplier-G03,Confidential,Hash Pseudonymize,[SUPPLIER_NN27]
-183,Batch ID,B-2026-3536,Restricted,Hash Pseudonymize,[BATCH_3V7O]
-184,Machine ID,Paint-Booth-01,Restricted,Hash Pseudonymize,[MACHINE_695B]
-185,Defect Type,Paint Overspray,Internal,Keep,Defect Type
-186,Defect Severity,Major,Restricted,Placeholder Mask,[DEFECT_SEVERITY]
-187,Defect Rate,21.30%,Restricted,Generalize,Placeholder generalized value
-188,Process Parameter,Die Temperature 210 �C,Restricted,Generalize,Placeholder generalized value
-189,Maintenance Note,Electrical contact corrosion in control panel,Restricted,Generalize,Placeholder generalized value
-190,Root-Cause Note,Tool wear exceeded threshold after 300 cycles,Restricted,Generalize,Placeholder generalized value
-191,Corrective Action,Recalibrate sensor after 350 cycles,Internal,Generalize,Placeholder generalized value
-192,Shift ID,Shift-A-Day,Internal,Keep,Shift ID
-193,Operator Name,Maria Park,Confidential,Placeholder Mask,[OPERATOR_NAME]
-194,Customer/Order Information,Brake Rotor Order ORD-21764,Confidential,Block,[BLOCKED]
-195,Image Metadata,"Camera SN 627276, IMG-79615",Restricted,Generalize,Placeholder generalized value
-196,Quality Log ID,QL-2026-014,Restricted,Placeholder Mask,[QUALITY_LOG_ID]
-197,Supplier ID,Supplier-A05,Confidential,Hash Pseudonymize,[SUPPLIER_H8HP]
-198,Batch ID,B-2026-4853,Restricted,Hash Pseudonymize,[BATCH_PWZL]
-199,Machine ID,Weld-Robot-03,Restricted,Hash Pseudonymize,[MACHINE_49JT]
-200,Defect Type,Warping,Internal,Keep,Defect Type
-201,Defect Severity,Major,Restricted,Placeholder Mask,[DEFECT_SEVERITY]
-202,Defect Rate,19.70%,Restricted,Generalize,Placeholder generalized value
-203,Process Parameter,Weld Current 145 A,Restricted,Generalize,Placeholder generalized value
-204,Maintenance Note,Alignment shift detected on transfer rail,Restricted,Generalize,Placeholder generalized value
-205,Root-Cause Note,Tool wear exceeded threshold after 300 cycles,Restricted,Generalize,Placeholder generalized value
-206,Corrective Action,Replace fixture clamp seal after 500 cycles,Internal,Generalize,Placeholder generalized value
-207,Shift ID,Shift-B-Night,Internal,Keep,Shift ID
-208,Operator Name,Diane Park,Confidential,Placeholder Mask,[OPERATOR_NAME]
-209,Customer/Order Information,Seat Frame Order ORD-98204,Confidential,Block,[BLOCKED]
-210,Image Metadata,"Camera SN 648177, IMG-51467",Restricted,Generalize,Placeholder generalized value
-211,Quality Log ID,QL-2026-015,Restricted,Placeholder Mask,[QUALITY_LOG_ID]
-212,Supplier ID,Supplier-A05,Confidential,Hash Pseudonymize,[SUPPLIER_H8HP]
-213,Batch ID,B-2026-1152,Restricted,Hash Pseudonymize,[BATCH_6NDG]
-214,Machine ID,Stamping-Press-03,Restricted,Hash Pseudonymize,[MACHINE_3SQH]
-215,Defect Type,Contamination,Internal,Keep,Defect Type
-216,Defect Severity,Minor,Restricted,Placeholder Mask,[DEFECT_SEVERITY]
-217,Defect Rate,12.80%,Restricted,Generalize,Placeholder generalized value
-218,Process Parameter,Feed Rate 8.7 mm/s,Restricted,Generalize,Placeholder generalized value
-219,Maintenance Note,Coolant leak detected at pump seal,Restricted,Generalize,Placeholder generalized value
-220,Root-Cause Note,Robot calibration offset accumulated after 600 cycles,Restricted,Generalize,Placeholder generalized value
-221,Corrective Action,Reduce die temperature after 250 cycles,Internal,Generalize,Placeholder generalized value
-222,Shift ID,Shift-A-Day,Internal,Keep,Shift ID
-223,Operator Name,Rosa Larsen,Confidential,Placeholder Mask,[OPERATOR_NAME]
-224,Customer/Order Information,Exhaust Manifold Order ORD-43087,Confidential,Block,[BLOCKED]
-225,Image Metadata,"Camera SN 172132, IMG-42018",Restricted,Generalize,Placeholder generalized value
-226,Quality Log ID,QL-2026-016,Restricted,Placeholder Mask,[QUALITY_LOG_ID]
-227,Supplier ID,Supplier-H16,Confidential,Hash Pseudonymize,[SUPPLIER_VRDC]
-228,Batch ID,B-2026-5905,Restricted,Hash Pseudonymize,[BATCH_79SJ]
-229,Machine ID,Injection-Molder-02,Restricted,Hash Pseudonymize,[MACHINE_HB5V]
-230,Defect Type,Thread Stripping,Internal,Keep,Defect Type
-231,Defect Severity,Minor,Restricted,Placeholder Mask,[DEFECT_SEVERITY]
-232,Defect Rate,20.70%,Restricted,Generalize,Placeholder generalized value
-233,Process Parameter,Spindle Speed 3200 rpm,Restricted,Generalize,Placeholder generalized value
-234,Maintenance Note,Hydraulic pressure drop in clamp cylinder,Restricted,Generalize,Placeholder generalized value
-235,Root-Cause Note,Fixture clamp pressure fell below spec after 500 cycles,Restricted,Generalize,Placeholder generalized value
-236,Corrective Action,Replace fixture clamp seal after 500 cycles,Internal,Generalize,Placeholder generalized value
-237,Shift ID,Shift-C-Swing,Internal,Keep,Shift ID
-238,Operator Name,Renee Petrov,Confidential,Placeholder Mask,[OPERATOR_NAME]
-239,Customer/Order Information,Battery Tray Order ORD-54219,Confidential,Block,[BLOCKED]
-240,Image Metadata,"Camera SN 395442, IMG-89276",Restricted,Generalize,Placeholder generalized value
-241,Quality Log ID,QL-2026-017,Restricted,Placeholder Mask,[QUALITY_LOG_ID]
-242,Supplier ID,Supplier-F44,Confidential,Hash Pseudonymize,[SUPPLIER_6YFC]
-243,Batch ID,B-2026-5533,Restricted,Hash Pseudonymize,[BATCH_SGCY]
-244,Machine ID,Paint-Booth-01,Restricted,Hash Pseudonymize,[MACHINE_695B]
-245,Defect Type,Surface Scratch,Internal,Keep,Defect Type
-246,Defect Severity,Critical (Safety Hold),Restricted,Placeholder Mask,[DEFECT_SEVERITY]
-247,Defect Rate,17.20%,Restricted,Generalize,Placeholder generalized value
-248,Process Parameter,Injection Pressure 82 bar,Restricted,Generalize,Placeholder generalized value
-249,Maintenance Note,Belt tension loss on conveyor drive,Restricted,Generalize,Placeholder generalized value
-250,Root-Cause Note,Spindle speed drifted above tolerance after 450 cycles,Restricted,Generalize,Placeholder generalized value
-251,Corrective Action,Test material batch viscosity after 200 cycles,Internal,Generalize,Placeholder generalized value
-252,Shift ID,Shift-C-Swing,Internal,Keep,Shift ID
-253,Operator Name,Joseph Reyes,Confidential,Placeholder Mask,[OPERATOR_NAME]
-254,Customer/Order Information,EV Motor Housing Order ORD-88123,Confidential,Block,[BLOCKED]
-255,Image Metadata,"Camera SN 824586, IMG-29536",Restricted,Generalize,Placeholder generalized value
-256,Quality Log ID,QL-2026-018,Restricted,Placeholder Mask,[QUALITY_LOG_ID]
-257,Supplier ID,Supplier-X12,Confidential,Hash Pseudonymize,[SUPPLIER_K1V4]
-258,Batch ID,B-2026-6862,Restricted,Hash Pseudonymize,[BATCH_4QWD]
-259,Machine ID,Injection-Molder-02,Restricted,Hash Pseudonymize,[MACHINE_HB5V]
-260,Defect Type,Paint Overspray,Internal,Keep,Defect Type
-261,Defect Severity,Minor,Restricted,Placeholder Mask,[DEFECT_SEVERITY]
-262,Defect Rate,15.00%,Restricted,Generalize,Placeholder generalized value
-263,Process Parameter,Paint Booth Temp 24.5 �C,Restricted,Generalize,Placeholder generalized value
-264,Maintenance Note,Electrical contact corrosion in control panel,Restricted,Generalize,Placeholder generalized value
-265,Root-Cause Note,Material batch viscosity varied after 200 cycles,Restricted,Generalize,Placeholder generalized value
-266,Corrective Action,Adjust coolant concentration after 400 cycles,Internal,Generalize,Placeholder generalized value
-267,Shift ID,Shift-A-Day,Internal,Keep,Shift ID
-268,Operator Name,Wendy Kim,Confidential,Placeholder Mask,[OPERATOR_NAME]
-269,Customer/Order Information,Wiring Harness Order ORD-65310,Confidential,Block,[BLOCKED]
-270,Image Metadata,"Camera SN 950155, IMG-33206",Restricted,Generalize,Placeholder generalized value
-271,Quality Log ID,QL-2026-019,Restricted,Placeholder Mask,[QUALITY_LOG_ID]
-272,Supplier ID,Supplier-C33,Confidential,Hash Pseudonymize,[SUPPLIER_1NBN]
-273,Batch ID,B-2026-5371,Restricted,Hash Pseudonymize,[BATCH_DNN1]
-274,Machine ID,CNC-Line-07,Restricted,Hash Pseudonymize,[MACHINE_6ST1]
-275,Defect Type,Weld Porosity,Internal,Keep,Defect Type
-276,Defect Severity,Minor,Restricted,Placeholder Mask,[DEFECT_SEVERITY]
-277,Defect Rate,3.30%,Restricted,Generalize,Placeholder generalized value
-278,Process Parameter,Feed Rate 12.4 mm/s,Restricted,Generalize,Placeholder generalized value
-279,Maintenance Note,Lubrication system underperforming on gearbox,Restricted,Generalize,Placeholder generalized value
-280,Root-Cause Note,Robot calibration offset accumulated after 600 cycles,Restricted,Generalize,Placeholder generalized value
-281,Corrective Action,Recalibrate robot after 600 cycles,Internal,Generalize,Placeholder generalized value
-282,Shift ID,Shift-B-Night,Internal,Keep,Shift ID
-283,Operator Name,Emily Choi,Confidential,Placeholder Mask,[OPERATOR_NAME]
-284,Customer/Order Information,Fuel Rail Order ORD-54198,Confidential,Block,[BLOCKED]
-285,Image Metadata,"Camera SN 933980, IMG-39831",Restricted,Generalize,Placeholder generalized value
-286,Quality Log ID,QL-2026-020,Restricted,Placeholder Mask,[QUALITY_LOG_ID]
-287,Supplier ID,Supplier-D07,Confidential,Hash Pseudonymize,[SUPPLIER_50J4]
-288,Batch ID,B-2026-6753,Restricted,Hash Pseudonymize,[BATCH_5H68]
-289,Machine ID,CNC-Line-02,Restricted,Hash Pseudonymize,[MACHINE_OYW4]
-290,Defect Type,Discoloration,Internal,Keep,Defect Type
-291,Defect Severity,Minor,Restricted,Placeholder Mask,[DEFECT_SEVERITY]
-292,Defect Rate,15.30%,Restricted,Generalize,Placeholder generalized value
-293,Process Parameter,Torque 18.2 Nm,Restricted,Generalize,Placeholder generalized value
-294,Maintenance Note,Sensor calibration drift on inline gauge,Restricted,Generalize,Placeholder generalized value
-295,Root-Cause Note,Tool wear exceeded threshold after 300 cycles,Restricted,Generalize,Placeholder generalized value
-296,Corrective Action,Replace fixture clamp seal after 500 cycles,Internal,Generalize,Placeholder generalized value
-297,Shift ID,Shift-B-Night,Internal,Keep,Shift ID
-298,Operator Name,Priya Park,Confidential,Placeholder Mask,[OPERATOR_NAME]
-299,Customer/Order Information,Battery Tray Order ORD-54219,Confidential,Block,[BLOCKED]
-300,Image Metadata,"Camera SN 140115, IMG-24208",Restricted,Generalize,Placeholder generalized value
-301,Quality Log ID,QL-2026-021,Restricted,Placeholder Mask,[QUALITY_LOG_ID]
-302,Supplier ID,Supplier-F44,Confidential,Hash Pseudonymize,[SUPPLIER_6YFC]
-303,Batch ID,B-2026-1027,Restricted,Hash Pseudonymize,[BATCH_6GSW]
-304,Machine ID,CNC-Line-01,Restricted,Hash Pseudonymize,[MACHINE_1878]
-305,Defect Type,Misalignment,Internal,Keep,Defect Type
-306,Defect Severity,Cosmetic Only,Restricted,Placeholder Mask,[DEFECT_SEVERITY]
-307,Defect Rate,12.30%,Restricted,Generalize,Placeholder generalized value
-308,Process Parameter,Weld Current 145 A,Restricted,Generalize,Placeholder generalized value
-309,Maintenance Note,Sensor calibration drift on inline gauge,Restricted,Generalize,Placeholder generalized value
-310,Root-Cause Note,Material batch viscosity varied after 200 cycles,Restricted,Generalize,Placeholder generalized value
-311,Corrective Action,Replace fixture clamp seal after 500 cycles,Internal,Generalize,Placeholder generalized value
-312,Shift ID,Shift-C-Swing,Internal,Keep,Shift ID
-313,Operator Name,Rosa Duarte,Confidential,Placeholder Mask,[OPERATOR_NAME]
-314,Customer/Order Information,Seat Frame Order ORD-98204,Confidential,Block,[BLOCKED]
-315,Image Metadata,"Camera SN 429164, IMG-96951",Restricted,Generalize,Placeholder generalized value
-316,Quality Log ID,QL-2026-022,Restricted,Placeholder Mask,[QUALITY_LOG_ID]
-317,Supplier ID,Supplier-E21,Confidential,Hash Pseudonymize,[SUPPLIER_QC9B]
-318,Batch ID,B-2026-7592,Restricted,Hash Pseudonymize,[BATCH_NIEU]
-319,Machine ID,CNC-Line-07,Restricted,Hash Pseudonymize,[MACHINE_6ST1]
-320,Defect Type,Delamination,Internal,Keep,Defect Type
-321,Defect Severity,Major,Restricted,Placeholder Mask,[DEFECT_SEVERITY]
-322,Defect Rate,3.70%,Restricted,Generalize,Placeholder generalized value
-323,Process Parameter,Clamp Force 1120 kN,Restricted,Generalize,Placeholder generalized value
-324,Maintenance Note,Weld tip degradation after extended use,Restricted,Generalize,Placeholder generalized value
-325,Root-Cause Note,Coolant concentration drifted outside spec after 400 cycles,Restricted,Generalize,Placeholder generalized value
-326,Corrective Action,Reduce die temperature after 250 cycles,Internal,Generalize,Placeholder generalized value
-327,Shift ID,Shift-B-Night,Internal,Keep,Shift ID
-328,Operator Name,Renee Yilmaz,Confidential,Placeholder Mask,[OPERATOR_NAME]
-329,Customer/Order Information,Ultium Battery Order ORD-99111,Confidential,Block,[BLOCKED]
-330,Image Metadata,"Camera SN 418635, IMG-47606",Restricted,Generalize,Placeholder generalized value
-331,Quality Log ID,QL-2026-023,Restricted,Placeholder Mask,[QUALITY_LOG_ID]
-332,Supplier ID,Supplier-G03,Confidential,Hash Pseudonymize,[SUPPLIER_NN27]
-333,Batch ID,B-2026-4501,Restricted,Hash Pseudonymize,[BATCH_5GWB]
-334,Machine ID,CNC-Line-08,Restricted,Hash Pseudonymize,[MACHINE_VLUQ]
-335,Defect Type,Misalignment,Internal,Keep,Defect Type
-336,Defect Severity,Minor,Restricted,Placeholder Mask,[DEFECT_SEVERITY]
-337,Defect Rate,19.90%,Restricted,Generalize,Placeholder generalized value
-338,Process Parameter,Spindle Speed 3200 rpm,Restricted,Generalize,Placeholder generalized value
-339,Maintenance Note,Coolant leak detected at pump seal,Restricted,Generalize,Placeholder generalized value
-340,Root-Cause Note,Die temperature exceeded spec after 250 cycles,Restricted,Generalize,Placeholder generalized value
-341,Corrective Action,Recalibrate sensor after 350 cycles,Internal,Generalize,Placeholder generalized value
-342,Shift ID,Shift-A-Day,Internal,Keep,Shift ID
-343,Operator Name,Derek Hudson,Confidential,Placeholder Mask,[OPERATOR_NAME]
-344,Customer/Order Information,Chassis Frame Order ORD-65552,Confidential,Block,[BLOCKED]
-345,Image Metadata,"Camera SN 805477, IMG-50687",Restricted,Generalize,Placeholder generalized value
-346,Quality Log ID,QL-2026-024,Restricted,Placeholder Mask,[QUALITY_LOG_ID]
-347,Supplier ID,Supplier-J28,Confidential,Hash Pseudonymize,[SUPPLIER_3NVL]
-348,Batch ID,B-2026-2193,Restricted,Hash Pseudonymize,[BATCH_PNFS]
-349,Machine ID,CNC-Line-08,Restricted,Hash Pseudonymize,[MACHINE_VLUQ]
-350,Defect Type,Contamination,Internal,Keep,Defect Type
-351,Defect Severity,Minor,Restricted,Placeholder Mask,[DEFECT_SEVERITY]
-352,Defect Rate,14.20%,Restricted,Generalize,Placeholder generalized value
-353,Process Parameter,Weld Current 145 A,Restricted,Generalize,Placeholder generalized value
-354,Maintenance Note,Weld tip degradation after extended use,Restricted,Generalize,Placeholder generalized value
-355,Root-Cause Note,Spindle speed drifted above tolerance after 450 cycles,Restricted,Generalize,Placeholder generalized value
-356,Corrective Action,Test material batch viscosity after 200 cycles,Internal,Generalize,Placeholder generalized value
-357,Shift ID,Shift-A-Day,Internal,Keep,Shift ID
-358,Operator Name,Kevin Ibarra,Confidential,Placeholder Mask,[OPERATOR_NAME]
-359,Customer/Order Information,Bumper Assembly Order ORD-76421,Confidential,Block,[BLOCKED]
-360,Image Metadata,"Camera SN 105814, IMG-23970",Restricted,Generalize,Placeholder generalized value
-361,Quality Log ID,QL-2026-025,Restricted,Placeholder Mask,[QUALITY_LOG_ID]
-362,Supplier ID,Supplier-G03,Confidential,Hash Pseudonymize,[SUPPLIER_NN27]
-363,Batch ID,B-2026-9702,Restricted,Hash Pseudonymize,[BATCH_SAVW]
-364,Machine ID,CNC-Line-03,Restricted,Hash Pseudonymize,[MACHINE_5XMZ]
-365,Defect Type,Misalignment,Internal,Keep,Defect Type
-366,Defect Severity,Minor,Restricted,Placeholder Mask,[DEFECT_SEVERITY]
-367,Defect Rate,21.00%,Restricted,Generalize,Placeholder generalized value
-368,Process Parameter,Cure Time 45 s,Restricted,Generalize,Placeholder generalized value
-369,Maintenance Note,Alignment shift detected on transfer rail,Restricted,Generalize,Placeholder generalized value
-370,Root-Cause Note,Material batch viscosity varied after 200 cycles,Restricted,Generalize,Placeholder generalized value
-371,Corrective Action,Reduce spindle speed after 450 cycles,Internal,Generalize,Placeholder generalized value
-372,Shift ID,Shift-A-Day,Internal,Keep,Shift ID
-373,Operator Name,Vivian Osei,Confidential,Placeholder Mask,[OPERATOR_NAME]
-374,Customer/Order Information,Brake Rotor Order ORD-21764,Confidential,Block,[BLOCKED]
-375,Image Metadata,"Camera SN 571932, IMG-43972",Restricted,Generalize,Placeholder generalized value
-376,Quality Log ID,QL-2026-026,Restricted,Placeholder Mask,[QUALITY_LOG_ID]
-377,Supplier ID,Supplier-C33,Confidential,Hash Pseudonymize,[SUPPLIER_1NBN]
-378,Batch ID,B-2026-5499,Restricted,Hash Pseudonymize,[BATCH_HMT5]
-379,Machine ID,CNC-Line-08,Restricted,Hash Pseudonymize,[MACHINE_VLUQ]
-380,Defect Type,Contamination,Internal,Keep,Defect Type
-381,Defect Severity,Critical (Safety Hold),Restricted,Placeholder Mask,[DEFECT_SEVERITY]
-382,Defect Rate,7.00%,Restricted,Generalize,Placeholder generalized value
-383,Process Parameter,Injection Pressure 82 bar,Restricted,Generalize,Placeholder generalized value
-384,Maintenance Note,Sensor calibration drift on inline gauge,Restricted,Generalize,Placeholder generalized value
-385,Root-Cause Note,Sensor threshold miscalibrated after 350 cycles,Restricted,Generalize,Placeholder generalized value
-386,Corrective Action,Replace fixture clamp seal after 500 cycles,Internal,Generalize,Placeholder generalized value
-387,Shift ID,Shift-A-Day,Internal,Keep,Shift ID
-388,Operator Name,Kevin Boyd,Confidential,Placeholder Mask,[OPERATOR_NAME]
-389,Customer/Order Information,Suspension Arm Order ORD-32918,Confidential,Block,[BLOCKED]
-390,Image Metadata,"Camera SN 827659, IMG-30028",Restricted,Generalize,Placeholder generalized value
-391,Quality Log ID,QL-2026-027,Restricted,Placeholder Mask,[QUALITY_LOG_ID]
-392,Supplier ID,Supplier-X12,Confidential,Hash Pseudonymize,[SUPPLIER_K1V4]
-393,Batch ID,B-2026-4388,Restricted,Hash Pseudonymize,[BATCH_91SS]
-394,Machine ID,CNC-Line-07,Restricted,Hash Pseudonymize,[MACHINE_6ST1]
-395,Defect Type,Voltage Anomaly,Internal,Keep,Defect Type
-396,Defect Severity,Minor,Restricted,Placeholder Mask,[DEFECT_SEVERITY]
-397,Defect Rate,20.00%,Restricted,Generalize,Placeholder generalized value
-398,Process Parameter,Die Temperature 210 �C,Restricted,Generalize,Placeholder generalized value
-399,Maintenance Note,Bearing wear observed on spindle assembly,Restricted,Generalize,Placeholder generalized value
-400,Root-Cause Note,Material batch viscosity varied after 200 cycles,Restricted,Generalize,Placeholder generalized value
-401,Corrective Action,Reduce spindle speed after 450 cycles,Internal,Generalize,Placeholder generalized value
-402,Shift ID,Shift-A-Day,Internal,Keep,Shift ID
-403,Operator Name,Emily Choi,Confidential,Placeholder Mask,[OPERATOR_NAME]
-404,Customer/Order Information,Wiring Harness Order ORD-65310,Confidential,Block,[BLOCKED]
-405,Image Metadata,"Camera SN 508930, IMG-64921",Restricted,Generalize,Placeholder generalized value
-406,Quality Log ID,QL-2026-028,Restricted,Placeholder Mask,[QUALITY_LOG_ID]
-407,Supplier ID,Supplier-C33,Confidential,Hash Pseudonymize,[SUPPLIER_1NBN]
-408,Batch ID,B-2026-5471,Restricted,Hash Pseudonymize,[BATCH_DIDP]
-409,Machine ID,CNC-Line-08,Restricted,Hash Pseudonymize,[MACHINE_VLUQ]
-410,Defect Type,Warping,Internal,Keep,Defect Type
-411,Defect Severity,Minor,Restricted,Placeholder Mask,[DEFECT_SEVERITY]
-412,Defect Rate,9.20%,Restricted,Generalize,Placeholder generalized value
-413,Process Parameter,Clamp Force 1120 kN,Restricted,Generalize,Placeholder generalized value
-414,Maintenance Note,Belt tension loss on conveyor drive,Restricted,Generalize,Placeholder generalized value
-415,Root-Cause Note,Spindle speed drifted above tolerance after 450 cycles,Restricted,Generalize,Placeholder generalized value
-416,Corrective Action,Adjust coolant concentration after 400 cycles,Internal,Generalize,Placeholder generalized value
-417,Shift ID,Shift-C-Swing,Internal,Keep,Shift ID
-418,Operator Name,Renee Cree,Confidential,Placeholder Mask,[OPERATOR_NAME]
-419,Customer/Order Information,Exhaust Manifold Order ORD-43087,Confidential,Block,[BLOCKED]
-420,Image Metadata,"Camera SN 513160, IMG-87580",Restricted,Generalize,Placeholder generalized value
-421,Quality Log ID,QL-2026-029,Restricted,Placeholder Mask,[QUALITY_LOG_ID]
-422,Supplier ID,Supplier-B19,Confidential,Hash Pseudonymize,[SUPPLIER_10MQ]
-423,Batch ID,B-2026-1823,Restricted,Hash Pseudonymize,[BATCH_J9RL]
-424,Machine ID,CNC-Line-08,Restricted,Hash Pseudonymize,[MACHINE_VLUQ]
-425,Defect Type,Missing Fastener,Internal,Keep,Defect Type
-426,Defect Severity,Major,Restricted,Placeholder Mask,[DEFECT_SEVERITY]
-427,Defect Rate,5.40%,Restricted,Generalize,Placeholder generalized value
-428,Process Parameter,Paint Booth Temp 24.5 �C,Restricted,Generalize,Placeholder generalized value
-429,Maintenance Note,Sensor calibration drift on inline gauge,Restricted,Generalize,Placeholder generalized value
-430,Root-Cause Note,Material batch viscosity varied after 200 cycles,Restricted,Generalize,Placeholder generalized value
-431,Corrective Action,Reduce die temperature after 250 cycles,Internal,Generalize,Placeholder generalized value
-432,Shift ID,Shift-B-Night,Internal,Keep,Shift ID
-433,Operator Name,Trevor Yilmaz,Confidential,Placeholder Mask,[OPERATOR_NAME]
-434,Customer/Order Information,EV Motor Housing Order ORD-88123,Confidential,Block,[BLOCKED]
-435,Image Metadata,"Camera SN 593152, IMG-12540",Restricted,Generalize,Placeholder generalized value
-436,Quality Log ID,QL-2026-030,Restricted,Placeholder Mask,[QUALITY_LOG_ID]
-437,Supplier ID,Supplier-C33,Confidential,Hash Pseudonymize,[SUPPLIER_1NBN]
-438,Batch ID,B-2026-1333,Restricted,Hash Pseudonymize,[BATCH_MKM5]
-439,Machine ID,CNC-Line-04,Restricted,Hash Pseudonymize,[MACHINE_Y998]
-440,Defect Type,Burr Edge,Internal,Keep,Defect Type
-441,Defect Severity,Major,Restricted,Placeholder Mask,[DEFECT_SEVERITY]
-442,Defect Rate,3.70%,Restricted,Generalize,Placeholder generalized value
-443,Process Parameter,Feed Rate 8.7 mm/s,Restricted,Generalize,Placeholder generalized value
-444,Maintenance Note,Alignment shift detected on transfer rail,Restricted,Generalize,Placeholder generalized value
-445,Root-Cause Note,Robot calibration offset accumulated after 600 cycles,Restricted,Generalize,Placeholder generalized value
-446,Corrective Action,Reduce spindle speed after 450 cycles,Internal,Generalize,Placeholder generalized value
-447,Shift ID,Shift-C-Swing,Internal,Keep,Shift ID
-448,Operator Name,Trevor Hudson,Confidential,Placeholder Mask,[OPERATOR_NAME]
-449,Customer/Order Information,Drivetrain Component Order ORD-43307,Confidential,Block,[BLOCKED]
-450,Image Metadata,"Camera SN 275939, IMG-89415",Restricted,Generalize,Placeholder generalized value
+27,Operator Name,Emily Choi,Confidential,Placeholder Mask,[OPERATOR_NAME]
+27,Customer/Order Information,Wiring Harness Order ORD-65310,Confidential,Block,[BLOCKED]
+27,Image Metadata,"Camera SN 508930, IMG-64921",Restricted,Generalize,Placeholder generalized value
+28,Quality Log ID,QL-2026-028,Restricted,Placeholder Mask,[QUALITY_LOG_ID]
+28,Supplier ID,Supplier-C33,Confidential,Hash Pseudonymize,[SUPPLIER_1NBN]
+28,Batch ID,B-2026-5471,Restricted,Hash Pseudonymize,[BATCH_DIDP]
+28,Machine ID,CNC-Line-08,Restricted,Hash Pseudonymize,[MACHINE_VLUQ]
+28,Defect Type,Warping,Internal,Keep,Defect Type
+28,Defect Severity,Minor,Restricted,Placeholder Mask,[DEFECT_SEVERITY]
+28,Defect Rate,9.20%,Restricted,Generalize,Placeholder generalized value
+28,Process Parameter,Clamp Force 1120 kN,Restricted,Generalize,Placeholder generalized value
+28,Maintenance Note,Belt tension loss on conveyor drive,Restricted,Generalize,Placeholder generalized value
+28,Root-Cause Note,Spindle speed drifted above tolerance after 450 cycles,Restricted,Generalize,Placeholder generalized value
+28,Corrective Action,Adjust coolant concentration after 400 cycles,Internal,Generalize,Placeholder generalized value
+28,Shift ID,Shift-C-Swing,Internal,Keep,Shift ID
+28,Operator Name,Renee Cree,Confidential,Placeholder Mask,[OPERATOR_NAME]
+28,Customer/Order Information,Exhaust Manifold Order ORD-43087,Confidential,Block,[BLOCKED]
+28,Image Metadata,"Camera SN 513160, IMG-87580",Restricted,Generalize,Placeholder generalized value
+29,Quality Log ID,QL-2026-029,Restricted,Placeholder Mask,[QUALITY_LOG_ID]
+29,Supplier ID,Supplier-B19,Confidential,Hash Pseudonymize,[SUPPLIER_10MQ]
+29,Batch ID,B-2026-1823,Restricted,Hash Pseudonymize,[BATCH_J9RL]
+29,Machine ID,CNC-Line-08,Restricted,Hash Pseudonymize,[MACHINE_VLUQ]
+29,Defect Type,Missing Fastener,Internal,Keep,Defect Type
+29,Defect Severity,Major,Restricted,Placeholder Mask,[DEFECT_SEVERITY]
+29,Defect Rate,5.40%,Restricted,Generalize,Placeholder generalized value
+29,Process Parameter,Paint Booth Temp 24.5 �C,Restricted,Generalize,Placeholder generalized value
+29,Maintenance Note,Sensor calibration drift on inline gauge,Restricted,Generalize,Placeholder generalized value
+29,Root-Cause Note,Material batch viscosity varied after 200 cycles,Restricted,Generalize,Placeholder generalized value
+29,Corrective Action,Reduce die temperature after 250 cycles,Internal,Generalize,Placeholder generalized value
+29,Shift ID,Shift-B-Night,Internal,Keep,Shift ID
+29,Operator Name,Trevor Yilmaz,Confidential,Placeholder Mask,[OPERATOR_NAME]
+29,Customer/Order Information,EV Motor Housing Order ORD-88123,Confidential,Block,[BLOCKED]
+29,Image Metadata,"Camera SN 593152, IMG-12540",Restricted,Generalize,Placeholder generalized value
+30,Quality Log ID,QL-2026-030,Restricted,Placeholder Mask,[QUALITY_LOG_ID]
+30,Supplier ID,Supplier-C33,Confidential,Hash Pseudonymize,[SUPPLIER_1NBN]
+30,Batch ID,B-2026-1333,Restricted,Hash Pseudonymize,[BATCH_MKM5]
+30,Machine ID,CNC-Line-04,Restricted,Hash Pseudonymize,[MACHINE_Y998]
+30,Defect Type,Burr Edge,Internal,Keep,Defect Type
+30,Defect Severity,Major,Restricted,Placeholder Mask,[DEFECT_SEVERITY]
+30,Defect Rate,3.70%,Restricted,Generalize,Placeholder generalized value
+30,Process Parameter,Feed Rate 8.7 mm/s,Restricted,Generalize,Placeholder generalized value
+30,Maintenance Note,Alignment shift detected on transfer rail,Restricted,Generalize,Placeholder generalized value
+30,Root-Cause Note,Robot calibration offset accumulated after 600 cycles,Restricted,Generalize,Placeholder generalized value
+30,Corrective Action,Reduce spindle speed after 450 cycles,Internal,Generalize,Placeholder generalized value
+30,Shift ID,Shift-C-Swing,Internal,Keep,Shift ID
+30,Operator Name,Trevor Hudson,Confidential,Placeholder Mask,[OPERATOR_NAME]
+30,Customer/Order Information,Drivetrain Component Order ORD-43307,Confidential,Block,[BLOCKED]
+30,Image Metadata,"Camera SN 275939, IMG-89415",Restricted,Generalize,Placeholder generalized value
