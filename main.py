@@ -2,6 +2,7 @@ import input
 import output
 import masking
 """
+    Record
     0 - Record ID
     1 - Field
     2 - Raw Value
@@ -34,8 +35,15 @@ def main() -> None:
             blocked_mapping.append([record[0], record[1], record[2]])
             masking.mask_data(record)
 
-    output.output_protected_records(records)
     output.output_pseudonym_records(pseudonym_mapping)
     output.output_blocked_records(blocked_mapping)
+
+    # Here I'm adjusting the outputted records to match with the pseudonym_mapping table.
+    for record in records:
+        for psuedo_record in pseudonym_mapping:
+            if psuedo_record[0] == record[2]:
+                record[5] = psuedo_record[2]
+    output.output_protected_records(records)
+    
 if __name__ == "__main__":
     main()
