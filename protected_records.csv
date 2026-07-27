@@ -53,8 +53,8 @@ Record ID,Field,Raw Value,Sensitivity Label,Protection Action,Protected Record
 4,Defect Rate,6.80%,Restricted,Generalize,5-10%
 4,Process Parameter,Paint Booth Temp 24.5 °C,Restricted,Generalize,20-25 °C
 4,Maintenance Note,Belt tension loss on conveyor drive,Restricted,Generalize,Conveyer error observed
-4,Root-Cause Note,Sensor threshold miscalibrated after 350 cycles,Restricted,Generalize,Calibration issue observed
-4,Corrective Action,Recalibrate sensor after 350 cycles,Internal,Generalize,Calibration issue observed
+4,Root-Cause Note,Sensor threshold miscalibrated after 350 cycles,Restricted,Generalize,Calibration error observed
+4,Corrective Action,Recalibrate sensor after 350 cycles,Internal,Generalize,Calibration error observed
 4,Shift ID,Shift-A-Day,Internal,Keep,Shift ID
 4,Operator Name,Diane Whitfield,Confidential,Placeholder Mask,[OPERATOR_NAME]
 4,Customer/Order Information,Bumper Assembly Order ORD-76421,Confidential,Block,[BLOCKED]
@@ -69,7 +69,7 @@ Record ID,Field,Raw Value,Sensitivity Label,Protection Action,Protected Record
 5,Process Parameter,Clamp Force 1120 kN,Restricted,Generalize,1100-1200 kN
 5,Maintenance Note,Hydraulic pressure drop in clamp cylinder,Restricted,Generalize,Pressure error observed
 5,Root-Cause Note,Fixture clamp pressure fell below spec after 500 cycles,Restricted,Generalize,Pressure error observed
-5,Corrective Action,Recalibrate robot after 600 cycles,Internal,Generalize,Calibration issue observed
+5,Corrective Action,Recalibrate robot after 600 cycles,Internal,Generalize,Calibration error observed
 5,Shift ID,Shift-C-Swing,Internal,Keep,Shift ID
 5,Operator Name,Alan Castillo,Confidential,Placeholder Mask,[OPERATOR_NAME]
 5,Customer/Order Information,Drivetrain Component Order ORD-43307,Confidential,Block,[BLOCKED]
@@ -83,8 +83,8 @@ Record ID,Field,Raw Value,Sensitivity Label,Protection Action,Protected Record
 6,Defect Rate,10.00%,Restricted,Generalize,5-10%
 6,Process Parameter,Die Temperature 210 °C,Restricted,Generalize,200-250 °C
 6,Maintenance Note,Weld tip degradation after extended use,Restricted,Generalize,Weld error observed
-6,Root-Cause Note,Sensor threshold miscalibrated after 350 cycles,Restricted,Generalize,Calibration issue observed
-6,Corrective Action,Recalibrate robot after 600 cycles,Internal,Generalize,Calibration issue observed
+6,Root-Cause Note,Sensor threshold miscalibrated after 350 cycles,Restricted,Generalize,Calibration error observed
+6,Corrective Action,Recalibrate robot after 600 cycles,Internal,Generalize,Calibration error observed
 6,Shift ID,Shift-A-Day,Internal,Keep,Shift ID
 6,Operator Name,Felix Novak,Confidential,Placeholder Mask,[OPERATOR_NAME]
 6,Customer/Order Information,EV Motor Housing Order ORD-88123,Confidential,Block,[BLOCKED]
@@ -114,7 +114,7 @@ Record ID,Field,Raw Value,Sensitivity Label,Protection Action,Protected Record
 8,Process Parameter,Injection Pressure 82 bar,Restricted,Generalize,80-85 bar
 8,Maintenance Note,Spindle vibration exceeded normal range,Restricted,Generalize,Spindle error observed
 8,Root-Cause Note,Tool wear exceeded threshold after 300 cycles,Restricted,Generalize,Mechanical wear observed
-8,Corrective Action,Recalibrate robot after 600 cycles,Internal,Generalize,Calibration issue observed
+8,Corrective Action,Recalibrate robot after 600 cycles,Internal,Generalize,Calibration error observed
 8,Shift ID,Shift-C-Swing,Internal,Keep,Shift ID
 8,Operator Name,David Okafor,Confidential,Placeholder Mask,[OPERATOR_NAME]
 8,Customer/Order Information,Bumper Assembly Order ORD-76421,Confidential,Block,[BLOCKED]
@@ -158,8 +158,8 @@ Record ID,Field,Raw Value,Sensitivity Label,Protection Action,Protected Record
 11,Defect Rate,8.10%,Restricted,Generalize,5-10%
 11,Process Parameter,Feed Rate 8.7 mm/s,Restricted,Generalize,5-10 mm/s
 11,Maintenance Note,Spindle vibration exceeded normal range,Restricted,Generalize,Spindle error observed
-11,Root-Cause Note,Robot calibration offset accumulated after 600 cycles,Restricted,Generalize,Calibration issue observed
-11,Corrective Action,Recalibrate robot after 600 cycles,Internal,Generalize,Calibration issue observed
+11,Root-Cause Note,Robot calibration offset accumulated after 600 cycles,Restricted,Generalize,Calibration error observed
+11,Corrective Action,Recalibrate robot after 600 cycles,Internal,Generalize,Calibration error observed
 11,Shift ID,Shift-C-Swing,Internal,Keep,Shift ID
 11,Operator Name,Owen Petrov,Confidential,Placeholder Mask,[OPERATOR_NAME]
 11,Customer/Order Information,Suspension Arm Order ORD-32918,Confidential,Block,[BLOCKED]
@@ -173,7 +173,7 @@ Record ID,Field,Raw Value,Sensitivity Label,Protection Action,Protected Record
 12,Defect Rate,11.10%,Restricted,Generalize,10-15%
 12,Process Parameter,Clamp Force 1120 kN,Restricted,Generalize,1100-1200 kN
 12,Maintenance Note,Bearing wear observed on spindle assembly,Restricted,Generalize,Spindle error observed
-12,Root-Cause Note,Coolant concentration drifted outside spec after 400 cycles,Restricted,Generalize,Cooland error observed
+12,Root-Cause Note,Coolant concentration drifted outside spec after 400 cycles,Restricted,Generalize,Coolant error observed
 12,Corrective Action,Test material batch viscosity after 200 cycles,Internal,Generalize,Batch viscosity error observed
 12,Shift ID,Shift-A-Day,Internal,Keep,Shift ID
 12,Operator Name,Brian Whitfield,Confidential,Placeholder Mask,[OPERATOR_NAME]
@@ -189,7 +189,7 @@ Record ID,Field,Raw Value,Sensitivity Label,Protection Action,Protected Record
 13,Process Parameter,Die Temperature 210 °C,Restricted,Generalize,200-250 °C
 13,Maintenance Note,Electrical contact corrosion in control panel,Restricted,Generalize,Corrosion observed
 13,Root-Cause Note,Tool wear exceeded threshold after 300 cycles,Restricted,Generalize,Mechanical wear observed
-13,Corrective Action,Recalibrate sensor after 350 cycles,Internal,Generalize,Calibration issue observed
+13,Corrective Action,Recalibrate sensor after 350 cycles,Internal,Generalize,Calibration error observed
 13,Shift ID,Shift-A-Day,Internal,Keep,Shift ID
 13,Operator Name,Maria Park,Confidential,Placeholder Mask,[OPERATOR_NAME]
 13,Customer/Order Information,Brake Rotor Order ORD-21764,Confidential,Block,[BLOCKED]
@@ -217,8 +217,8 @@ Record ID,Field,Raw Value,Sensitivity Label,Protection Action,Protected Record
 15,Defect Severity,Minor,Restricted,Placeholder Mask,[DEFECT_SEVERITY]
 15,Defect Rate,12.80%,Restricted,Generalize,10-15%
 15,Process Parameter,Feed Rate 8.7 mm/s,Restricted,Generalize,5-10 mm/s
-15,Maintenance Note,Coolant leak detected at pump seal,Restricted,Generalize,Cooland error observed
-15,Root-Cause Note,Robot calibration offset accumulated after 600 cycles,Restricted,Generalize,Calibration issue observed
+15,Maintenance Note,Coolant leak detected at pump seal,Restricted,Generalize,Coolant error observed
+15,Root-Cause Note,Robot calibration offset accumulated after 600 cycles,Restricted,Generalize,Calibration error observed
 15,Corrective Action,Reduce die temperature after 250 cycles,Internal,Generalize,Die error observed
 15,Shift ID,Shift-A-Day,Internal,Keep,Shift ID
 15,Operator Name,Rosa Larsen,Confidential,Placeholder Mask,[OPERATOR_NAME]
@@ -264,7 +264,7 @@ Record ID,Field,Raw Value,Sensitivity Label,Protection Action,Protected Record
 18,Process Parameter,Paint Booth Temp 24.5 °C,Restricted,Generalize,20-25 °C
 18,Maintenance Note,Electrical contact corrosion in control panel,Restricted,Generalize,Corrosion observed
 18,Root-Cause Note,Material batch viscosity varied after 200 cycles,Restricted,Generalize,Batch viscosity error observed
-18,Corrective Action,Adjust coolant concentration after 400 cycles,Internal,Generalize,Cooland error observed
+18,Corrective Action,Adjust coolant concentration after 400 cycles,Internal,Generalize,Coolant error observed
 18,Shift ID,Shift-A-Day,Internal,Keep,Shift ID
 18,Operator Name,Wendy Kim,Confidential,Placeholder Mask,[OPERATOR_NAME]
 18,Customer/Order Information,Wiring Harness Order ORD-65310,Confidential,Block,[BLOCKED]
@@ -278,8 +278,8 @@ Record ID,Field,Raw Value,Sensitivity Label,Protection Action,Protected Record
 19,Defect Rate,3.30%,Restricted,Generalize,5-5%
 19,Process Parameter,Feed Rate 12.4 mm/s,Restricted,Generalize,10-15 mm/s
 19,Maintenance Note,Lubrication system underperforming on gearbox,Restricted,Generalize,Lubrication error observed
-19,Root-Cause Note,Robot calibration offset accumulated after 600 cycles,Restricted,Generalize,Calibration issue observed
-19,Corrective Action,Recalibrate robot after 600 cycles,Internal,Generalize,Calibration issue observed
+19,Root-Cause Note,Robot calibration offset accumulated after 600 cycles,Restricted,Generalize,Calibration error observed
+19,Corrective Action,Recalibrate robot after 600 cycles,Internal,Generalize,Calibration error observed
 19,Shift ID,Shift-B-Night,Internal,Keep,Shift ID
 19,Operator Name,Emily Choi,Confidential,Placeholder Mask,[OPERATOR_NAME]
 19,Customer/Order Information,Fuel Rail Order ORD-54198,Confidential,Block,[BLOCKED]
@@ -292,7 +292,7 @@ Record ID,Field,Raw Value,Sensitivity Label,Protection Action,Protected Record
 20,Defect Severity,Minor,Restricted,Placeholder Mask,[DEFECT_SEVERITY]
 20,Defect Rate,15.30%,Restricted,Generalize,15-20%
 20,Process Parameter,Torque 18.2 Nm,Restricted,Generalize,15-20 Nm
-20,Maintenance Note,Sensor calibration drift on inline gauge,Restricted,Generalize,Calibration issue observed
+20,Maintenance Note,Sensor calibration drift on inline gauge,Restricted,Generalize,Calibration error observed
 20,Root-Cause Note,Tool wear exceeded threshold after 300 cycles,Restricted,Generalize,Mechanical wear observed
 20,Corrective Action,Replace fixture clamp seal after 500 cycles,Internal,Generalize,Maintenance action required
 20,Shift ID,Shift-B-Night,Internal,Keep,Shift ID
@@ -307,7 +307,7 @@ Record ID,Field,Raw Value,Sensitivity Label,Protection Action,Protected Record
 21,Defect Severity,Cosmetic Only,Restricted,Placeholder Mask,[DEFECT_SEVERITY]
 21,Defect Rate,12.30%,Restricted,Generalize,10-15%
 21,Process Parameter,Weld Current 145 A,Restricted,Generalize,100-150 A
-21,Maintenance Note,Sensor calibration drift on inline gauge,Restricted,Generalize,Calibration issue observed
+21,Maintenance Note,Sensor calibration drift on inline gauge,Restricted,Generalize,Calibration error observed
 21,Root-Cause Note,Material batch viscosity varied after 200 cycles,Restricted,Generalize,Batch viscosity error observed
 21,Corrective Action,Replace fixture clamp seal after 500 cycles,Internal,Generalize,Maintenance action required
 21,Shift ID,Shift-C-Swing,Internal,Keep,Shift ID
@@ -323,7 +323,7 @@ Record ID,Field,Raw Value,Sensitivity Label,Protection Action,Protected Record
 22,Defect Rate,3.70%,Restricted,Generalize,5-5%
 22,Process Parameter,Clamp Force 1120 kN,Restricted,Generalize,1100-1200 kN
 22,Maintenance Note,Weld tip degradation after extended use,Restricted,Generalize,Weld error observed
-22,Root-Cause Note,Coolant concentration drifted outside spec after 400 cycles,Restricted,Generalize,Cooland error observed
+22,Root-Cause Note,Coolant concentration drifted outside spec after 400 cycles,Restricted,Generalize,Coolant error observed
 22,Corrective Action,Reduce die temperature after 250 cycles,Internal,Generalize,Die error observed
 22,Shift ID,Shift-B-Night,Internal,Keep,Shift ID
 22,Operator Name,Renee Yilmaz,Confidential,Placeholder Mask,[OPERATOR_NAME]
@@ -337,9 +337,9 @@ Record ID,Field,Raw Value,Sensitivity Label,Protection Action,Protected Record
 23,Defect Severity,Minor,Restricted,Placeholder Mask,[DEFECT_SEVERITY]
 23,Defect Rate,19.90%,Restricted,Generalize,15-20%
 23,Process Parameter,Spindle Speed 3200 rpm,Restricted,Generalize,3200-3200 rpm
-23,Maintenance Note,Coolant leak detected at pump seal,Restricted,Generalize,Cooland error observed
+23,Maintenance Note,Coolant leak detected at pump seal,Restricted,Generalize,Coolant error observed
 23,Root-Cause Note,Die temperature exceeded spec after 250 cycles,Restricted,Generalize,Die error observed
-23,Corrective Action,Recalibrate sensor after 350 cycles,Internal,Generalize,Calibration issue observed
+23,Corrective Action,Recalibrate sensor after 350 cycles,Internal,Generalize,Calibration error observed
 23,Shift ID,Shift-A-Day,Internal,Keep,Shift ID
 23,Operator Name,Derek Hudson,Confidential,Placeholder Mask,[OPERATOR_NAME]
 23,Customer/Order Information,Chassis Frame Order ORD-65552,Confidential,Block,[BLOCKED]
@@ -382,8 +382,8 @@ Record ID,Field,Raw Value,Sensitivity Label,Protection Action,Protected Record
 26,Defect Severity,Critical (Safety Hold),Restricted,Placeholder Mask,[DEFECT_SEVERITY]
 26,Defect Rate,7.00%,Restricted,Generalize,5-10%
 26,Process Parameter,Injection Pressure 82 bar,Restricted,Generalize,80-85 bar
-26,Maintenance Note,Sensor calibration drift on inline gauge,Restricted,Generalize,Calibration issue observed
-26,Root-Cause Note,Sensor threshold miscalibrated after 350 cycles,Restricted,Generalize,Calibration issue observed
+26,Maintenance Note,Sensor calibration drift on inline gauge,Restricted,Generalize,Calibration error observed
+26,Root-Cause Note,Sensor threshold miscalibrated after 350 cycles,Restricted,Generalize,Calibration error observed
 26,Corrective Action,Replace fixture clamp seal after 500 cycles,Internal,Generalize,Maintenance action required
 26,Shift ID,Shift-A-Day,Internal,Keep,Shift ID
 26,Operator Name,Kevin Boyd,Confidential,Placeholder Mask,[OPERATOR_NAME]
@@ -414,7 +414,7 @@ Record ID,Field,Raw Value,Sensitivity Label,Protection Action,Protected Record
 28,Process Parameter,Clamp Force 1120 kN,Restricted,Generalize,1100-1200 kN
 28,Maintenance Note,Belt tension loss on conveyor drive,Restricted,Generalize,Conveyer error observed
 28,Root-Cause Note,Spindle speed drifted above tolerance after 450 cycles,Restricted,Generalize,Spindle error observed
-28,Corrective Action,Adjust coolant concentration after 400 cycles,Internal,Generalize,Cooland error observed
+28,Corrective Action,Adjust coolant concentration after 400 cycles,Internal,Generalize,Coolant error observed
 28,Shift ID,Shift-C-Swing,Internal,Keep,Shift ID
 28,Operator Name,Renee Cree,Confidential,Placeholder Mask,[OPERATOR_NAME]
 28,Customer/Order Information,Exhaust Manifold Order ORD-43087,Confidential,Block,[BLOCKED]
@@ -427,7 +427,7 @@ Record ID,Field,Raw Value,Sensitivity Label,Protection Action,Protected Record
 29,Defect Severity,Major,Restricted,Placeholder Mask,[DEFECT_SEVERITY]
 29,Defect Rate,5.40%,Restricted,Generalize,5-10%
 29,Process Parameter,Paint Booth Temp 24.5 °C,Restricted,Generalize,20-25 °C
-29,Maintenance Note,Sensor calibration drift on inline gauge,Restricted,Generalize,Calibration issue observed
+29,Maintenance Note,Sensor calibration drift on inline gauge,Restricted,Generalize,Calibration error observed
 29,Root-Cause Note,Material batch viscosity varied after 200 cycles,Restricted,Generalize,Batch viscosity error observed
 29,Corrective Action,Reduce die temperature after 250 cycles,Internal,Generalize,Die error observed
 29,Shift ID,Shift-B-Night,Internal,Keep,Shift ID
@@ -443,7 +443,7 @@ Record ID,Field,Raw Value,Sensitivity Label,Protection Action,Protected Record
 30,Defect Rate,3.70%,Restricted,Generalize,5-5%
 30,Process Parameter,Feed Rate 8.7 mm/s,Restricted,Generalize,5-10 mm/s
 30,Maintenance Note,Alignment shift detected on transfer rail,Restricted,Generalize,Rail error observed
-30,Root-Cause Note,Robot calibration offset accumulated after 600 cycles,Restricted,Generalize,Calibration issue observed
+30,Root-Cause Note,Robot calibration offset accumulated after 600 cycles,Restricted,Generalize,Calibration error observed
 30,Corrective Action,Reduce spindle speed after 450 cycles,Internal,Generalize,Spindle error observed
 30,Shift ID,Shift-C-Swing,Internal,Keep,Shift ID
 30,Operator Name,Trevor Hudson,Confidential,Placeholder Mask,[OPERATOR_NAME]

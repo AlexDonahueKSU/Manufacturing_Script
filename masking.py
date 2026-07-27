@@ -98,32 +98,32 @@ def generalize_measurement(value):
 def generalize_text(value):
     val = value.lower()
     if "lubrication" in val:
-        return "Lubrication error observed"
+        return error_observed_handler("lubrication")
     if "coolant" in val:
-        return "Cooland error observed"
+        return error_observed_handler("coolant")
     if "weld" in val:
-        return "Weld error observed"
+        return error_observed_handler("weld")
     if "spindle" in val:
-        return "Spindle error observed"
+        return error_observed_handler("spindle")
     if "viscosity" in val:
-        return "Batch viscosity error observed"
+        return error_observed_handler("batch viscosity")
     if "pressure" in val:
-        return "Pressure error observed"
+        return error_observed_handler("pressure")
     if "conveyor" in val:
-        return "Conveyer error observed"
+        return error_observed_handler("conveyer")
     if "wear" in val:
         return "Mechanical wear observed"
     if "corrosion" in val:
         return "Corrosion observed"
     if "calibrat" in val:
-        return "Calibration issue observed"
+        return error_observed_handler("calibration")
     if "rail" in val:
-        return "Rail error observed"
+        return error_observed_handler("rail")
     if "die" in val:
-        return "Die error observed"
+        return error_observed_handler("die")
     if "replace" in val or "recalibrate" in val:
         return "Maintenance action required"
-    print(val)
     return "Generalized operational issue"
 
-
+def error_observed_handler(value):
+    return value.capitalize() + " error observed"
