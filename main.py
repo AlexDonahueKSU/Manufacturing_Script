@@ -15,19 +15,19 @@ def main() -> None:
     records = input.return_records()
 
     pseudonym_mapping = []
-    seen_values = set()
     mapped_values = set()
 
     for record in records:
         masking.mask_data(record)
         original_value = record[2]
         
-        if original_value in seen_values and record[4] == "Hash Pseudonymize":
+        if record[4] == "Hash Pseudonymize":
+            # Append if the Hash value isn't recognized
             if original_value not in mapped_values:
                 pseudonym_mapping.append([original_value, record[1], record[5]])
                 mapped_values.add(original_value)
-        else:
-            seen_values.add(original_value)
+            
+
     
     blocked_mapping = []
     for record in records:

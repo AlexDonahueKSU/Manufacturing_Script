@@ -30,4 +30,4 @@ def output_blocked_records(records):
         writer.writerow(["Record ID", "Field", "Raw Value", "Reason"])
         
         for record in records:
-            writer.writerow([record[0], record[1], record[2], "Placeholder reason"])
+            writer.writerow([record[0], record[1], record[2], "Sensitive Customer Information"])

@@ -1,31 +1,31 @@
 Record ID,Field,Raw Value,Reason
-1,Customer/Order Information,Ultium Battery Order ORD-99111,Placeholder reason
-2,Customer/Order Information,Chassis Frame Order ORD-65552,Placeholder reason
-3,Customer/Order Information,EV Motor Housing Order ORD-88123,Placeholder reason
-4,Customer/Order Information,Bumper Assembly Order ORD-76421,Placeholder reason
-5,Customer/Order Information,Drivetrain Component Order ORD-43307,Placeholder reason
-6,Customer/Order Information,EV Motor Housing Order ORD-88123,Placeholder reason
-7,Customer/Order Information,Battery Tray Order ORD-54219,Placeholder reason
-8,Customer/Order Information,Bumper Assembly Order ORD-76421,Placeholder reason
-9,Customer/Order Information,Drivetrain Component Order ORD-43307,Placeholder reason
-10,Customer/Order Information,Bumper Assembly Order ORD-76421,Placeholder reason
-11,Customer/Order Information,Suspension Arm Order ORD-32918,Placeholder reason
-12,Customer/Order Information,Exhaust Manifold Order ORD-43087,Placeholder reason
-13,Customer/Order Information,Brake Rotor Order ORD-21764,Placeholder reason
-14,Customer/Order Information,Seat Frame Order ORD-98204,Placeholder reason
-15,Customer/Order Information,Exhaust Manifold Order ORD-43087,Placeholder reason
-16,Customer/Order Information,Battery Tray Order ORD-54219,Placeholder reason
-17,Customer/Order Information,EV Motor Housing Order ORD-88123,Placeholder reason
-18,Customer/Order Information,Wiring Harness Order ORD-65310,Placeholder reason
-19,Customer/Order Information,Fuel Rail Order ORD-54198,Placeholder reason
-20,Customer/Order Information,Battery Tray Order ORD-54219,Placeholder reason
-21,Customer/Order Information,Seat Frame Order ORD-98204,Placeholder reason
-22,Customer/Order Information,Ultium Battery Order ORD-99111,Placeholder reason
-23,Customer/Order Information,Chassis Frame Order ORD-65552,Placeholder reason
-24,Customer/Order Information,Bumper Assembly Order ORD-76421,Placeholder reason
-25,Customer/Order Information,Brake Rotor Order ORD-21764,Placeholder reason
-26,Customer/Order Information,Suspension Arm Order ORD-32918,Placeholder reason
-27,Customer/Order Information,Wiring Harness Order ORD-65310,Placeholder reason
-28,Customer/Order Information,Exhaust Manifold Order ORD-43087,Placeholder reason
-29,Customer/Order Information,EV Motor Housing Order ORD-88123,Placeholder reason
-30,Customer/Order Information,Drivetrain Component Order ORD-43307,Placeholder reason
+1,Customer/Order Information,Ultium Battery Order ORD-99111,Sensitive Customer Information
+2,Customer/Order Information,Chassis Frame Order ORD-65552,Sensitive Customer Information
+3,Customer/Order Information,EV Motor Housing Order ORD-88123,Sensitive Customer Information
+4,Customer/Order Information,Bumper Assembly Order ORD-76421,Sensitive Customer Information
+5,Customer/Order Information,Drivetrain Component Order ORD-43307,Sensitive Customer Information
+6,Customer/Order Information,EV Motor Housing Order ORD-88123,Sensitive Customer Information
+7,Customer/Order Information,Battery Tray Order ORD-54219,Sensitive Customer Information
+8,Customer/Order Information,Bumper Assembly Order ORD-76421,Sensitive Customer Information
+9,Customer/Order Information,Drivetrain Component Order ORD-43307,Sensitive Customer Information
+10,Customer/Order Information,Bumper Assembly Order ORD-76421,Sensitive Customer Information
+11,Customer/Order Information,Suspension Arm Order ORD-32918,Sensitive Customer Information
+12,Customer/Order Information,Exhaust Manifold Order ORD-43087,Sensitive Customer Information
+13,Customer/Order Information,Brake Rotor Order ORD-21764,Sensitive Customer Information
+14,Customer/Order Information,Seat Frame Order ORD-98204,Sensitive Customer Information
+15,Customer/Order Information,Exhaust Manifold Order ORD-43087,Sensitive Customer Information
+16,Customer/Order Information,Battery Tray Order ORD-54219,Sensitive Customer Information
+17,Customer/Order Information,EV Motor Housing Order ORD-88123,Sensitive Customer Information
+18,Customer/Order Information,Wiring Harness Order ORD-65310,Sensitive Customer Information
+19,Customer/Order Information,Fuel Rail Order ORD-54198,Sensitive Customer Information
+20,Customer/Order Information,Battery Tray Order ORD-54219,Sensitive Customer Information
+21,Customer/Order Information,Seat Frame Order ORD-98204,Sensitive Customer Information
+22,Customer/Order Information,Ultium Battery Order ORD-99111,Sensitive Customer Information
+23,Customer/Order Information,Chassis Frame Order ORD-65552,Sensitive Customer Information
+24,Customer/Order Information,Bumper Assembly Order ORD-76421,Sensitive Customer Information
+25,Customer/Order Information,Brake Rotor Order ORD-21764,Sensitive Customer Information
+26,Customer/Order Information,Suspension Arm Order ORD-32918,Sensitive Customer Information
+27,Customer/Order Information,Wiring Harness Order ORD-65310,Sensitive Customer Information
+28,Customer/Order Information,Exhaust Manifold Order ORD-43087,Sensitive Customer Information
+29,Customer/Order Information,EV Motor Housing Order ORD-88123,Sensitive Customer Information
+30,Customer/Order Information,Drivetrain Component Order ORD-43307,Sensitive Customer Information
