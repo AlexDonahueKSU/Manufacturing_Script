@@ -26,7 +26,15 @@ def block_mask(record):
     record[5] = "[BLOCKED]"
 
 def placeholder_mask(record):
-    record[5] = "[" + record[1].upper().replace(" ","_") + "]"
+    field = record[1].lower()
+    if field == "defect severity":
+        severity = record[2].lower()
+        if "minor" in severity or "cosmetic" in severity:
+            record[5] = "[LOW_SEVERITY]"
+        elif "major" in severity or "critical" in severity:
+            record[5] = "[HIGH_SEVERITY]"
+    else:
+        record[5] = "[" + record[1].upper().replace(" ","_") + "]"
 
 def hash_mask(record):
     #Convert to bytes
