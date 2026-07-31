@@ -1,8 +1,7 @@
 import csv
 
 """
-Outputting based on the criteria given to me via email. Will update as
-we refine what that criteria is.
+Outputs the 3 different files that we designated for the project.
 """
 
 def output_protected_records(records):
