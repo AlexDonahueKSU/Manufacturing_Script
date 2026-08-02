@@ -1,7 +1,5 @@
 """
-Handles some basic logic around how we plan to mask, I know this 
-likely is going to change but based on how I've inputted I'll 
-get some basic masking handled.
+All of the logic around how our masking is handled based on the 5 different criteria.
 """
 import hashlib
 import re
