@@ -1,0 +1,451 @@
+Record ID,Field,Sensitivity Label,Protection Action,Policy Rule ID,Protected Value,Release Decision,Reason
+1,Quality Log ID,Restricted,Placeholder Mask,R4,[QUALITY_LOG_ID],Released,Personal identifier masked with a placeholder
+1,Supplier ID,Confidential,Hash Pseudonymize,R3,[SUPPLIER_K1V4],Released,"Supplier, batch, and machine identifiers pseudonymized"
+1,Batch ID,Restricted,Hash Pseudonymize,R3,[BATCH_DIT2],Released,"Supplier, batch, and machine identifiers pseudonymized"
+1,Machine ID,Restricted,Hash Pseudonymize,R3,[MACHINE_Y998],Released,"Supplier, batch, and machine identifiers pseudonymized"
+1,Defect Type,Internal,Keep,R1,Defect Type,Released,"Analytically necessary, lower-risk value retained"
+1,Defect Severity,Restricted,Placeholder Mask,R4,[HIGH_SEVERITY],Released,Personal identifier masked with a placeholder
+1,Defect Rate,Restricted,Generalize,R2,5-10%,Released,Sensitive value generalized to reduce disclosure risk
+1,Process Parameter,Restricted,Generalize,R2,10-15 mm/s,Released,Sensitive value generalized to reduce disclosure risk
+1,Maintenance Note,Restricted,Generalize,R2,Spindle error observed,Released,Sensitive value generalized to reduce disclosure risk
+1,Root-Cause Note,Restricted,Generalize,R2,Mechanical wear observed,Released,Sensitive value generalized to reduce disclosure risk
+1,Corrective Action,Internal,Generalize,R2,Maintenance action required,Released,Sensitive value generalized to reduce disclosure risk
+1,Shift ID,Internal,Keep,R1,Shift ID,Released,"Analytically necessary, lower-risk value retained"
+1,Operator Name,Confidential,Placeholder Mask,R4,[OPERATOR_NAME],Released,Personal identifier masked with a placeholder
+1,Customer/Order Information,Confidential,Block,R5,[BLOCKED],Blocked,Customer and order information blocked from release
+1,Image Metadata,Restricted,Generalize,R2,Industrial camera image,Released,Sensitive value generalized to reduce disclosure risk
+2,Quality Log ID,Restricted,Placeholder Mask,R4,[QUALITY_LOG_ID],Released,Personal identifier masked with a placeholder
+2,Supplier ID,Confidential,Hash Pseudonymize,R3,[SUPPLIER_H8HP],Released,"Supplier, batch, and machine identifiers pseudonymized"
+2,Batch ID,Restricted,Hash Pseudonymize,R3,[BATCH_SIZO],Released,"Supplier, batch, and machine identifiers pseudonymized"
+2,Machine ID,Restricted,Hash Pseudonymize,R3,[MACHINE_695B],Released,"Supplier, batch, and machine identifiers pseudonymized"
+2,Defect Type,Internal,Keep,R1,Defect Type,Released,"Analytically necessary, lower-risk value retained"
+2,Defect Severity,Restricted,Placeholder Mask,R4,[HIGH_SEVERITY],Released,Personal identifier masked with a placeholder
+2,Defect Rate,Restricted,Generalize,R2,5-10%,Released,Sensitive value generalized to reduce disclosure risk
+2,Process Parameter,Restricted,Generalize,R2,5-10 mm/s,Released,Sensitive value generalized to reduce disclosure risk
+2,Maintenance Note,Restricted,Generalize,R2,Corrosion observed,Released,Sensitive value generalized to reduce disclosure risk
+2,Root-Cause Note,Restricted,Generalize,R2,Pressure error observed,Released,Sensitive value generalized to reduce disclosure risk
+2,Corrective Action,Internal,Generalize,R2,Batch viscosity error observed,Released,Sensitive value generalized to reduce disclosure risk
+2,Shift ID,Internal,Keep,R1,Shift ID,Released,"Analytically necessary, lower-risk value retained"
+2,Operator Name,Confidential,Placeholder Mask,R4,[OPERATOR_NAME],Released,Personal identifier masked with a placeholder
+2,Customer/Order Information,Confidential,Block,R5,[BLOCKED],Blocked,Customer and order information blocked from release
+2,Image Metadata,Restricted,Generalize,R2,Industrial camera image,Released,Sensitive value generalized to reduce disclosure risk
+3,Quality Log ID,Restricted,Placeholder Mask,R4,[QUALITY_LOG_ID],Released,Personal identifier masked with a placeholder
+3,Supplier ID,Confidential,Hash Pseudonymize,R3,[SUPPLIER_QC9B],Released,"Supplier, batch, and machine identifiers pseudonymized"
+3,Batch ID,Restricted,Hash Pseudonymize,R3,[BATCH_U36V],Released,"Supplier, batch, and machine identifiers pseudonymized"
+3,Machine ID,Restricted,Hash Pseudonymize,R3,[MACHINE_Y998],Released,"Supplier, batch, and machine identifiers pseudonymized"
+3,Defect Type,Internal,Keep,R1,Defect Type,Released,"Analytically necessary, lower-risk value retained"
+3,Defect Severity,Restricted,Placeholder Mask,R4,[HIGH_SEVERITY],Released,Personal identifier masked with a placeholder
+3,Defect Rate,Restricted,Generalize,R2,5-10%,Released,Sensitive value generalized to reduce disclosure risk
+3,Process Parameter,Restricted,Generalize,R2,20-25 °C,Released,Sensitive value generalized to reduce disclosure risk
+3,Maintenance Note,Restricted,Generalize,R2,Rail error observed,Released,Sensitive value generalized to reduce disclosure risk
+3,Root-Cause Note,Restricted,Generalize,R2,Die error observed,Released,Sensitive value generalized to reduce disclosure risk
+3,Corrective Action,Internal,Generalize,R2,Maintenance action required,Released,Sensitive value generalized to reduce disclosure risk
+3,Shift ID,Internal,Keep,R1,Shift ID,Released,"Analytically necessary, lower-risk value retained"
+3,Operator Name,Confidential,Placeholder Mask,R4,[OPERATOR_NAME],Released,Personal identifier masked with a placeholder
+3,Customer/Order Information,Confidential,Block,R5,[BLOCKED],Blocked,Customer and order information blocked from release
+3,Image Metadata,Restricted,Generalize,R2,Industrial camera image,Released,Sensitive value generalized to reduce disclosure risk
+4,Quality Log ID,Restricted,Placeholder Mask,R4,[QUALITY_LOG_ID],Released,Personal identifier masked with a placeholder
+4,Supplier ID,Confidential,Hash Pseudonymize,R3,[SUPPLIER_H8HP],Released,"Supplier, batch, and machine identifiers pseudonymized"
+4,Batch ID,Restricted,Hash Pseudonymize,R3,[BATCH_WTEB],Released,"Supplier, batch, and machine identifiers pseudonymized"
+4,Machine ID,Restricted,Hash Pseudonymize,R3,[MACHINE_PKD9],Released,"Supplier, batch, and machine identifiers pseudonymized"
+4,Defect Type,Internal,Keep,R1,Defect Type,Released,"Analytically necessary, lower-risk value retained"
+4,Defect Severity,Restricted,Placeholder Mask,R4,[HIGH_SEVERITY],Released,Personal identifier masked with a placeholder
+4,Defect Rate,Restricted,Generalize,R2,5-10%,Released,Sensitive value generalized to reduce disclosure risk
+4,Process Parameter,Restricted,Generalize,R2,20-25 °C,Released,Sensitive value generalized to reduce disclosure risk
+4,Maintenance Note,Restricted,Generalize,R2,Conveyer error observed,Released,Sensitive value generalized to reduce disclosure risk
+4,Root-Cause Note,Restricted,Generalize,R2,Calibration error observed,Released,Sensitive value generalized to reduce disclosure risk
+4,Corrective Action,Internal,Generalize,R2,Calibration error observed,Released,Sensitive value generalized to reduce disclosure risk
+4,Shift ID,Internal,Keep,R1,Shift ID,Released,"Analytically necessary, lower-risk value retained"
+4,Operator Name,Confidential,Placeholder Mask,R4,[OPERATOR_NAME],Released,Personal identifier masked with a placeholder
+4,Customer/Order Information,Confidential,Block,R5,[BLOCKED],Blocked,Customer and order information blocked from release
+4,Image Metadata,Restricted,Generalize,R2,Industrial camera image,Released,Sensitive value generalized to reduce disclosure risk
+5,Quality Log ID,Restricted,Placeholder Mask,R4,[QUALITY_LOG_ID],Released,Personal identifier masked with a placeholder
+5,Supplier ID,Confidential,Hash Pseudonymize,R3,[SUPPLIER_QC9B],Released,"Supplier, batch, and machine identifiers pseudonymized"
+5,Batch ID,Restricted,Hash Pseudonymize,R3,[BATCH_1N55],Released,"Supplier, batch, and machine identifiers pseudonymized"
+5,Machine ID,Restricted,Hash Pseudonymize,R3,[MACHINE_Y998],Released,"Supplier, batch, and machine identifiers pseudonymized"
+5,Defect Type,Internal,Keep,R1,Defect Type,Released,"Analytically necessary, lower-risk value retained"
+5,Defect Severity,Restricted,Placeholder Mask,R4,[LOW_SEVERITY],Released,Personal identifier masked with a placeholder
+5,Defect Rate,Restricted,Generalize,R2,15-20%,Released,Sensitive value generalized to reduce disclosure risk
+5,Process Parameter,Restricted,Generalize,R2,1100-1200 kN,Released,Sensitive value generalized to reduce disclosure risk
+5,Maintenance Note,Restricted,Generalize,R2,Pressure error observed,Released,Sensitive value generalized to reduce disclosure risk
+5,Root-Cause Note,Restricted,Generalize,R2,Pressure error observed,Released,Sensitive value generalized to reduce disclosure risk
+5,Corrective Action,Internal,Generalize,R2,Calibration error observed,Released,Sensitive value generalized to reduce disclosure risk
+5,Shift ID,Internal,Keep,R1,Shift ID,Released,"Analytically necessary, lower-risk value retained"
+5,Operator Name,Confidential,Placeholder Mask,R4,[OPERATOR_NAME],Released,Personal identifier masked with a placeholder
+5,Customer/Order Information,Confidential,Block,R5,[BLOCKED],Blocked,Customer and order information blocked from release
+5,Image Metadata,Restricted,Generalize,R2,Industrial camera image,Released,Sensitive value generalized to reduce disclosure risk
+6,Quality Log ID,Restricted,Placeholder Mask,R4,[QUALITY_LOG_ID],Released,Personal identifier masked with a placeholder
+6,Supplier ID,Confidential,Hash Pseudonymize,R3,[SUPPLIER_1NBN],Released,"Supplier, batch, and machine identifiers pseudonymized"
+6,Batch ID,Restricted,Hash Pseudonymize,R3,[BATCH_EEEA],Released,"Supplier, batch, and machine identifiers pseudonymized"
+6,Machine ID,Restricted,Hash Pseudonymize,R3,[MACHINE_5XMZ],Released,"Supplier, batch, and machine identifiers pseudonymized"
+6,Defect Type,Internal,Keep,R1,Defect Type,Released,"Analytically necessary, lower-risk value retained"
+6,Defect Severity,Restricted,Placeholder Mask,R4,[LOW_SEVERITY],Released,Personal identifier masked with a placeholder
+6,Defect Rate,Restricted,Generalize,R2,5-10%,Released,Sensitive value generalized to reduce disclosure risk
+6,Process Parameter,Restricted,Generalize,R2,200-250 °C,Released,Sensitive value generalized to reduce disclosure risk
+6,Maintenance Note,Restricted,Generalize,R2,Weld error observed,Released,Sensitive value generalized to reduce disclosure risk
+6,Root-Cause Note,Restricted,Generalize,R2,Calibration error observed,Released,Sensitive value generalized to reduce disclosure risk
+6,Corrective Action,Internal,Generalize,R2,Calibration error observed,Released,Sensitive value generalized to reduce disclosure risk
+6,Shift ID,Internal,Keep,R1,Shift ID,Released,"Analytically necessary, lower-risk value retained"
+6,Operator Name,Confidential,Placeholder Mask,R4,[OPERATOR_NAME],Released,Personal identifier masked with a placeholder
+6,Customer/Order Information,Confidential,Block,R5,[BLOCKED],Blocked,Customer and order information blocked from release
+6,Image Metadata,Restricted,Generalize,R2,Industrial camera image,Released,Sensitive value generalized to reduce disclosure risk
+7,Quality Log ID,Restricted,Placeholder Mask,R4,[QUALITY_LOG_ID],Released,Personal identifier masked with a placeholder
+7,Supplier ID,Confidential,Hash Pseudonymize,R3,[SUPPLIER_VRDC],Released,"Supplier, batch, and machine identifiers pseudonymized"
+7,Batch ID,Restricted,Hash Pseudonymize,R3,[BATCH_DNN1],Released,"Supplier, batch, and machine identifiers pseudonymized"
+7,Machine ID,Restricted,Hash Pseudonymize,R3,[MACHINE_OYW4],Released,"Supplier, batch, and machine identifiers pseudonymized"
+7,Defect Type,Internal,Keep,R1,Defect Type,Released,"Analytically necessary, lower-risk value retained"
+7,Defect Severity,Restricted,Placeholder Mask,R4,[LOW_SEVERITY],Released,Personal identifier masked with a placeholder
+7,Defect Rate,Restricted,Generalize,R2,5-5%,Released,Sensitive value generalized to reduce disclosure risk
+7,Process Parameter,Restricted,Generalize,R2,1100-1200 kN,Released,Sensitive value generalized to reduce disclosure risk
+7,Maintenance Note,Restricted,Generalize,R2,Conveyer error observed,Released,Sensitive value generalized to reduce disclosure risk
+7,Root-Cause Note,Restricted,Generalize,R2,Spindle error observed,Released,Sensitive value generalized to reduce disclosure risk
+7,Corrective Action,Internal,Generalize,R2,Maintenance action required,Released,Sensitive value generalized to reduce disclosure risk
+7,Shift ID,Internal,Keep,R1,Shift ID,Released,"Analytically necessary, lower-risk value retained"
+7,Operator Name,Confidential,Placeholder Mask,R4,[OPERATOR_NAME],Released,Personal identifier masked with a placeholder
+7,Customer/Order Information,Confidential,Block,R5,[BLOCKED],Blocked,Customer and order information blocked from release
+7,Image Metadata,Restricted,Generalize,R2,Industrial camera image,Released,Sensitive value generalized to reduce disclosure risk
+8,Quality Log ID,Restricted,Placeholder Mask,R4,[QUALITY_LOG_ID],Released,Personal identifier masked with a placeholder
+8,Supplier ID,Confidential,Hash Pseudonymize,R3,[SUPPLIER_K1V4],Released,"Supplier, batch, and machine identifiers pseudonymized"
+8,Batch ID,Restricted,Hash Pseudonymize,R3,[BATCH_EZIB],Released,"Supplier, batch, and machine identifiers pseudonymized"
+8,Machine ID,Restricted,Hash Pseudonymize,R3,[MACHINE_VLUQ],Released,"Supplier, batch, and machine identifiers pseudonymized"
+8,Defect Type,Internal,Keep,R1,Defect Type,Released,"Analytically necessary, lower-risk value retained"
+8,Defect Severity,Restricted,Placeholder Mask,R4,[HIGH_SEVERITY],Released,Personal identifier masked with a placeholder
+8,Defect Rate,Restricted,Generalize,R2,20-25%,Released,Sensitive value generalized to reduce disclosure risk
+8,Process Parameter,Restricted,Generalize,R2,80-85 bar,Released,Sensitive value generalized to reduce disclosure risk
+8,Maintenance Note,Restricted,Generalize,R2,Spindle error observed,Released,Sensitive value generalized to reduce disclosure risk
+8,Root-Cause Note,Restricted,Generalize,R2,Mechanical wear observed,Released,Sensitive value generalized to reduce disclosure risk
+8,Corrective Action,Internal,Generalize,R2,Calibration error observed,Released,Sensitive value generalized to reduce disclosure risk
+8,Shift ID,Internal,Keep,R1,Shift ID,Released,"Analytically necessary, lower-risk value retained"
+8,Operator Name,Confidential,Placeholder Mask,R4,[OPERATOR_NAME],Released,Personal identifier masked with a placeholder
+8,Customer/Order Information,Confidential,Block,R5,[BLOCKED],Blocked,Customer and order information blocked from release
+8,Image Metadata,Restricted,Generalize,R2,Industrial camera image,Released,Sensitive value generalized to reduce disclosure risk
+9,Quality Log ID,Restricted,Placeholder Mask,R4,[QUALITY_LOG_ID],Released,Personal identifier masked with a placeholder
+9,Supplier ID,Confidential,Hash Pseudonymize,R3,[SUPPLIER_VRDC],Released,"Supplier, batch, and machine identifiers pseudonymized"
+9,Batch ID,Restricted,Hash Pseudonymize,R3,[BATCH_ANE3],Released,"Supplier, batch, and machine identifiers pseudonymized"
+9,Machine ID,Restricted,Hash Pseudonymize,R3,[MACHINE_Y998],Released,"Supplier, batch, and machine identifiers pseudonymized"
+9,Defect Type,Internal,Keep,R1,Defect Type,Released,"Analytically necessary, lower-risk value retained"
+9,Defect Severity,Restricted,Placeholder Mask,R4,[HIGH_SEVERITY],Released,Personal identifier masked with a placeholder
+9,Defect Rate,Restricted,Generalize,R2,20-25%,Released,Sensitive value generalized to reduce disclosure risk
+9,Process Parameter,Restricted,Generalize,R2,20-25 °C,Released,Sensitive value generalized to reduce disclosure risk
+9,Maintenance Note,Restricted,Generalize,R2,Lubrication error observed,Released,Sensitive value generalized to reduce disclosure risk
+9,Root-Cause Note,Restricted,Generalize,R2,Spindle error observed,Released,Sensitive value generalized to reduce disclosure risk
+9,Corrective Action,Internal,Generalize,R2,Maintenance action required,Released,Sensitive value generalized to reduce disclosure risk
+9,Shift ID,Internal,Keep,R1,Shift ID,Released,"Analytically necessary, lower-risk value retained"
+9,Operator Name,Confidential,Placeholder Mask,R4,[OPERATOR_NAME],Released,Personal identifier masked with a placeholder
+9,Customer/Order Information,Confidential,Block,R5,[BLOCKED],Blocked,Customer and order information blocked from release
+9,Image Metadata,Restricted,Generalize,R2,Industrial camera image,Released,Sensitive value generalized to reduce disclosure risk
+10,Quality Log ID,Restricted,Placeholder Mask,R4,[QUALITY_LOG_ID],Released,Personal identifier masked with a placeholder
+10,Supplier ID,Confidential,Hash Pseudonymize,R3,[SUPPLIER_1NBN],Released,"Supplier, batch, and machine identifiers pseudonymized"
+10,Batch ID,Restricted,Hash Pseudonymize,R3,[BATCH_ORQT],Released,"Supplier, batch, and machine identifiers pseudonymized"
+10,Machine ID,Restricted,Hash Pseudonymize,R3,[MACHINE_1878],Released,"Supplier, batch, and machine identifiers pseudonymized"
+10,Defect Type,Internal,Keep,R1,Defect Type,Released,"Analytically necessary, lower-risk value retained"
+10,Defect Severity,Restricted,Placeholder Mask,R4,[HIGH_SEVERITY],Released,Personal identifier masked with a placeholder
+10,Defect Rate,Restricted,Generalize,R2,5-10%,Released,Sensitive value generalized to reduce disclosure risk
+10,Process Parameter,Restricted,Generalize,R2,15-20 Nm,Released,Sensitive value generalized to reduce disclosure risk
+10,Maintenance Note,Restricted,Generalize,R2,Spindle error observed,Released,Sensitive value generalized to reduce disclosure risk
+10,Root-Cause Note,Restricted,Generalize,R2,Die error observed,Released,Sensitive value generalized to reduce disclosure risk
+10,Corrective Action,Internal,Generalize,R2,Spindle error observed,Released,Sensitive value generalized to reduce disclosure risk
+10,Shift ID,Internal,Keep,R1,Shift ID,Released,"Analytically necessary, lower-risk value retained"
+10,Operator Name,Confidential,Placeholder Mask,R4,[OPERATOR_NAME],Released,Personal identifier masked with a placeholder
+10,Customer/Order Information,Confidential,Block,R5,[BLOCKED],Blocked,Customer and order information blocked from release
+10,Image Metadata,Restricted,Generalize,R2,Industrial camera image,Released,Sensitive value generalized to reduce disclosure risk
+11,Quality Log ID,Restricted,Placeholder Mask,R4,[QUALITY_LOG_ID],Released,Personal identifier masked with a placeholder
+11,Supplier ID,Confidential,Hash Pseudonymize,R3,[SUPPLIER_K1V4],Released,"Supplier, batch, and machine identifiers pseudonymized"
+11,Batch ID,Restricted,Hash Pseudonymize,R3,[BATCH_HJ6H],Released,"Supplier, batch, and machine identifiers pseudonymized"
+11,Machine ID,Restricted,Hash Pseudonymize,R3,[MACHINE_15VA],Released,"Supplier, batch, and machine identifiers pseudonymized"
+11,Defect Type,Internal,Keep,R1,Defect Type,Released,"Analytically necessary, lower-risk value retained"
+11,Defect Severity,Restricted,Placeholder Mask,R4,[LOW_SEVERITY],Released,Personal identifier masked with a placeholder
+11,Defect Rate,Restricted,Generalize,R2,5-10%,Released,Sensitive value generalized to reduce disclosure risk
+11,Process Parameter,Restricted,Generalize,R2,5-10 mm/s,Released,Sensitive value generalized to reduce disclosure risk
+11,Maintenance Note,Restricted,Generalize,R2,Spindle error observed,Released,Sensitive value generalized to reduce disclosure risk
+11,Root-Cause Note,Restricted,Generalize,R2,Calibration error observed,Released,Sensitive value generalized to reduce disclosure risk
+11,Corrective Action,Internal,Generalize,R2,Calibration error observed,Released,Sensitive value generalized to reduce disclosure risk
+11,Shift ID,Internal,Keep,R1,Shift ID,Released,"Analytically necessary, lower-risk value retained"
+11,Operator Name,Confidential,Placeholder Mask,R4,[OPERATOR_NAME],Released,Personal identifier masked with a placeholder
+11,Customer/Order Information,Confidential,Block,R5,[BLOCKED],Blocked,Customer and order information blocked from release
+11,Image Metadata,Restricted,Generalize,R2,Industrial camera image,Released,Sensitive value generalized to reduce disclosure risk
+12,Quality Log ID,Restricted,Placeholder Mask,R4,[QUALITY_LOG_ID],Released,Personal identifier masked with a placeholder
+12,Supplier ID,Confidential,Hash Pseudonymize,R3,[SUPPLIER_H8HP],Released,"Supplier, batch, and machine identifiers pseudonymized"
+12,Batch ID,Restricted,Hash Pseudonymize,R3,[BATCH_BNRE],Released,"Supplier, batch, and machine identifiers pseudonymized"
+12,Machine ID,Restricted,Hash Pseudonymize,R3,[MACHINE_1878],Released,"Supplier, batch, and machine identifiers pseudonymized"
+12,Defect Type,Internal,Keep,R1,Defect Type,Released,"Analytically necessary, lower-risk value retained"
+12,Defect Severity,Restricted,Placeholder Mask,R4,[LOW_SEVERITY],Released,Personal identifier masked with a placeholder
+12,Defect Rate,Restricted,Generalize,R2,10-15%,Released,Sensitive value generalized to reduce disclosure risk
+12,Process Parameter,Restricted,Generalize,R2,1100-1200 kN,Released,Sensitive value generalized to reduce disclosure risk
+12,Maintenance Note,Restricted,Generalize,R2,Spindle error observed,Released,Sensitive value generalized to reduce disclosure risk
+12,Root-Cause Note,Restricted,Generalize,R2,Coolant error observed,Released,Sensitive value generalized to reduce disclosure risk
+12,Corrective Action,Internal,Generalize,R2,Batch viscosity error observed,Released,Sensitive value generalized to reduce disclosure risk
+12,Shift ID,Internal,Keep,R1,Shift ID,Released,"Analytically necessary, lower-risk value retained"
+12,Operator Name,Confidential,Placeholder Mask,R4,[OPERATOR_NAME],Released,Personal identifier masked with a placeholder
+12,Customer/Order Information,Confidential,Block,R5,[BLOCKED],Blocked,Customer and order information blocked from release
+12,Image Metadata,Restricted,Generalize,R2,Industrial camera image,Released,Sensitive value generalized to reduce disclosure risk
+13,Quality Log ID,Restricted,Placeholder Mask,R4,[QUALITY_LOG_ID],Released,Personal identifier masked with a placeholder
+13,Supplier ID,Confidential,Hash Pseudonymize,R3,[SUPPLIER_NN27],Released,"Supplier, batch, and machine identifiers pseudonymized"
+13,Batch ID,Restricted,Hash Pseudonymize,R3,[BATCH_3V7O],Released,"Supplier, batch, and machine identifiers pseudonymized"
+13,Machine ID,Restricted,Hash Pseudonymize,R3,[MACHINE_695B],Released,"Supplier, batch, and machine identifiers pseudonymized"
+13,Defect Type,Internal,Keep,R1,Defect Type,Released,"Analytically necessary, lower-risk value retained"
+13,Defect Severity,Restricted,Placeholder Mask,R4,[HIGH_SEVERITY],Released,Personal identifier masked with a placeholder
+13,Defect Rate,Restricted,Generalize,R2,20-25%,Released,Sensitive value generalized to reduce disclosure risk
+13,Process Parameter,Restricted,Generalize,R2,200-250 °C,Released,Sensitive value generalized to reduce disclosure risk
+13,Maintenance Note,Restricted,Generalize,R2,Corrosion observed,Released,Sensitive value generalized to reduce disclosure risk
+13,Root-Cause Note,Restricted,Generalize,R2,Mechanical wear observed,Released,Sensitive value generalized to reduce disclosure risk
+13,Corrective Action,Internal,Generalize,R2,Calibration error observed,Released,Sensitive value generalized to reduce disclosure risk
+13,Shift ID,Internal,Keep,R1,Shift ID,Released,"Analytically necessary, lower-risk value retained"
+13,Operator Name,Confidential,Placeholder Mask,R4,[OPERATOR_NAME],Released,Personal identifier masked with a placeholder
+13,Customer/Order Information,Confidential,Block,R5,[BLOCKED],Blocked,Customer and order information blocked from release
+13,Image Metadata,Restricted,Generalize,R2,Industrial camera image,Released,Sensitive value generalized to reduce disclosure risk
+14,Quality Log ID,Restricted,Placeholder Mask,R4,[QUALITY_LOG_ID],Released,Personal identifier masked with a placeholder
+14,Supplier ID,Confidential,Hash Pseudonymize,R3,[SUPPLIER_H8HP],Released,"Supplier, batch, and machine identifiers pseudonymized"
+14,Batch ID,Restricted,Hash Pseudonymize,R3,[BATCH_PWZL],Released,"Supplier, batch, and machine identifiers pseudonymized"
+14,Machine ID,Restricted,Hash Pseudonymize,R3,[MACHINE_49JT],Released,"Supplier, batch, and machine identifiers pseudonymized"
+14,Defect Type,Internal,Keep,R1,Defect Type,Released,"Analytically necessary, lower-risk value retained"
+14,Defect Severity,Restricted,Placeholder Mask,R4,[HIGH_SEVERITY],Released,Personal identifier masked with a placeholder
+14,Defect Rate,Restricted,Generalize,R2,15-20%,Released,Sensitive value generalized to reduce disclosure risk
+14,Process Parameter,Restricted,Generalize,R2,100-150 A,Released,Sensitive value generalized to reduce disclosure risk
+14,Maintenance Note,Restricted,Generalize,R2,Rail error observed,Released,Sensitive value generalized to reduce disclosure risk
+14,Root-Cause Note,Restricted,Generalize,R2,Mechanical wear observed,Released,Sensitive value generalized to reduce disclosure risk
+14,Corrective Action,Internal,Generalize,R2,Maintenance action required,Released,Sensitive value generalized to reduce disclosure risk
+14,Shift ID,Internal,Keep,R1,Shift ID,Released,"Analytically necessary, lower-risk value retained"
+14,Operator Name,Confidential,Placeholder Mask,R4,[OPERATOR_NAME],Released,Personal identifier masked with a placeholder
+14,Customer/Order Information,Confidential,Block,R5,[BLOCKED],Blocked,Customer and order information blocked from release
+14,Image Metadata,Restricted,Generalize,R2,Industrial camera image,Released,Sensitive value generalized to reduce disclosure risk
+15,Quality Log ID,Restricted,Placeholder Mask,R4,[QUALITY_LOG_ID],Released,Personal identifier masked with a placeholder
+15,Supplier ID,Confidential,Hash Pseudonymize,R3,[SUPPLIER_H8HP],Released,"Supplier, batch, and machine identifiers pseudonymized"
+15,Batch ID,Restricted,Hash Pseudonymize,R3,[BATCH_6NDG],Released,"Supplier, batch, and machine identifiers pseudonymized"
+15,Machine ID,Restricted,Hash Pseudonymize,R3,[MACHINE_3SQH],Released,"Supplier, batch, and machine identifiers pseudonymized"
+15,Defect Type,Internal,Keep,R1,Defect Type,Released,"Analytically necessary, lower-risk value retained"
+15,Defect Severity,Restricted,Placeholder Mask,R4,[LOW_SEVERITY],Released,Personal identifier masked with a placeholder
+15,Defect Rate,Restricted,Generalize,R2,10-15%,Released,Sensitive value generalized to reduce disclosure risk
+15,Process Parameter,Restricted,Generalize,R2,5-10 mm/s,Released,Sensitive value generalized to reduce disclosure risk
+15,Maintenance Note,Restricted,Generalize,R2,Coolant error observed,Released,Sensitive value generalized to reduce disclosure risk
+15,Root-Cause Note,Restricted,Generalize,R2,Calibration error observed,Released,Sensitive value generalized to reduce disclosure risk
+15,Corrective Action,Internal,Generalize,R2,Die error observed,Released,Sensitive value generalized to reduce disclosure risk
+15,Shift ID,Internal,Keep,R1,Shift ID,Released,"Analytically necessary, lower-risk value retained"
+15,Operator Name,Confidential,Placeholder Mask,R4,[OPERATOR_NAME],Released,Personal identifier masked with a placeholder
+15,Customer/Order Information,Confidential,Block,R5,[BLOCKED],Blocked,Customer and order information blocked from release
+15,Image Metadata,Restricted,Generalize,R2,Industrial camera image,Released,Sensitive value generalized to reduce disclosure risk
+16,Quality Log ID,Restricted,Placeholder Mask,R4,[QUALITY_LOG_ID],Released,Personal identifier masked with a placeholder
+16,Supplier ID,Confidential,Hash Pseudonymize,R3,[SUPPLIER_VRDC],Released,"Supplier, batch, and machine identifiers pseudonymized"
+16,Batch ID,Restricted,Hash Pseudonymize,R3,[BATCH_79SJ],Released,"Supplier, batch, and machine identifiers pseudonymized"
+16,Machine ID,Restricted,Hash Pseudonymize,R3,[MACHINE_HB5V],Released,"Supplier, batch, and machine identifiers pseudonymized"
+16,Defect Type,Internal,Keep,R1,Defect Type,Released,"Analytically necessary, lower-risk value retained"
+16,Defect Severity,Restricted,Placeholder Mask,R4,[LOW_SEVERITY],Released,Personal identifier masked with a placeholder
+16,Defect Rate,Restricted,Generalize,R2,20-25%,Released,Sensitive value generalized to reduce disclosure risk
+16,Process Parameter,Restricted,Generalize,R2,3200-3200 rpm,Released,Sensitive value generalized to reduce disclosure risk
+16,Maintenance Note,Restricted,Generalize,R2,Pressure error observed,Released,Sensitive value generalized to reduce disclosure risk
+16,Root-Cause Note,Restricted,Generalize,R2,Pressure error observed,Released,Sensitive value generalized to reduce disclosure risk
+16,Corrective Action,Internal,Generalize,R2,Maintenance action required,Released,Sensitive value generalized to reduce disclosure risk
+16,Shift ID,Internal,Keep,R1,Shift ID,Released,"Analytically necessary, lower-risk value retained"
+16,Operator Name,Confidential,Placeholder Mask,R4,[OPERATOR_NAME],Released,Personal identifier masked with a placeholder
+16,Customer/Order Information,Confidential,Block,R5,[BLOCKED],Blocked,Customer and order information blocked from release
+16,Image Metadata,Restricted,Generalize,R2,Industrial camera image,Released,Sensitive value generalized to reduce disclosure risk
+17,Quality Log ID,Restricted,Placeholder Mask,R4,[QUALITY_LOG_ID],Released,Personal identifier masked with a placeholder
+17,Supplier ID,Confidential,Hash Pseudonymize,R3,[SUPPLIER_6YFC],Released,"Supplier, batch, and machine identifiers pseudonymized"
+17,Batch ID,Restricted,Hash Pseudonymize,R3,[BATCH_SGCY],Released,"Supplier, batch, and machine identifiers pseudonymized"
+17,Machine ID,Restricted,Hash Pseudonymize,R3,[MACHINE_695B],Released,"Supplier, batch, and machine identifiers pseudonymized"
+17,Defect Type,Internal,Keep,R1,Defect Type,Released,"Analytically necessary, lower-risk value retained"
+17,Defect Severity,Restricted,Placeholder Mask,R4,[HIGH_SEVERITY],Released,Personal identifier masked with a placeholder
+17,Defect Rate,Restricted,Generalize,R2,15-20%,Released,Sensitive value generalized to reduce disclosure risk
+17,Process Parameter,Restricted,Generalize,R2,80-85 bar,Released,Sensitive value generalized to reduce disclosure risk
+17,Maintenance Note,Restricted,Generalize,R2,Conveyer error observed,Released,Sensitive value generalized to reduce disclosure risk
+17,Root-Cause Note,Restricted,Generalize,R2,Spindle error observed,Released,Sensitive value generalized to reduce disclosure risk
+17,Corrective Action,Internal,Generalize,R2,Batch viscosity error observed,Released,Sensitive value generalized to reduce disclosure risk
+17,Shift ID,Internal,Keep,R1,Shift ID,Released,"Analytically necessary, lower-risk value retained"
+17,Operator Name,Confidential,Placeholder Mask,R4,[OPERATOR_NAME],Released,Personal identifier masked with a placeholder
+17,Customer/Order Information,Confidential,Block,R5,[BLOCKED],Blocked,Customer and order information blocked from release
+17,Image Metadata,Restricted,Generalize,R2,Industrial camera image,Released,Sensitive value generalized to reduce disclosure risk
+18,Quality Log ID,Restricted,Placeholder Mask,R4,[QUALITY_LOG_ID],Released,Personal identifier masked with a placeholder
+18,Supplier ID,Confidential,Hash Pseudonymize,R3,[SUPPLIER_K1V4],Released,"Supplier, batch, and machine identifiers pseudonymized"
+18,Batch ID,Restricted,Hash Pseudonymize,R3,[BATCH_4QWD],Released,"Supplier, batch, and machine identifiers pseudonymized"
+18,Machine ID,Restricted,Hash Pseudonymize,R3,[MACHINE_HB5V],Released,"Supplier, batch, and machine identifiers pseudonymized"
+18,Defect Type,Internal,Keep,R1,Defect Type,Released,"Analytically necessary, lower-risk value retained"
+18,Defect Severity,Restricted,Placeholder Mask,R4,[LOW_SEVERITY],Released,Personal identifier masked with a placeholder
+18,Defect Rate,Restricted,Generalize,R2,10-15%,Released,Sensitive value generalized to reduce disclosure risk
+18,Process Parameter,Restricted,Generalize,R2,20-25 °C,Released,Sensitive value generalized to reduce disclosure risk
+18,Maintenance Note,Restricted,Generalize,R2,Corrosion observed,Released,Sensitive value generalized to reduce disclosure risk
+18,Root-Cause Note,Restricted,Generalize,R2,Batch viscosity error observed,Released,Sensitive value generalized to reduce disclosure risk
+18,Corrective Action,Internal,Generalize,R2,Coolant error observed,Released,Sensitive value generalized to reduce disclosure risk
+18,Shift ID,Internal,Keep,R1,Shift ID,Released,"Analytically necessary, lower-risk value retained"
+18,Operator Name,Confidential,Placeholder Mask,R4,[OPERATOR_NAME],Released,Personal identifier masked with a placeholder
+18,Customer/Order Information,Confidential,Block,R5,[BLOCKED],Blocked,Customer and order information blocked from release
+18,Image Metadata,Restricted,Generalize,R2,Industrial camera image,Released,Sensitive value generalized to reduce disclosure risk
+19,Quality Log ID,Restricted,Placeholder Mask,R4,[QUALITY_LOG_ID],Released,Personal identifier masked with a placeholder
+19,Supplier ID,Confidential,Hash Pseudonymize,R3,[SUPPLIER_1NBN],Released,"Supplier, batch, and machine identifiers pseudonymized"
+19,Batch ID,Restricted,Hash Pseudonymize,R3,[BATCH_DNN1],Released,"Supplier, batch, and machine identifiers pseudonymized"
+19,Machine ID,Restricted,Hash Pseudonymize,R3,[MACHINE_6ST1],Released,"Supplier, batch, and machine identifiers pseudonymized"
+19,Defect Type,Internal,Keep,R1,Defect Type,Released,"Analytically necessary, lower-risk value retained"
+19,Defect Severity,Restricted,Placeholder Mask,R4,[LOW_SEVERITY],Released,Personal identifier masked with a placeholder
+19,Defect Rate,Restricted,Generalize,R2,5-5%,Released,Sensitive value generalized to reduce disclosure risk
+19,Process Parameter,Restricted,Generalize,R2,10-15 mm/s,Released,Sensitive value generalized to reduce disclosure risk
+19,Maintenance Note,Restricted,Generalize,R2,Lubrication error observed,Released,Sensitive value generalized to reduce disclosure risk
+19,Root-Cause Note,Restricted,Generalize,R2,Calibration error observed,Released,Sensitive value generalized to reduce disclosure risk
+19,Corrective Action,Internal,Generalize,R2,Calibration error observed,Released,Sensitive value generalized to reduce disclosure risk
+19,Shift ID,Internal,Keep,R1,Shift ID,Released,"Analytically necessary, lower-risk value retained"
+19,Operator Name,Confidential,Placeholder Mask,R4,[OPERATOR_NAME],Released,Personal identifier masked with a placeholder
+19,Customer/Order Information,Confidential,Block,R5,[BLOCKED],Blocked,Customer and order information blocked from release
+19,Image Metadata,Restricted,Generalize,R2,Industrial camera image,Released,Sensitive value generalized to reduce disclosure risk
+20,Quality Log ID,Restricted,Placeholder Mask,R4,[QUALITY_LOG_ID],Released,Personal identifier masked with a placeholder
+20,Supplier ID,Confidential,Hash Pseudonymize,R3,[SUPPLIER_50J4],Released,"Supplier, batch, and machine identifiers pseudonymized"
+20,Batch ID,Restricted,Hash Pseudonymize,R3,[BATCH_5H68],Released,"Supplier, batch, and machine identifiers pseudonymized"
+20,Machine ID,Restricted,Hash Pseudonymize,R3,[MACHINE_OYW4],Released,"Supplier, batch, and machine identifiers pseudonymized"
+20,Defect Type,Internal,Keep,R1,Defect Type,Released,"Analytically necessary, lower-risk value retained"
+20,Defect Severity,Restricted,Placeholder Mask,R4,[LOW_SEVERITY],Released,Personal identifier masked with a placeholder
+20,Defect Rate,Restricted,Generalize,R2,15-20%,Released,Sensitive value generalized to reduce disclosure risk
+20,Process Parameter,Restricted,Generalize,R2,15-20 Nm,Released,Sensitive value generalized to reduce disclosure risk
+20,Maintenance Note,Restricted,Generalize,R2,Calibration error observed,Released,Sensitive value generalized to reduce disclosure risk
+20,Root-Cause Note,Restricted,Generalize,R2,Mechanical wear observed,Released,Sensitive value generalized to reduce disclosure risk
+20,Corrective Action,Internal,Generalize,R2,Maintenance action required,Released,Sensitive value generalized to reduce disclosure risk
+20,Shift ID,Internal,Keep,R1,Shift ID,Released,"Analytically necessary, lower-risk value retained"
+20,Operator Name,Confidential,Placeholder Mask,R4,[OPERATOR_NAME],Released,Personal identifier masked with a placeholder
+20,Customer/Order Information,Confidential,Block,R5,[BLOCKED],Blocked,Customer and order information blocked from release
+20,Image Metadata,Restricted,Generalize,R2,Industrial camera image,Released,Sensitive value generalized to reduce disclosure risk
+21,Quality Log ID,Restricted,Placeholder Mask,R4,[QUALITY_LOG_ID],Released,Personal identifier masked with a placeholder
+21,Supplier ID,Confidential,Hash Pseudonymize,R3,[SUPPLIER_6YFC],Released,"Supplier, batch, and machine identifiers pseudonymized"
+21,Batch ID,Restricted,Hash Pseudonymize,R3,[BATCH_6GSW],Released,"Supplier, batch, and machine identifiers pseudonymized"
+21,Machine ID,Restricted,Hash Pseudonymize,R3,[MACHINE_1878],Released,"Supplier, batch, and machine identifiers pseudonymized"
+21,Defect Type,Internal,Keep,R1,Defect Type,Released,"Analytically necessary, lower-risk value retained"
+21,Defect Severity,Restricted,Placeholder Mask,R4,[LOW_SEVERITY],Released,Personal identifier masked with a placeholder
+21,Defect Rate,Restricted,Generalize,R2,10-15%,Released,Sensitive value generalized to reduce disclosure risk
+21,Process Parameter,Restricted,Generalize,R2,100-150 A,Released,Sensitive value generalized to reduce disclosure risk
+21,Maintenance Note,Restricted,Generalize,R2,Calibration error observed,Released,Sensitive value generalized to reduce disclosure risk
+21,Root-Cause Note,Restricted,Generalize,R2,Batch viscosity error observed,Released,Sensitive value generalized to reduce disclosure risk
+21,Corrective Action,Internal,Generalize,R2,Maintenance action required,Released,Sensitive value generalized to reduce disclosure risk
+21,Shift ID,Internal,Keep,R1,Shift ID,Released,"Analytically necessary, lower-risk value retained"
+21,Operator Name,Confidential,Placeholder Mask,R4,[OPERATOR_NAME],Released,Personal identifier masked with a placeholder
+21,Customer/Order Information,Confidential,Block,R5,[BLOCKED],Blocked,Customer and order information blocked from release
+21,Image Metadata,Restricted,Generalize,R2,Industrial camera image,Released,Sensitive value generalized to reduce disclosure risk
+22,Quality Log ID,Restricted,Placeholder Mask,R4,[QUALITY_LOG_ID],Released,Personal identifier masked with a placeholder
+22,Supplier ID,Confidential,Hash Pseudonymize,R3,[SUPPLIER_QC9B],Released,"Supplier, batch, and machine identifiers pseudonymized"
+22,Batch ID,Restricted,Hash Pseudonymize,R3,[BATCH_NIEU],Released,"Supplier, batch, and machine identifiers pseudonymized"
+22,Machine ID,Restricted,Hash Pseudonymize,R3,[MACHINE_6ST1],Released,"Supplier, batch, and machine identifiers pseudonymized"
+22,Defect Type,Internal,Keep,R1,Defect Type,Released,"Analytically necessary, lower-risk value retained"
+22,Defect Severity,Restricted,Placeholder Mask,R4,[HIGH_SEVERITY],Released,Personal identifier masked with a placeholder
+22,Defect Rate,Restricted,Generalize,R2,5-5%,Released,Sensitive value generalized to reduce disclosure risk
+22,Process Parameter,Restricted,Generalize,R2,1100-1200 kN,Released,Sensitive value generalized to reduce disclosure risk
+22,Maintenance Note,Restricted,Generalize,R2,Weld error observed,Released,Sensitive value generalized to reduce disclosure risk
+22,Root-Cause Note,Restricted,Generalize,R2,Coolant error observed,Released,Sensitive value generalized to reduce disclosure risk
+22,Corrective Action,Internal,Generalize,R2,Die error observed,Released,Sensitive value generalized to reduce disclosure risk
+22,Shift ID,Internal,Keep,R1,Shift ID,Released,"Analytically necessary, lower-risk value retained"
+22,Operator Name,Confidential,Placeholder Mask,R4,[OPERATOR_NAME],Released,Personal identifier masked with a placeholder
+22,Customer/Order Information,Confidential,Block,R5,[BLOCKED],Blocked,Customer and order information blocked from release
+22,Image Metadata,Restricted,Generalize,R2,Industrial camera image,Released,Sensitive value generalized to reduce disclosure risk
+23,Quality Log ID,Restricted,Placeholder Mask,R4,[QUALITY_LOG_ID],Released,Personal identifier masked with a placeholder
+23,Supplier ID,Confidential,Hash Pseudonymize,R3,[SUPPLIER_NN27],Released,"Supplier, batch, and machine identifiers pseudonymized"
+23,Batch ID,Restricted,Hash Pseudonymize,R3,[BATCH_5GWB],Released,"Supplier, batch, and machine identifiers pseudonymized"
+23,Machine ID,Restricted,Hash Pseudonymize,R3,[MACHINE_VLUQ],Released,"Supplier, batch, and machine identifiers pseudonymized"
+23,Defect Type,Internal,Keep,R1,Defect Type,Released,"Analytically necessary, lower-risk value retained"
+23,Defect Severity,Restricted,Placeholder Mask,R4,[LOW_SEVERITY],Released,Personal identifier masked with a placeholder
+23,Defect Rate,Restricted,Generalize,R2,15-20%,Released,Sensitive value generalized to reduce disclosure risk
+23,Process Parameter,Restricted,Generalize,R2,3200-3200 rpm,Released,Sensitive value generalized to reduce disclosure risk
+23,Maintenance Note,Restricted,Generalize,R2,Coolant error observed,Released,Sensitive value generalized to reduce disclosure risk
+23,Root-Cause Note,Restricted,Generalize,R2,Die error observed,Released,Sensitive value generalized to reduce disclosure risk
+23,Corrective Action,Internal,Generalize,R2,Calibration error observed,Released,Sensitive value generalized to reduce disclosure risk
+23,Shift ID,Internal,Keep,R1,Shift ID,Released,"Analytically necessary, lower-risk value retained"
+23,Operator Name,Confidential,Placeholder Mask,R4,[OPERATOR_NAME],Released,Personal identifier masked with a placeholder
+23,Customer/Order Information,Confidential,Block,R5,[BLOCKED],Blocked,Customer and order information blocked from release
+23,Image Metadata,Restricted,Generalize,R2,Industrial camera image,Released,Sensitive value generalized to reduce disclosure risk
+24,Quality Log ID,Restricted,Placeholder Mask,R4,[QUALITY_LOG_ID],Released,Personal identifier masked with a placeholder
+24,Supplier ID,Confidential,Hash Pseudonymize,R3,[SUPPLIER_3NVL],Released,"Supplier, batch, and machine identifiers pseudonymized"
+24,Batch ID,Restricted,Hash Pseudonymize,R3,[BATCH_PNFS],Released,"Supplier, batch, and machine identifiers pseudonymized"
+24,Machine ID,Restricted,Hash Pseudonymize,R3,[MACHINE_VLUQ],Released,"Supplier, batch, and machine identifiers pseudonymized"
+24,Defect Type,Internal,Keep,R1,Defect Type,Released,"Analytically necessary, lower-risk value retained"
+24,Defect Severity,Restricted,Placeholder Mask,R4,[LOW_SEVERITY],Released,Personal identifier masked with a placeholder
+24,Defect Rate,Restricted,Generalize,R2,10-15%,Released,Sensitive value generalized to reduce disclosure risk
+24,Process Parameter,Restricted,Generalize,R2,100-150 A,Released,Sensitive value generalized to reduce disclosure risk
+24,Maintenance Note,Restricted,Generalize,R2,Weld error observed,Released,Sensitive value generalized to reduce disclosure risk
+24,Root-Cause Note,Restricted,Generalize,R2,Spindle error observed,Released,Sensitive value generalized to reduce disclosure risk
+24,Corrective Action,Internal,Generalize,R2,Batch viscosity error observed,Released,Sensitive value generalized to reduce disclosure risk
+24,Shift ID,Internal,Keep,R1,Shift ID,Released,"Analytically necessary, lower-risk value retained"
+24,Operator Name,Confidential,Placeholder Mask,R4,[OPERATOR_NAME],Released,Personal identifier masked with a placeholder
+24,Customer/Order Information,Confidential,Block,R5,[BLOCKED],Blocked,Customer and order information blocked from release
+24,Image Metadata,Restricted,Generalize,R2,Industrial camera image,Released,Sensitive value generalized to reduce disclosure risk
+25,Quality Log ID,Restricted,Placeholder Mask,R4,[QUALITY_LOG_ID],Released,Personal identifier masked with a placeholder
+25,Supplier ID,Confidential,Hash Pseudonymize,R3,[SUPPLIER_NN27],Released,"Supplier, batch, and machine identifiers pseudonymized"
+25,Batch ID,Restricted,Hash Pseudonymize,R3,[BATCH_SAVW],Released,"Supplier, batch, and machine identifiers pseudonymized"
+25,Machine ID,Restricted,Hash Pseudonymize,R3,[MACHINE_5XMZ],Released,"Supplier, batch, and machine identifiers pseudonymized"
+25,Defect Type,Internal,Keep,R1,Defect Type,Released,"Analytically necessary, lower-risk value retained"
+25,Defect Severity,Restricted,Placeholder Mask,R4,[LOW_SEVERITY],Released,Personal identifier masked with a placeholder
+25,Defect Rate,Restricted,Generalize,R2,20-25%,Released,Sensitive value generalized to reduce disclosure risk
+25,Process Parameter,Restricted,Generalize,R2,45-45 s,Released,Sensitive value generalized to reduce disclosure risk
+25,Maintenance Note,Restricted,Generalize,R2,Rail error observed,Released,Sensitive value generalized to reduce disclosure risk
+25,Root-Cause Note,Restricted,Generalize,R2,Batch viscosity error observed,Released,Sensitive value generalized to reduce disclosure risk
+25,Corrective Action,Internal,Generalize,R2,Spindle error observed,Released,Sensitive value generalized to reduce disclosure risk
+25,Shift ID,Internal,Keep,R1,Shift ID,Released,"Analytically necessary, lower-risk value retained"
+25,Operator Name,Confidential,Placeholder Mask,R4,[OPERATOR_NAME],Released,Personal identifier masked with a placeholder
+25,Customer/Order Information,Confidential,Block,R5,[BLOCKED],Blocked,Customer and order information blocked from release
+25,Image Metadata,Restricted,Generalize,R2,Industrial camera image,Released,Sensitive value generalized to reduce disclosure risk
+26,Quality Log ID,Restricted,Placeholder Mask,R4,[QUALITY_LOG_ID],Released,Personal identifier masked with a placeholder
+26,Supplier ID,Confidential,Hash Pseudonymize,R3,[SUPPLIER_1NBN],Released,"Supplier, batch, and machine identifiers pseudonymized"
+26,Batch ID,Restricted,Hash Pseudonymize,R3,[BATCH_HMT5],Released,"Supplier, batch, and machine identifiers pseudonymized"
+26,Machine ID,Restricted,Hash Pseudonymize,R3,[MACHINE_VLUQ],Released,"Supplier, batch, and machine identifiers pseudonymized"
+26,Defect Type,Internal,Keep,R1,Defect Type,Released,"Analytically necessary, lower-risk value retained"
+26,Defect Severity,Restricted,Placeholder Mask,R4,[HIGH_SEVERITY],Released,Personal identifier masked with a placeholder
+26,Defect Rate,Restricted,Generalize,R2,5-10%,Released,Sensitive value generalized to reduce disclosure risk
+26,Process Parameter,Restricted,Generalize,R2,80-85 bar,Released,Sensitive value generalized to reduce disclosure risk
+26,Maintenance Note,Restricted,Generalize,R2,Calibration error observed,Released,Sensitive value generalized to reduce disclosure risk
+26,Root-Cause Note,Restricted,Generalize,R2,Calibration error observed,Released,Sensitive value generalized to reduce disclosure risk
+26,Corrective Action,Internal,Generalize,R2,Maintenance action required,Released,Sensitive value generalized to reduce disclosure risk
+26,Shift ID,Internal,Keep,R1,Shift ID,Released,"Analytically necessary, lower-risk value retained"
+26,Operator Name,Confidential,Placeholder Mask,R4,[OPERATOR_NAME],Released,Personal identifier masked with a placeholder
+26,Customer/Order Information,Confidential,Block,R5,[BLOCKED],Blocked,Customer and order information blocked from release
+26,Image Metadata,Restricted,Generalize,R2,Industrial camera image,Released,Sensitive value generalized to reduce disclosure risk
+27,Quality Log ID,Restricted,Placeholder Mask,R4,[QUALITY_LOG_ID],Released,Personal identifier masked with a placeholder
+27,Supplier ID,Confidential,Hash Pseudonymize,R3,[SUPPLIER_K1V4],Released,"Supplier, batch, and machine identifiers pseudonymized"
+27,Batch ID,Restricted,Hash Pseudonymize,R3,[BATCH_91SS],Released,"Supplier, batch, and machine identifiers pseudonymized"
+27,Machine ID,Restricted,Hash Pseudonymize,R3,[MACHINE_6ST1],Released,"Supplier, batch, and machine identifiers pseudonymized"
+27,Defect Type,Internal,Keep,R1,Defect Type,Released,"Analytically necessary, lower-risk value retained"
+27,Defect Severity,Restricted,Placeholder Mask,R4,[LOW_SEVERITY],Released,Personal identifier masked with a placeholder
+27,Defect Rate,Restricted,Generalize,R2,15-20%,Released,Sensitive value generalized to reduce disclosure risk
+27,Process Parameter,Restricted,Generalize,R2,200-250 °C,Released,Sensitive value generalized to reduce disclosure risk
+27,Maintenance Note,Restricted,Generalize,R2,Spindle error observed,Released,Sensitive value generalized to reduce disclosure risk
+27,Root-Cause Note,Restricted,Generalize,R2,Batch viscosity error observed,Released,Sensitive value generalized to reduce disclosure risk
+27,Corrective Action,Internal,Generalize,R2,Spindle error observed,Released,Sensitive value generalized to reduce disclosure risk
+27,Shift ID,Internal,Keep,R1,Shift ID,Released,"Analytically necessary, lower-risk value retained"
+27,Operator Name,Confidential,Placeholder Mask,R4,[OPERATOR_NAME],Released,Personal identifier masked with a placeholder
+27,Customer/Order Information,Confidential,Block,R5,[BLOCKED],Blocked,Customer and order information blocked from release
+27,Image Metadata,Restricted,Generalize,R2,Industrial camera image,Released,Sensitive value generalized to reduce disclosure risk
+28,Quality Log ID,Restricted,Placeholder Mask,R4,[QUALITY_LOG_ID],Released,Personal identifier masked with a placeholder
+28,Supplier ID,Confidential,Hash Pseudonymize,R3,[SUPPLIER_1NBN],Released,"Supplier, batch, and machine identifiers pseudonymized"
+28,Batch ID,Restricted,Hash Pseudonymize,R3,[BATCH_DIDP],Released,"Supplier, batch, and machine identifiers pseudonymized"
+28,Machine ID,Restricted,Hash Pseudonymize,R3,[MACHINE_VLUQ],Released,"Supplier, batch, and machine identifiers pseudonymized"
+28,Defect Type,Internal,Keep,R1,Defect Type,Released,"Analytically necessary, lower-risk value retained"
+28,Defect Severity,Restricted,Placeholder Mask,R4,[LOW_SEVERITY],Released,Personal identifier masked with a placeholder
+28,Defect Rate,Restricted,Generalize,R2,5-10%,Released,Sensitive value generalized to reduce disclosure risk
+28,Process Parameter,Restricted,Generalize,R2,1100-1200 kN,Released,Sensitive value generalized to reduce disclosure risk
+28,Maintenance Note,Restricted,Generalize,R2,Conveyer error observed,Released,Sensitive value generalized to reduce disclosure risk
+28,Root-Cause Note,Restricted,Generalize,R2,Spindle error observed,Released,Sensitive value generalized to reduce disclosure risk
+28,Corrective Action,Internal,Generalize,R2,Coolant error observed,Released,Sensitive value generalized to reduce disclosure risk
+28,Shift ID,Internal,Keep,R1,Shift ID,Released,"Analytically necessary, lower-risk value retained"
+28,Operator Name,Confidential,Placeholder Mask,R4,[OPERATOR_NAME],Released,Personal identifier masked with a placeholder
+28,Customer/Order Information,Confidential,Block,R5,[BLOCKED],Blocked,Customer and order information blocked from release
+28,Image Metadata,Restricted,Generalize,R2,Industrial camera image,Released,Sensitive value generalized to reduce disclosure risk
+29,Quality Log ID,Restricted,Placeholder Mask,R4,[QUALITY_LOG_ID],Released,Personal identifier masked with a placeholder
+29,Supplier ID,Confidential,Hash Pseudonymize,R3,[SUPPLIER_10MQ],Released,"Supplier, batch, and machine identifiers pseudonymized"
+29,Batch ID,Restricted,Hash Pseudonymize,R3,[BATCH_J9RL],Released,"Supplier, batch, and machine identifiers pseudonymized"
+29,Machine ID,Restricted,Hash Pseudonymize,R3,[MACHINE_VLUQ],Released,"Supplier, batch, and machine identifiers pseudonymized"
+29,Defect Type,Internal,Keep,R1,Defect Type,Released,"Analytically necessary, lower-risk value retained"
+29,Defect Severity,Restricted,Placeholder Mask,R4,[HIGH_SEVERITY],Released,Personal identifier masked with a placeholder
+29,Defect Rate,Restricted,Generalize,R2,5-10%,Released,Sensitive value generalized to reduce disclosure risk
+29,Process Parameter,Restricted,Generalize,R2,20-25 °C,Released,Sensitive value generalized to reduce disclosure risk
+29,Maintenance Note,Restricted,Generalize,R2,Calibration error observed,Released,Sensitive value generalized to reduce disclosure risk
+29,Root-Cause Note,Restricted,Generalize,R2,Batch viscosity error observed,Released,Sensitive value generalized to reduce disclosure risk
+29,Corrective Action,Internal,Generalize,R2,Die error observed,Released,Sensitive value generalized to reduce disclosure risk
+29,Shift ID,Internal,Keep,R1,Shift ID,Released,"Analytically necessary, lower-risk value retained"
+29,Operator Name,Confidential,Placeholder Mask,R4,[OPERATOR_NAME],Released,Personal identifier masked with a placeholder
+29,Customer/Order Information,Confidential,Block,R5,[BLOCKED],Blocked,Customer and order information blocked from release
+29,Image Metadata,Restricted,Generalize,R2,Industrial camera image,Released,Sensitive value generalized to reduce disclosure risk
+30,Quality Log ID,Restricted,Placeholder Mask,R4,[QUALITY_LOG_ID],Released,Personal identifier masked with a placeholder
+30,Supplier ID,Confidential,Hash Pseudonymize,R3,[SUPPLIER_1NBN],Released,"Supplier, batch, and machine identifiers pseudonymized"
+30,Batch ID,Restricted,Hash Pseudonymize,R3,[BATCH_MKM5],Released,"Supplier, batch, and machine identifiers pseudonymized"
+30,Machine ID,Restricted,Hash Pseudonymize,R3,[MACHINE_Y998],Released,"Supplier, batch, and machine identifiers pseudonymized"
+30,Defect Type,Internal,Keep,R1,Defect Type,Released,"Analytically necessary, lower-risk value retained"
+30,Defect Severity,Restricted,Placeholder Mask,R4,[HIGH_SEVERITY],Released,Personal identifier masked with a placeholder
+30,Defect Rate,Restricted,Generalize,R2,5-5%,Released,Sensitive value generalized to reduce disclosure risk
+30,Process Parameter,Restricted,Generalize,R2,5-10 mm/s,Released,Sensitive value generalized to reduce disclosure risk
+30,Maintenance Note,Restricted,Generalize,R2,Rail error observed,Released,Sensitive value generalized to reduce disclosure risk
+30,Root-Cause Note,Restricted,Generalize,R2,Calibration error observed,Released,Sensitive value generalized to reduce disclosure risk
+30,Corrective Action,Internal,Generalize,R2,Spindle error observed,Released,Sensitive value generalized to reduce disclosure risk
+30,Shift ID,Internal,Keep,R1,Shift ID,Released,"Analytically necessary, lower-risk value retained"
+30,Operator Name,Confidential,Placeholder Mask,R4,[OPERATOR_NAME],Released,Personal identifier masked with a placeholder
+30,Customer/Order Information,Confidential,Block,R5,[BLOCKED],Blocked,Customer and order information blocked from release
+30,Image Metadata,Restricted,Generalize,R2,Industrial camera image,Released,Sensitive value generalized to reduce disclosure risk

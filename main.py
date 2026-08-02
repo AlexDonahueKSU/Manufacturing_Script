@@ -44,6 +44,7 @@ def main() -> None:
             if psuedo_record[0] == record[2]:
                 record[5] = psuedo_record[2]
     output.output_protected_records(records)
+    output.output_audit_evidence(records)
     
 if __name__ == "__main__":
     main()
