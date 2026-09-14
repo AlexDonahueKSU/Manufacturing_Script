@@ -3,7 +3,7 @@ import csv
 """
 Outputs the 3 different files that we designated for the project.
 """
-
+#Protected_records.csv
 def output_protected_records(records):
     with open("protected_records.csv", "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
@@ -12,7 +12,7 @@ def output_protected_records(records):
         
         for record in records:
             writer.writerow([record[0], record[1], record[2], record[3], record[4], record[5]])
-
+#Pseudonym_Mapping.csv
 def output_pseudonym_records(records):
     with open("pseudonym_mapping.csv", "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
@@ -21,7 +21,7 @@ def output_pseudonym_records(records):
         
         for record in records:
             writer.writerow([record[0], record[1], record[2]])
-
+#blocked_fields_log.csv
 def output_blocked_records(records):
     with open("blocked_fields_log.csv", "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
@@ -30,7 +30,7 @@ def output_blocked_records(records):
         
         for record in records:
             writer.writerow([record[0], record[1], record[2], "Sensitive Customer Information"])
-
+#audit_evidence.csv
 def output_audit_evidence(records):
     rule_map = {
         "Keep": "R1",

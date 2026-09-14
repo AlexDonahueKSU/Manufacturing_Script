@@ -25,7 +25,7 @@ def return_records():
     
     policy_table = []
     records_table = []
-    
+    #Get from policy_table.csv
     def get_policy_table(file_path):
         with open(file_path, newline="", encoding="utf-8-sig", errors="replace") as file:
             reader = csv.reader(file)
@@ -37,7 +37,7 @@ def return_records():
                 if len(row) >= 2:
                     policy_table.append([row[0], row[2], row[4]])
     
-    
+    #Get from raw_records.csv
     def get_raw_records(file_path):
        with open(file_path, newline="", encoding="utf-8-sig", errors="replace") as file:
             reader = csv.reader(file)

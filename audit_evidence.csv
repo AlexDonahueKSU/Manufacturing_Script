@@ -7,7 +7,7 @@ Record ID,Field,Sensitivity Label,Protection Action,Policy Rule ID,Protected Val
 1,Defect Severity,Restricted,Placeholder Mask,R4,[HIGH_SEVERITY],Released,Personal identifier masked with a placeholder
 1,Defect Rate,Restricted,Generalize,R2,5-10%,Released,Sensitive value generalized to reduce disclosure risk
 1,Process Parameter,Restricted,Generalize,R2,10-15 mm/s,Released,Sensitive value generalized to reduce disclosure risk
-1,Maintenance Note,Restricted,Generalize,R2,Spindle error observed,Released,Sensitive value generalized to reduce disclosure risk
+1,Maintenance Note,Restricted,Generalize,R2,Mechanical wear observed,Released,Sensitive value generalized to reduce disclosure risk
 1,Root-Cause Note,Restricted,Generalize,R2,Mechanical wear observed,Released,Sensitive value generalized to reduce disclosure risk
 1,Corrective Action,Internal,Generalize,R2,Maintenance action required,Released,Sensitive value generalized to reduce disclosure risk
 1,Shift ID,Internal,Keep,R1,Shift ID,Released,"Analytically necessary, lower-risk value retained"
@@ -52,9 +52,9 @@ Record ID,Field,Sensitivity Label,Protection Action,Policy Rule ID,Protected Val
 4,Defect Severity,Restricted,Placeholder Mask,R4,[HIGH_SEVERITY],Released,Personal identifier masked with a placeholder
 4,Defect Rate,Restricted,Generalize,R2,5-10%,Released,Sensitive value generalized to reduce disclosure risk
 4,Process Parameter,Restricted,Generalize,R2,20-25 °C,Released,Sensitive value generalized to reduce disclosure risk
-4,Maintenance Note,Restricted,Generalize,R2,Conveyer error observed,Released,Sensitive value generalized to reduce disclosure risk
+4,Maintenance Note,Restricted,Generalize,R2,Conveyor error observed,Released,Sensitive value generalized to reduce disclosure risk
 4,Root-Cause Note,Restricted,Generalize,R2,Calibration error observed,Released,Sensitive value generalized to reduce disclosure risk
-4,Corrective Action,Internal,Generalize,R2,Calibration error observed,Released,Sensitive value generalized to reduce disclosure risk
+4,Corrective Action,Internal,Generalize,R2,Maintenance action required,Released,Sensitive value generalized to reduce disclosure risk
 4,Shift ID,Internal,Keep,R1,Shift ID,Released,"Analytically necessary, lower-risk value retained"
 4,Operator Name,Confidential,Placeholder Mask,R4,[OPERATOR_NAME],Released,Personal identifier masked with a placeholder
 4,Customer/Order Information,Confidential,Block,R5,[BLOCKED],Blocked,Customer and order information blocked from release
@@ -69,7 +69,7 @@ Record ID,Field,Sensitivity Label,Protection Action,Policy Rule ID,Protected Val
 5,Process Parameter,Restricted,Generalize,R2,1100-1200 kN,Released,Sensitive value generalized to reduce disclosure risk
 5,Maintenance Note,Restricted,Generalize,R2,Pressure error observed,Released,Sensitive value generalized to reduce disclosure risk
 5,Root-Cause Note,Restricted,Generalize,R2,Pressure error observed,Released,Sensitive value generalized to reduce disclosure risk
-5,Corrective Action,Internal,Generalize,R2,Calibration error observed,Released,Sensitive value generalized to reduce disclosure risk
+5,Corrective Action,Internal,Generalize,R2,Maintenance action required,Released,Sensitive value generalized to reduce disclosure risk
 5,Shift ID,Internal,Keep,R1,Shift ID,Released,"Analytically necessary, lower-risk value retained"
 5,Operator Name,Confidential,Placeholder Mask,R4,[OPERATOR_NAME],Released,Personal identifier masked with a placeholder
 5,Customer/Order Information,Confidential,Block,R5,[BLOCKED],Blocked,Customer and order information blocked from release
@@ -84,7 +84,7 @@ Record ID,Field,Sensitivity Label,Protection Action,Policy Rule ID,Protected Val
 6,Process Parameter,Restricted,Generalize,R2,200-250 °C,Released,Sensitive value generalized to reduce disclosure risk
 6,Maintenance Note,Restricted,Generalize,R2,Weld error observed,Released,Sensitive value generalized to reduce disclosure risk
 6,Root-Cause Note,Restricted,Generalize,R2,Calibration error observed,Released,Sensitive value generalized to reduce disclosure risk
-6,Corrective Action,Internal,Generalize,R2,Calibration error observed,Released,Sensitive value generalized to reduce disclosure risk
+6,Corrective Action,Internal,Generalize,R2,Maintenance action required,Released,Sensitive value generalized to reduce disclosure risk
 6,Shift ID,Internal,Keep,R1,Shift ID,Released,"Analytically necessary, lower-risk value retained"
 6,Operator Name,Confidential,Placeholder Mask,R4,[OPERATOR_NAME],Released,Personal identifier masked with a placeholder
 6,Customer/Order Information,Confidential,Block,R5,[BLOCKED],Blocked,Customer and order information blocked from release
@@ -97,7 +97,7 @@ Record ID,Field,Sensitivity Label,Protection Action,Policy Rule ID,Protected Val
 7,Defect Severity,Restricted,Placeholder Mask,R4,[LOW_SEVERITY],Released,Personal identifier masked with a placeholder
 7,Defect Rate,Restricted,Generalize,R2,5-5%,Released,Sensitive value generalized to reduce disclosure risk
 7,Process Parameter,Restricted,Generalize,R2,1100-1200 kN,Released,Sensitive value generalized to reduce disclosure risk
-7,Maintenance Note,Restricted,Generalize,R2,Conveyer error observed,Released,Sensitive value generalized to reduce disclosure risk
+7,Maintenance Note,Restricted,Generalize,R2,Conveyor error observed,Released,Sensitive value generalized to reduce disclosure risk
 7,Root-Cause Note,Restricted,Generalize,R2,Spindle error observed,Released,Sensitive value generalized to reduce disclosure risk
 7,Corrective Action,Internal,Generalize,R2,Maintenance action required,Released,Sensitive value generalized to reduce disclosure risk
 7,Shift ID,Internal,Keep,R1,Shift ID,Released,"Analytically necessary, lower-risk value retained"
@@ -114,7 +114,7 @@ Record ID,Field,Sensitivity Label,Protection Action,Policy Rule ID,Protected Val
 8,Process Parameter,Restricted,Generalize,R2,80-85 bar,Released,Sensitive value generalized to reduce disclosure risk
 8,Maintenance Note,Restricted,Generalize,R2,Spindle error observed,Released,Sensitive value generalized to reduce disclosure risk
 8,Root-Cause Note,Restricted,Generalize,R2,Mechanical wear observed,Released,Sensitive value generalized to reduce disclosure risk
-8,Corrective Action,Internal,Generalize,R2,Calibration error observed,Released,Sensitive value generalized to reduce disclosure risk
+8,Corrective Action,Internal,Generalize,R2,Maintenance action required,Released,Sensitive value generalized to reduce disclosure risk
 8,Shift ID,Internal,Keep,R1,Shift ID,Released,"Analytically necessary, lower-risk value retained"
 8,Operator Name,Confidential,Placeholder Mask,R4,[OPERATOR_NAME],Released,Personal identifier masked with a placeholder
 8,Customer/Order Information,Confidential,Block,R5,[BLOCKED],Blocked,Customer and order information blocked from release
@@ -159,7 +159,7 @@ Record ID,Field,Sensitivity Label,Protection Action,Policy Rule ID,Protected Val
 11,Process Parameter,Restricted,Generalize,R2,5-10 mm/s,Released,Sensitive value generalized to reduce disclosure risk
 11,Maintenance Note,Restricted,Generalize,R2,Spindle error observed,Released,Sensitive value generalized to reduce disclosure risk
 11,Root-Cause Note,Restricted,Generalize,R2,Calibration error observed,Released,Sensitive value generalized to reduce disclosure risk
-11,Corrective Action,Internal,Generalize,R2,Calibration error observed,Released,Sensitive value generalized to reduce disclosure risk
+11,Corrective Action,Internal,Generalize,R2,Maintenance action required,Released,Sensitive value generalized to reduce disclosure risk
 11,Shift ID,Internal,Keep,R1,Shift ID,Released,"Analytically necessary, lower-risk value retained"
 11,Operator Name,Confidential,Placeholder Mask,R4,[OPERATOR_NAME],Released,Personal identifier masked with a placeholder
 11,Customer/Order Information,Confidential,Block,R5,[BLOCKED],Blocked,Customer and order information blocked from release
@@ -172,7 +172,7 @@ Record ID,Field,Sensitivity Label,Protection Action,Policy Rule ID,Protected Val
 12,Defect Severity,Restricted,Placeholder Mask,R4,[LOW_SEVERITY],Released,Personal identifier masked with a placeholder
 12,Defect Rate,Restricted,Generalize,R2,10-15%,Released,Sensitive value generalized to reduce disclosure risk
 12,Process Parameter,Restricted,Generalize,R2,1100-1200 kN,Released,Sensitive value generalized to reduce disclosure risk
-12,Maintenance Note,Restricted,Generalize,R2,Spindle error observed,Released,Sensitive value generalized to reduce disclosure risk
+12,Maintenance Note,Restricted,Generalize,R2,Mechanical wear observed,Released,Sensitive value generalized to reduce disclosure risk
 12,Root-Cause Note,Restricted,Generalize,R2,Coolant error observed,Released,Sensitive value generalized to reduce disclosure risk
 12,Corrective Action,Internal,Generalize,R2,Batch viscosity error observed,Released,Sensitive value generalized to reduce disclosure risk
 12,Shift ID,Internal,Keep,R1,Shift ID,Released,"Analytically necessary, lower-risk value retained"
@@ -189,7 +189,7 @@ Record ID,Field,Sensitivity Label,Protection Action,Policy Rule ID,Protected Val
 13,Process Parameter,Restricted,Generalize,R2,200-250 °C,Released,Sensitive value generalized to reduce disclosure risk
 13,Maintenance Note,Restricted,Generalize,R2,Corrosion observed,Released,Sensitive value generalized to reduce disclosure risk
 13,Root-Cause Note,Restricted,Generalize,R2,Mechanical wear observed,Released,Sensitive value generalized to reduce disclosure risk
-13,Corrective Action,Internal,Generalize,R2,Calibration error observed,Released,Sensitive value generalized to reduce disclosure risk
+13,Corrective Action,Internal,Generalize,R2,Maintenance action required,Released,Sensitive value generalized to reduce disclosure risk
 13,Shift ID,Internal,Keep,R1,Shift ID,Released,"Analytically necessary, lower-risk value retained"
 13,Operator Name,Confidential,Placeholder Mask,R4,[OPERATOR_NAME],Released,Personal identifier masked with a placeholder
 13,Customer/Order Information,Confidential,Block,R5,[BLOCKED],Blocked,Customer and order information blocked from release
@@ -247,7 +247,7 @@ Record ID,Field,Sensitivity Label,Protection Action,Policy Rule ID,Protected Val
 17,Defect Severity,Restricted,Placeholder Mask,R4,[HIGH_SEVERITY],Released,Personal identifier masked with a placeholder
 17,Defect Rate,Restricted,Generalize,R2,15-20%,Released,Sensitive value generalized to reduce disclosure risk
 17,Process Parameter,Restricted,Generalize,R2,80-85 bar,Released,Sensitive value generalized to reduce disclosure risk
-17,Maintenance Note,Restricted,Generalize,R2,Conveyer error observed,Released,Sensitive value generalized to reduce disclosure risk
+17,Maintenance Note,Restricted,Generalize,R2,Conveyor error observed,Released,Sensitive value generalized to reduce disclosure risk
 17,Root-Cause Note,Restricted,Generalize,R2,Spindle error observed,Released,Sensitive value generalized to reduce disclosure risk
 17,Corrective Action,Internal,Generalize,R2,Batch viscosity error observed,Released,Sensitive value generalized to reduce disclosure risk
 17,Shift ID,Internal,Keep,R1,Shift ID,Released,"Analytically necessary, lower-risk value retained"
@@ -279,7 +279,7 @@ Record ID,Field,Sensitivity Label,Protection Action,Policy Rule ID,Protected Val
 19,Process Parameter,Restricted,Generalize,R2,10-15 mm/s,Released,Sensitive value generalized to reduce disclosure risk
 19,Maintenance Note,Restricted,Generalize,R2,Lubrication error observed,Released,Sensitive value generalized to reduce disclosure risk
 19,Root-Cause Note,Restricted,Generalize,R2,Calibration error observed,Released,Sensitive value generalized to reduce disclosure risk
-19,Corrective Action,Internal,Generalize,R2,Calibration error observed,Released,Sensitive value generalized to reduce disclosure risk
+19,Corrective Action,Internal,Generalize,R2,Maintenance action required,Released,Sensitive value generalized to reduce disclosure risk
 19,Shift ID,Internal,Keep,R1,Shift ID,Released,"Analytically necessary, lower-risk value retained"
 19,Operator Name,Confidential,Placeholder Mask,R4,[OPERATOR_NAME],Released,Personal identifier masked with a placeholder
 19,Customer/Order Information,Confidential,Block,R5,[BLOCKED],Blocked,Customer and order information blocked from release
@@ -339,7 +339,7 @@ Record ID,Field,Sensitivity Label,Protection Action,Policy Rule ID,Protected Val
 23,Process Parameter,Restricted,Generalize,R2,3200-3200 rpm,Released,Sensitive value generalized to reduce disclosure risk
 23,Maintenance Note,Restricted,Generalize,R2,Coolant error observed,Released,Sensitive value generalized to reduce disclosure risk
 23,Root-Cause Note,Restricted,Generalize,R2,Die error observed,Released,Sensitive value generalized to reduce disclosure risk
-23,Corrective Action,Internal,Generalize,R2,Calibration error observed,Released,Sensitive value generalized to reduce disclosure risk
+23,Corrective Action,Internal,Generalize,R2,Maintenance action required,Released,Sensitive value generalized to reduce disclosure risk
 23,Shift ID,Internal,Keep,R1,Shift ID,Released,"Analytically necessary, lower-risk value retained"
 23,Operator Name,Confidential,Placeholder Mask,R4,[OPERATOR_NAME],Released,Personal identifier masked with a placeholder
 23,Customer/Order Information,Confidential,Block,R5,[BLOCKED],Blocked,Customer and order information blocked from release
@@ -397,7 +397,7 @@ Record ID,Field,Sensitivity Label,Protection Action,Policy Rule ID,Protected Val
 27,Defect Severity,Restricted,Placeholder Mask,R4,[LOW_SEVERITY],Released,Personal identifier masked with a placeholder
 27,Defect Rate,Restricted,Generalize,R2,15-20%,Released,Sensitive value generalized to reduce disclosure risk
 27,Process Parameter,Restricted,Generalize,R2,200-250 °C,Released,Sensitive value generalized to reduce disclosure risk
-27,Maintenance Note,Restricted,Generalize,R2,Spindle error observed,Released,Sensitive value generalized to reduce disclosure risk
+27,Maintenance Note,Restricted,Generalize,R2,Mechanical wear observed,Released,Sensitive value generalized to reduce disclosure risk
 27,Root-Cause Note,Restricted,Generalize,R2,Batch viscosity error observed,Released,Sensitive value generalized to reduce disclosure risk
 27,Corrective Action,Internal,Generalize,R2,Spindle error observed,Released,Sensitive value generalized to reduce disclosure risk
 27,Shift ID,Internal,Keep,R1,Shift ID,Released,"Analytically necessary, lower-risk value retained"
@@ -412,7 +412,7 @@ Record ID,Field,Sensitivity Label,Protection Action,Policy Rule ID,Protected Val
 28,Defect Severity,Restricted,Placeholder Mask,R4,[LOW_SEVERITY],Released,Personal identifier masked with a placeholder
 28,Defect Rate,Restricted,Generalize,R2,5-10%,Released,Sensitive value generalized to reduce disclosure risk
 28,Process Parameter,Restricted,Generalize,R2,1100-1200 kN,Released,Sensitive value generalized to reduce disclosure risk
-28,Maintenance Note,Restricted,Generalize,R2,Conveyer error observed,Released,Sensitive value generalized to reduce disclosure risk
+28,Maintenance Note,Restricted,Generalize,R2,Conveyor error observed,Released,Sensitive value generalized to reduce disclosure risk
 28,Root-Cause Note,Restricted,Generalize,R2,Spindle error observed,Released,Sensitive value generalized to reduce disclosure risk
 28,Corrective Action,Internal,Generalize,R2,Coolant error observed,Released,Sensitive value generalized to reduce disclosure risk
 28,Shift ID,Internal,Keep,R1,Shift ID,Released,"Analytically necessary, lower-risk value retained"

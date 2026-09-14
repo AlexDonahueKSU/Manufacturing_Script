@@ -6,16 +6,21 @@ import re
 import math
 
 def mask_data(record):
-    if record[4] == "Keep":
-        keep_mask(record)
-    elif record[4] == "Block":
-        block_mask(record)
-    elif record[4] == "Placeholder Mask":
-        placeholder_mask(record)
-    elif record[4] == "Generalize":
-        generalize_mask(record)
-    elif record[4] == "Hash Pseudonymize":
-        hash_mask(record)
+    handlers = {
+        "Keep": keep_mask,
+        "Block": block_mask,
+        "Placeholder Mask": placeholder_mask,
+        "Generalize": generalize_mask,
+        "Hash Pseudonymize": hash_mask,
+    }
+
+    action = record[4]
+    handler = handlers.get(action)
+
+    if handler is None:
+        raise ValueError(f"Unknown protection action: {action}")
+
+    handler(record)
 
 def keep_mask(record):
     record[5] = record[1]  
@@ -38,7 +43,6 @@ def hash_mask(record):
     #Convert to bytes
     raw_value = str(record[2]).encode("utf-8")
     digest = hashlib.sha256(raw_value).hexdigest()
-
     alphabet = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     value = int(digest[:8], 16)
 
@@ -79,12 +83,9 @@ def generalize_percentage(value):
 def generalize_measurement(value):
     #Regex for finding measurement values
     measurement = re.search(r"(\d+(?:\.\d+)?)\s*([A-Za-z°%/]+)", value)
-    
     if not measurement:
-        print(value)
-        print(measurement)
         return "Generalized measurement"
-
+    
     n = float(measurement.group(1))
     unit = measurement.group(2)
 
@@ -102,34 +103,93 @@ def generalize_measurement(value):
 
 
 def generalize_text(value):
-    val = value.lower()
-    if "lubrication" in val:
-        return error_observed_handler("lubrication")
-    if "coolant" in val:
-        return error_observed_handler("coolant")
-    if "weld" in val:
-        return error_observed_handler("weld")
-    if "spindle" in val:
-        return error_observed_handler("spindle")
-    if "viscosity" in val:
-        return error_observed_handler("batch viscosity")
-    if "pressure" in val:
-        return error_observed_handler("pressure")
-    if "conveyor" in val:
-        return error_observed_handler("conveyer")
-    if "wear" in val:
-        return "Mechanical wear observed"
-    if "corrosion" in val:
-        return "Corrosion observed"
-    if "calibrat" in val:
-        return error_observed_handler("calibration")
-    if "rail" in val:
-        return error_observed_handler("rail")
-    if "die" in val:
-        return error_observed_handler("die")
-    if "replace" in val or "recalibrate" in val:
-        return "Maintenance action required"
+
+    TEXT_CATEGORIES = {
+    "Maintenance action required": (
+        "replace",
+        "recalibrate",
+        "repair",
+        "service",
+    ),
+    "Mechanical wear observed": (
+        "wear",
+        "bearing",
+        "erosion",
+    ),
+    "Corrosion observed": (
+        "corrosion",
+        "rust",
+    ),
+    "Lubrication error observed": (
+        "lubrication",
+        "oil",
+        "grease",
+    ),
+    "Coolant error observed": (
+        "coolant",
+        "cooling",
+    ),
+    "Weld error observed": (
+        "weld",
+        "welding",
+    ),
+    "Spindle error observed": (
+        "spindle",
+    ),
+    "Batch viscosity error observed": (
+        "viscosity",
+    ),
+    "Pressure error observed": (
+        "pressure",
+    ),
+    "Conveyor error observed": (
+        "conveyor",
+    ),
+    "Calibration error observed": (
+        "calibrat",
+    ),
+    "Rail error observed": (
+        "rail",
+    ),
+    "Die error observed": (
+        "die",
+    ),
+}
+
+    normalized_value = value.casefold()
+
+    for generalized_value, keywords in TEXT_CATEGORIES.items():
+        if any(keyword in normalized_value for keyword in keywords):
+            return generalized_value
     return "Generalized operational issue"
+    # val = value.lower()
+    # if "lubrication" in val:
+    #     return error_observed_handler("lubrication")
+    # if "coolant" in val:
+    #     return error_observed_handler("coolant")
+    # if "weld" in val:
+    #     return error_observed_handler("weld")
+    # if "spindle" in val:
+    #     return error_observed_handler("spindle")
+    # if "viscosity" in val:
+    #     return error_observed_handler("batch viscosity")
+    # if "pressure" in val:
+    #     return error_observed_handler("pressure")
+    # if "conveyor" in val:
+    #     return error_observed_handler("conveyer")
+    # if "wear" in val:
+    #     return "Mechanical wear observed"
+    # if "corrosion" in val:
+    #     return "Corrosion observed"
+    # if "calibrat" in val:
+    #     return error_observed_handler("calibration")
+    # if "rail" in val:
+    #     return error_observed_handler("rail")
+    # if "die" in val:
+    #     return error_observed_handler("die")
+    # if "replace" in val or "recalibrate" in val:
+    #     return "Maintenance action required"
+     
 
 def error_observed_handler(value):
     return value.capitalize() + " error observed"
