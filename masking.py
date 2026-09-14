@@ -146,7 +146,7 @@ def generalize_text(value):
         "conveyor",
     ),
     "Calibration error observed": (
-        "calibrat",
+        "calibrate",
     ),
     "Rail error observed": (
         "rail",
@@ -162,34 +162,4 @@ def generalize_text(value):
         if any(keyword in normalized_value for keyword in keywords):
             return generalized_value
     return "Generalized operational issue"
-    # val = value.lower()
-    # if "lubrication" in val:
-    #     return error_observed_handler("lubrication")
-    # if "coolant" in val:
-    #     return error_observed_handler("coolant")
-    # if "weld" in val:
-    #     return error_observed_handler("weld")
-    # if "spindle" in val:
-    #     return error_observed_handler("spindle")
-    # if "viscosity" in val:
-    #     return error_observed_handler("batch viscosity")
-    # if "pressure" in val:
-    #     return error_observed_handler("pressure")
-    # if "conveyor" in val:
-    #     return error_observed_handler("conveyer")
-    # if "wear" in val:
-    #     return "Mechanical wear observed"
-    # if "corrosion" in val:
-    #     return "Corrosion observed"
-    # if "calibrat" in val:
-    #     return error_observed_handler("calibration")
-    # if "rail" in val:
-    #     return error_observed_handler("rail")
-    # if "die" in val:
-    #     return error_observed_handler("die")
-    # if "replace" in val or "recalibrate" in val:
-    #     return "Maintenance action required"
      
-
-def error_observed_handler(value):
-    return value.capitalize() + " error observed"
